@@ -1011,3 +1011,1646 @@ Processing by MeetController#show as HTML
 Completed 200 OK in 26ms (Views: 24.8ms | ActiveRecord: 0.0ms | MongoDB: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2019-08-01 13:24:35 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 46ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: bootstrap-sprockets.
+Load paths:
+  /home/prajkta/Ruby/Rails/rmbk/app/assets/config
+  /home/prajkta/Ruby/Rails/rmbk/app/assets/images
+  /home/prajkta/Ruby/Rails/rmbk/app/assets/javascripts
+  /home/prajkta/Ruby/Rails/rmbk/app/assets/stylesheets
+  /var/lib/gems/2.5.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /var/lib/gems/2.5.0/gems/actioncable-5.2.3/lib/assets/compiled
+  /var/lib/gems/2.5.0/gems/activestorage-5.2.3/app/assets/javascripts
+  /var/lib/gems/2.5.0/gems/actionview-5.2.3/lib/assets/compiled
+  /var/lib/gems/2.5.0/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /home/prajkta/Ruby/Rails/rmbk/node_modules):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+  
+app/assets/stylesheets/custom.css.scss:3
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__1516533925237703831_70228962186580'
+Started GET "/" for 127.0.0.1 at 2019-08-01 13:27:14 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (2.5ms)
+Completed 500 Internal Server Error in 27ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: bootstrap-sprockets.
+Load paths:
+  /home/prajkta/Ruby/Rails/rmbk/app/assets/config
+  /home/prajkta/Ruby/Rails/rmbk/app/assets/images
+  /home/prajkta/Ruby/Rails/rmbk/app/assets/javascripts
+  /home/prajkta/Ruby/Rails/rmbk/app/assets/stylesheets
+  /var/lib/gems/2.5.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /var/lib/gems/2.5.0/gems/actioncable-5.2.3/lib/assets/compiled
+  /var/lib/gems/2.5.0/gems/activestorage-5.2.3/app/assets/javascripts
+  /var/lib/gems/2.5.0/gems/actionview-5.2.3/lib/assets/compiled
+  /var/lib/gems/2.5.0/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /home/prajkta/Ruby/Rails/rmbk/node_modules):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+  
+app/assets/stylesheets/custom.css.scss:3
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__1516533925237703831_70228964226660'
+Started GET "/user/edit" for ::1 at 2019-08-01 13:34:32 +0530
+Processing by UserController#show as HTML
+  Parameters: {"id"=>"edit"}
+  Rendering user/show.html.erb within layouts/application
+  Rendered user/show.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: bootstrap-sprockets.
+Load paths:
+  /home/prajkta/Ruby/Rails/rmbk/app/assets/config
+  /home/prajkta/Ruby/Rails/rmbk/app/assets/images
+  /home/prajkta/Ruby/Rails/rmbk/app/assets/javascripts
+  /home/prajkta/Ruby/Rails/rmbk/app/assets/stylesheets
+  /var/lib/gems/2.5.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /var/lib/gems/2.5.0/gems/actioncable-5.2.3/lib/assets/compiled
+  /var/lib/gems/2.5.0/gems/activestorage-5.2.3/app/assets/javascripts
+  /var/lib/gems/2.5.0/gems/actionview-5.2.3/lib/assets/compiled
+  /var/lib/gems/2.5.0/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /home/prajkta/Ruby/Rails/rmbk/node_modules):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+  
+app/assets/stylesheets/custom.css.scss:3
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__1516533925237703831_70228856910300'
+Started GET "/welcome/home" for ::1 at 2019-08-01 13:34:42 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/welcome/home"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-08-01 13:37:22 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 21ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: bootstrap-sprockets.
+Load paths:
+  /home/prajkta/Ruby/Rails/rmbk/app/assets/config
+  /home/prajkta/Ruby/Rails/rmbk/app/assets/images
+  /home/prajkta/Ruby/Rails/rmbk/app/assets/javascripts
+  /home/prajkta/Ruby/Rails/rmbk/app/assets/stylesheets
+  /var/lib/gems/2.5.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /var/lib/gems/2.5.0/gems/actioncable-5.2.3/lib/assets/compiled
+  /var/lib/gems/2.5.0/gems/activestorage-5.2.3/app/assets/javascripts
+  /var/lib/gems/2.5.0/gems/actionview-5.2.3/lib/assets/compiled
+  /var/lib/gems/2.5.0/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /home/prajkta/Ruby/Rails/rmbk/node_modules):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+  
+app/assets/stylesheets/custom.css.scss:3
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__1516533925237703831_70228964386020'
+Started GET "/" for 127.0.0.1 at 2019-08-01 14:10:03 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (2.2ms)
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: bootstrap-sprockets.
+Load paths:
+  /home/prajkta/Ruby/Rails/rmbk/app/assets/config
+  /home/prajkta/Ruby/Rails/rmbk/app/assets/images
+  /home/prajkta/Ruby/Rails/rmbk/app/assets/javascripts
+  /home/prajkta/Ruby/Rails/rmbk/app/assets/stylesheets
+  /var/lib/gems/2.5.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /var/lib/gems/2.5.0/gems/actioncable-5.2.3/lib/assets/compiled
+  /var/lib/gems/2.5.0/gems/activestorage-5.2.3/app/assets/javascripts
+  /var/lib/gems/2.5.0/gems/actionview-5.2.3/lib/assets/compiled
+  /var/lib/gems/2.5.0/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /home/prajkta/Ruby/Rails/rmbk/node_modules):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+  
+app/assets/stylesheets/custom.css.scss:3
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__1516533925237703831_70228856590940'
+Started GET "/" for 127.0.0.1 at 2019-08-01 14:16:18 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (2.3ms)
+Completed 500 Internal Server Error in 35ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: bootstrap-sprockets.
+Load paths:
+  /home/prajkta/Ruby/Rails/rmbk/app/assets/config
+  /home/prajkta/Ruby/Rails/rmbk/app/assets/images
+  /home/prajkta/Ruby/Rails/rmbk/app/assets/javascripts
+  /home/prajkta/Ruby/Rails/rmbk/app/assets/stylesheets
+  /var/lib/gems/2.5.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /var/lib/gems/2.5.0/gems/actioncable-5.2.3/lib/assets/compiled
+  /var/lib/gems/2.5.0/gems/activestorage-5.2.3/app/assets/javascripts
+  /var/lib/gems/2.5.0/gems/actionview-5.2.3/lib/assets/compiled
+  /var/lib/gems/2.5.0/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /home/prajkta/Ruby/Rails/rmbk/node_modules):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+  
+app/assets/stylesheets/custom.css.scss:3
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__1516533925237703831_70228965599420'
+Started GET "/" for 127.0.0.1 at 2019-08-01 14:21:39 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (2.2ms)
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: bootstrap-sprockets.
+Load paths:
+  /home/prajkta/Ruby/Rails/rmbk/app/assets/config
+  /home/prajkta/Ruby/Rails/rmbk/app/assets/images
+  /home/prajkta/Ruby/Rails/rmbk/app/assets/javascripts
+  /home/prajkta/Ruby/Rails/rmbk/app/assets/stylesheets
+  /var/lib/gems/2.5.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /var/lib/gems/2.5.0/gems/actioncable-5.2.3/lib/assets/compiled
+  /var/lib/gems/2.5.0/gems/activestorage-5.2.3/app/assets/javascripts
+  /var/lib/gems/2.5.0/gems/actionview-5.2.3/lib/assets/compiled
+  /var/lib/gems/2.5.0/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /home/prajkta/Ruby/Rails/rmbk/node_modules):
+    2: <html>
+    3:   <head>
+    4:     <title>Rmbk</title>
+    5:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+    6: 
+    7:     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    8:     <%= csrf_meta_tags %>
+  
+app/assets/stylesheets/custom.css.scss:3
+app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1516533925237703831_70228856248560'
+Started GET "/" for 127.0.0.1 at 2019-08-01 14:27:01 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: bootstrap-sprockets.
+Load paths:
+  /home/prajkta/Ruby/Rails/rmbk/app/assets/config
+  /home/prajkta/Ruby/Rails/rmbk/app/assets/images
+  /home/prajkta/Ruby/Rails/rmbk/app/assets/javascripts
+  /home/prajkta/Ruby/Rails/rmbk/app/assets/stylesheets
+  /var/lib/gems/2.5.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /var/lib/gems/2.5.0/gems/actioncable-5.2.3/lib/assets/compiled
+  /var/lib/gems/2.5.0/gems/activestorage-5.2.3/app/assets/javascripts
+  /var/lib/gems/2.5.0/gems/actionview-5.2.3/lib/assets/compiled
+  /var/lib/gems/2.5.0/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /home/prajkta/Ruby/Rails/rmbk/node_modules):
+    2: <html>
+    3:   <head>
+    4:     <title>Rmbk</title>
+    5:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+    6: 
+    7:     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    8:     <%= csrf_meta_tags %>
+  
+app/assets/stylesheets/custom.css.scss:3
+app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1516533925237703831_70228960746600'
+Started GET "/" for 127.0.0.1 at 2019-08-01 14:30:56 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (172.9ms)
+Completed 500 Internal Server Error in 182ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+ActionView::Template::Error (couldn't find file 'jquery' with type 'application/javascript'
+Checked in these paths: 
+  /home/prajkta/Ruby/Rails/rmbk/app/assets/config
+  /home/prajkta/Ruby/Rails/rmbk/app/assets/images
+  /home/prajkta/Ruby/Rails/rmbk/app/assets/javascripts
+  /home/prajkta/Ruby/Rails/rmbk/app/assets/stylesheets
+  /var/lib/gems/2.5.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /var/lib/gems/2.5.0/gems/actioncable-5.2.3/lib/assets/compiled
+  /var/lib/gems/2.5.0/gems/activestorage-5.2.3/app/assets/javascripts
+  /var/lib/gems/2.5.0/gems/actionview-5.2.3/lib/assets/compiled
+  /var/lib/gems/2.5.0/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /home/prajkta/Ruby/Rails/rmbk/node_modules
+  /var/lib/gems/2.5.0/gems/bootstrap-sass-3.4.1/assets/stylesheets
+  /var/lib/gems/2.5.0/gems/bootstrap-sass-3.4.1/assets/javascripts
+  /var/lib/gems/2.5.0/gems/bootstrap-sass-3.4.1/assets/fonts
+  /var/lib/gems/2.5.0/gems/bootstrap-sass-3.4.1/assets/images):
+    1: <%= link_to 'Sign Up', signup_path %>    <br><%= link_to 'Sign IN', signup_path %></p>
+    2: <%= image_tag "index.jpg" %>
+  
+app/assets/javascripts/application.js:13
+app/views/welcome/home.html.erb:2:in `_app_views_welcome_home_html_erb___1216616000537679246_69868049364960'
+Started GET "/" for 127.0.0.1 at 2019-08-01 14:33:00 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (9.7ms)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+ActionView::Template::Error (couldn't find file 'jquery' with type 'application/javascript'
+Checked in these paths: 
+  /home/prajkta/Ruby/Rails/rmbk/app/assets/config
+  /home/prajkta/Ruby/Rails/rmbk/app/assets/images
+  /home/prajkta/Ruby/Rails/rmbk/app/assets/javascripts
+  /home/prajkta/Ruby/Rails/rmbk/app/assets/stylesheets
+  /var/lib/gems/2.5.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /var/lib/gems/2.5.0/gems/actioncable-5.2.3/lib/assets/compiled
+  /var/lib/gems/2.5.0/gems/activestorage-5.2.3/app/assets/javascripts
+  /var/lib/gems/2.5.0/gems/actionview-5.2.3/lib/assets/compiled
+  /var/lib/gems/2.5.0/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /home/prajkta/Ruby/Rails/rmbk/node_modules
+  /var/lib/gems/2.5.0/gems/bootstrap-sass-3.4.1/assets/stylesheets
+  /var/lib/gems/2.5.0/gems/bootstrap-sass-3.4.1/assets/javascripts
+  /var/lib/gems/2.5.0/gems/bootstrap-sass-3.4.1/assets/fonts
+  /var/lib/gems/2.5.0/gems/bootstrap-sass-3.4.1/assets/images):
+    1: <%= link_to 'Sign Up', signup_path %>    <br><%= link_to 'Sign IN', signup_path %></p>
+    2: <%= image_tag "index.jpg" %>
+  
+app/assets/javascripts/application.js:13
+app/views/welcome/home.html.erb:2:in `_app_views_welcome_home_html_erb___1216616000537679246_69868055632480'
+Started GET "/" for 127.0.0.1 at 2019-08-01 14:33:31 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (10.4ms)
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+ActionView::Template::Error (couldn't find file 'jquery_ujs' with type 'application/javascript'
+Checked in these paths: 
+  /home/prajkta/Ruby/Rails/rmbk/app/assets/config
+  /home/prajkta/Ruby/Rails/rmbk/app/assets/images
+  /home/prajkta/Ruby/Rails/rmbk/app/assets/javascripts
+  /home/prajkta/Ruby/Rails/rmbk/app/assets/stylesheets
+  /var/lib/gems/2.5.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /var/lib/gems/2.5.0/gems/actioncable-5.2.3/lib/assets/compiled
+  /var/lib/gems/2.5.0/gems/activestorage-5.2.3/app/assets/javascripts
+  /var/lib/gems/2.5.0/gems/actionview-5.2.3/lib/assets/compiled
+  /var/lib/gems/2.5.0/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /home/prajkta/Ruby/Rails/rmbk/node_modules
+  /var/lib/gems/2.5.0/gems/bootstrap-sass-3.4.1/assets/stylesheets
+  /var/lib/gems/2.5.0/gems/bootstrap-sass-3.4.1/assets/javascripts
+  /var/lib/gems/2.5.0/gems/bootstrap-sass-3.4.1/assets/fonts
+  /var/lib/gems/2.5.0/gems/bootstrap-sass-3.4.1/assets/images):
+    1: <%= link_to 'Sign Up', signup_path %>    <br><%= link_to 'Sign IN', signup_path %></p>
+    2: <%= image_tag "index.jpg" %>
+  
+app/assets/javascripts/application.js:15
+app/views/welcome/home.html.erb:2:in `_app_views_welcome_home_html_erb___1216616000537679246_69868059704560'
+Started GET "/" for 127.0.0.1 at 2019-08-01 14:33:40 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (3200.6ms)
+  Rendered layouts/_navigation.html.erb (384.1ms)
+Completed 500 Internal Server Error in 3713ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `articles_path' for #<#<Class:0x00007f16d886e250>:0x00007f16d87d6090>
+Did you mean?  asset_path):
+    14:     <!-- Collect the nav links, forms, and other content for toggling -->
+    15:     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    16:       <ul class="nav navbar-nav">
+    17:         <li><%= link_to "Articles", articles_path %></li>
+    18:         <li><%= link_to "Users", users_path %></li>
+    19:         <% if logged_in? %>  
+    20:           <li class="dropdown">
+  
+app/views/layouts/_navigation.html.erb:17:in `_app_views_layouts__navigation_html_erb__1750331622624114781_47241457812820'
+app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___1526590489750615339_69868048983220'
+Started GET "/" for 127.0.0.1 at 2019-08-01 14:35:29 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_navigation.html.erb (335.2ms)
+Completed 500 Internal Server Error in 388ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `articles_path' for #<#<Class:0x00007f16d886e250>:0x00007f16da3192d0>
+Did you mean?  asset_path):
+    14:     <!-- Collect the nav links, forms, and other content for toggling -->
+    15:     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    16:       <ul class="nav navbar-nav">
+    17:         <li><%= link_to "Articles", articles_path %></li>
+    18:         <li><%= link_to "Users", users_path %></li>
+    19:         <% if logged_in? %>  
+    20:           <li class="dropdown">
+  
+app/views/layouts/_navigation.html.erb:17:in `_app_views_layouts__navigation_html_erb__1750331622624114781_69868057797900'
+app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___1526590489750615339_69868063305680'
+Started GET "/" for 127.0.0.1 at 2019-08-01 14:35:33 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_navigation.html.erb (338.7ms)
+Completed 500 Internal Server Error in 396ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `articles_path' for #<#<Class:0x00007f16d886e250>:0x00007f16d5704598>
+Did you mean?  asset_path):
+    14:     <!-- Collect the nav links, forms, and other content for toggling -->
+    15:     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    16:       <ul class="nav navbar-nav">
+    17:         <li><%= link_to "Articles", articles_path %></li>
+    18:         <li><%= link_to "Users", users_path %></li>
+    19:         <% if logged_in? %>  
+    20:           <li class="dropdown">
+  
+app/views/layouts/_navigation.html.erb:17:in `_app_views_layouts__navigation_html_erb__1750331622624114781_69868028716280'
+app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___1526590489750615339_69868023474480'
+Started GET "/" for 127.0.0.1 at 2019-08-01 14:36:04 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_navigation.html.erb (2.3ms)
+Completed 500 Internal Server Error in 59ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"user"}, missing required keys: [:id]):
+    15:     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    16:       <ul class="nav navbar-nav">
+    17:         
+    18:         <li><%= link_to "Users", user_path %></li>
+    19:         <% if logged_in? %>  
+    20:           <li class="dropdown">
+    21:             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Schedule <span class="caret"></span></a>
+  
+app/views/layouts/_navigation.html.erb:18:in `_app_views_layouts__navigation_html_erb__1750331622624114781_69868056589720'
+app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___1526590489750615339_69868063033600'
+Started GET "/" for 127.0.0.1 at 2019-08-01 14:36:40 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_navigation.html.erb (185.9ms)
+Completed 500 Internal Server Error in 255ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `logged_in?' for #<#<Class:0x00007f16d886e250>:0x00007f16d453b0f0>
+Did you mean?  logger?):
+    16:       <ul class="nav navbar-nav">
+    17:         
+    18:         <li><%= link_to "Users", user_index_path %></li>
+    19:         <% if logged_in? %>  
+    20:           <li class="dropdown">
+    21:             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Schedule <span class="caret"></span></a>
+    22:             <ul class="dropdown-menu">
+  
+app/views/layouts/_navigation.html.erb:19:in `_app_views_layouts__navigation_html_erb__1750331622624114781_69868023911400'
+app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___1526590489750615339_69868014165700'
+Started GET "/" for 127.0.0.1 at 2019-08-01 14:37:21 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_navigation.html.erb (247.4ms)
+Completed 500 Internal Server Error in 300ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `categories_path' for #<#<Class:0x00007f16d886e250>:0x00007f16da14e5b8>):
+    33:         <li class="dropdown">
+    34:           <!--a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Categories <span class="caret"></span></a>
+    35:           <ul class="dropdown-menu">
+    36:             <li><%= link_to "All Categories", categories_path %></li>
+    37:             <% Category.all.each do |category| %>
+    38:               <li><%= link_to "#{category.name}", category_path(category) %></li>
+    39:             <% end %>
+  
+app/views/layouts/_navigation.html.erb:36:in `_app_views_layouts__navigation_html_erb__1750331622624114781_69868064886400'
+app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___1526590489750615339_69868062431220'
+Started GET "/" for 127.0.0.1 at 2019-08-01 14:38:31 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_navigation.html.erb (268.3ms)
+Completed 500 Internal Server Error in 326ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `categories_path' for #<#<Class:0x00007f16d886e250>:0x00007f16d45311b8>):
+    33:         <li class="dropdown">
+    34:           # <!--a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Categories <span class="caret"></span></a>
+    35:           # <ul class="dropdown-menu">
+    36:           #   <li><%= link_to "All Categories", categories_path %></li>
+    37:           #   <% Category.all.each do |category| %>
+    38:           #     <li><%= link_to "#{category.name}", category_path(category) %></li>
+    39:           #   <% end %>
+  
+app/views/layouts/_navigation.html.erb:36:in `_app_views_layouts__navigation_html_erb__1750331622624114781_69868065247280'
+app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___1526590489750615339_69868013841860'
+Started GET "/" for 127.0.0.1 at 2019-08-01 14:39:12 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_navigation.html.erb (259.2ms)
+Completed 500 Internal Server Error in 316ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `categories_path' for #<#<Class:0x00007f16d886e250>:0x00007f16d4567448>):
+    33:         <li class="dropdown">
+    34:           <!--a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Categories <span class="caret"></span></a>
+    35:           <ul class="dropdown-menu">
+    36:             <li><%= link_to "All Categories", categories_path %></li>
+    37:             <% Category.all.each do |category| %>
+    38:               <li><%= link_to "#{category.name}", category_path(category) %></li>
+    39:             <% end %>
+  
+app/views/layouts/_navigation.html.erb:36:in `_app_views_layouts__navigation_html_erb__1750331622624114781_69868065407340'
+app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___1526590489750615339_69868014215340'
+Started GET "/" for 127.0.0.1 at 2019-08-01 14:39:45 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_navigation.html.erb (5.0ms)
+Completed 500 Internal Server Error in 69ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+ActionView::Template::Error (uninitialized constant ActionView::CompiledTemplates::Category):
+    34:           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Categories <span class="caret"></span></a>
+    35:           <ul class="dropdown-menu">
+    36:             <li><!--%= link_to "All Categories", categories_path %></li>
+    37:             <% Category.all.each do |category| %>
+    38:               <li><%= link_to "#{category.name}", category_path(category) %></li>
+    39:             <% end %>
+    40:             <% if logged_in? and current_user.admin? %>
+  
+app/views/layouts/_navigation.html.erb:37:in `_app_views_layouts__navigation_html_erb__1750331622624114781_69868055943880'
+app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___1526590489750615339_69868063070120'
+Started GET "/" for 127.0.0.1 at 2019-08-01 14:40:19 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_navigation.html.erb (5.8ms)
+Completed 500 Internal Server Error in 72ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+ActionView::Template::Error (uninitialized constant ActionView::CompiledTemplates::Category):
+    34:           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Categories <span class="caret"></span></a>
+    35:           <ul class="dropdown-menu">
+    36:             <li><!---%= link_to "All Categories", categories_path %</li
+    37:             <% Category.all.each do |category| %>
+    38:               <li><%= link_to "#{category.name}", category_path(category) %></li>
+    39:             <% end %>
+    40:             <% if logged_in? and current_user.admin? %>
+  
+app/views/layouts/_navigation.html.erb:37:in `_app_views_layouts__navigation_html_erb__1750331622624114781_69868024632940'
+app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___1526590489750615339_69868014452920'
+Started GET "/" for 127.0.0.1 at 2019-08-01 14:40:53 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_navigation.html.erb (165.7ms)
+Completed 500 Internal Server Error in 225ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `logged_in?' for #<#<Class:0x00007f16d886e250>:0x00007f16d5905b80>
+Did you mean?  logger?):
+    45:         <button type="submit" class="btn btn-default">Submit</button>
+    46:       </form>
+    47:       <ul class="nav navbar-nav navbar-right">
+    48:         <% if logged_in? %>
+    49:           <!--li><%= link_to 'Log out', logout_path, method: :delete %></li>
+    50:           <li class="dropdown">
+    51:             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Your Profile <%= "Admin" if current_user.admin? %><span class="caret"></span></a>
+  
+app/views/layouts/_navigation.html.erb:48:in `_app_views_layouts__navigation_html_erb__1750331622624114781_69868022875100'
+app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___1526590489750615339_69868024501140'
+Started GET "/" for 127.0.0.1 at 2019-08-01 14:41:20 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (2.8ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+Completed 500 Internal Server Error in 53ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+SyntaxError (/home/prajkta/Ruby/Rails/rmbk/app/views/layouts/_navigation.html.erb:57: syntax error, unexpected keyword_ensure, expecting end-of-input
+          ensure
+          ^~~~~~):
+  
+app/views/layouts/_navigation.html.erb:57: syntax error, unexpected keyword_ensure, expecting end-of-input
+app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___1526590489750615339_69868062625200'
+Started GET "/" for 127.0.0.1 at 2019-08-01 14:45:46 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_navigation.html.erb (262.2ms)
+Completed 500 Internal Server Error in 317ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `login_path' for #<#<Class:0x00007f16d886e250>:0x00007f16d5733be0>):
+    38:       </form>
+    39:       <ul class="nav navbar-nav navbar-right">
+    40:         
+    41:           <li><% link_to 'Log in', login_path %></li>
+    42:           <li><%= link_to 'Sign up', signup_path %></li>
+    43:       </ul>
+    44:     </div>
+  
+app/views/layouts/_navigation.html.erb:41:in `_app_views_layouts__navigation_html_erb__1750331622624114781_69868015377700'
+app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___1526590489750615339_69868023546820'
+Started GET "/" for 127.0.0.1 at 2019-08-01 14:45:59 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+Completed 500 Internal Server Error in 71ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+ActionView::Template::Error (Missing partial layouts/_messagges with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/prajkta/Ruby/Rails/rmbk/app/views"
+):
+    10: 
+    11:   <body>
+    12:   <%= render 'layouts/navigation' %>
+    13:   <%= render 'layouts/messagges' %>
+    14:     <div class="container">
+    15:       <%= yield %>
+    16:     </div>
+  
+app/views/layouts/application.html.erb:13:in `_app_views_layouts_application_html_erb___1526590489750615339_69868023331920'
+Started GET "/" for 127.0.0.1 at 2019-08-01 14:46:33 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (2.6ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_messagges.html.erb (0.7ms)
+Completed 500 Internal Server Error in 63ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+ActionView::Template::Error (Missing partial layouts/_footer with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/prajkta/Ruby/Rails/rmbk/app/views"
+):
+    14:     <div class="container">
+    15:       <%= yield %>
+    16:     </div>
+    17:     <%= render 'layouts/footer' %>
+    18:   </body>
+    19: </html>
+  
+app/views/layouts/application.html.erb:17:in `_app_views_layouts_application_html_erb___1526590489750615339_69868062234580'
+Started GET "/" for 127.0.0.1 at 2019-08-01 14:47:08 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (1.8ms)
+  Rendered layouts/_navigation.html.erb (0.8ms)
+  Rendered layouts/_messagges.html.erb (0.5ms)
+Completed 200 OK in 60ms (Views: 59.2ms | ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-08-01 14:47:29 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_messagges.html.erb (0.5ms)
+Completed 200 OK in 59ms (Views: 57.2ms | ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-08-01 14:47:31 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_messagges.html.erb (0.6ms)
+Completed 200 OK in 60ms (Views: 58.6ms | ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+Started GET "/meet/edit" for 127.0.0.1 at 2019-08-01 14:51:49 +0530
+Processing by MeetController#show as HTML
+  Parameters: {"id"=>"edit"}
+  Rendering meet/show.html.erb within layouts/application
+  Rendered meet/show.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_navigation.html.erb (1.7ms)
+  Rendered layouts/_messagges.html.erb (1.6ms)
+Completed 200 OK in 1466ms (Views: 1464.3ms | ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-08-01 14:51:51 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_messagges.html.erb (0.6ms)
+Completed 200 OK in 72ms (Views: 70.7ms | ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-08-01 14:52:35 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (2.6ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_messagges.html.erb (0.6ms)
+Completed 200 OK in 60ms (Views: 58.3ms | ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-08-01 14:52:37 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_messagges.html.erb (0.6ms)
+Completed 200 OK in 56ms (Views: 54.7ms | ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2019-08-01 14:52:39 +0530
+Processing by UserController#new as HTML
+  Rendering user/new.html.erb within layouts/application
+  Rendered user/new.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_navigation.html.erb (0.8ms)
+  Rendered layouts/_messagges.html.erb (0.6ms)
+Completed 200 OK in 60ms (Views: 59.0ms | ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-08-01 14:59:15 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_messagges.html.erb (0.7ms)
+Completed 200 OK in 62ms (Views: 60.8ms | ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+Started GET "/user" for 127.0.0.1 at 2019-08-01 14:59:19 +0530
+Processing by UserController#index as HTML
+  Rendering user/index.html.erb within layouts/application
+  Rendered user/index.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_navigation.html.erb (0.8ms)
+  Rendered layouts/_messagges.html.erb (0.6ms)
+Completed 200 OK in 77ms (Views: 57.6ms | ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-08-01 14:59:20 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (14.8ms)
+  Rendered layouts/_navigation.html.erb (0.8ms)
+  Rendered layouts/_messagges.html.erb (0.6ms)
+Completed 200 OK in 75ms (Views: 73.6ms | ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2019-08-01 15:00:17 +0530
+Processing by UserController#new as HTML
+  Rendering user/new.html.erb within layouts/application
+  Rendered user/new.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_messagges.html.erb (0.7ms)
+Completed 200 OK in 67ms (Views: 61.2ms | ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2019-08-01 15:00:58 +0530
+Processing by UserController#new as HTML
+  Rendering user/new.html.erb within layouts/application
+  Rendered user/new.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_navigation.html.erb (0.8ms)
+  Rendered layouts/_messagges.html.erb (0.6ms)
+Completed 200 OK in 70ms (Views: 63.4ms | ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2019-08-01 15:19:17 +0530
+Processing by UserController#new as HTML
+  Rendering user/new.html.erb within layouts/application
+  Rendered user/new.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_messagges.html.erb (0.5ms)
+Completed 200 OK in 60ms (Views: 54.3ms | ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2019-08-01 15:25:48 +0530
+Processing by UserController#new as HTML
+  Rendering user/new.html.erb within layouts/application
+  Rendered user/new.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_navigation.html.erb (0.8ms)
+  Rendered layouts/_messagges.html.erb (0.6ms)
+Completed 200 OK in 69ms (Views: 67.3ms | ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ bin/rails:9
+  [1m[35m (148.9ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  ↳ bin/rails:9
+  [1m[35m (121.1ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Create (0.3ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2019-08-01 10:00:39.715941"], ["updated_at", "2019-08-01 10:00:39.715941"]]
+  ↳ bin/rails:9
+  [1m[35m (83.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to CreateUsers (20190801103101)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ db/migrate/20190801103101_create_users.rb:3
+  [1m[35m (1.9ms)[0m  [1m[35mCREATE TABLE "users" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "username" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20190801103101_create_users.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190801103101"]]
+  ↳ bin/rails:9
+  [1m[35m (96.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to CreateMeets (20190801103549)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to CreateMeets (20190801103549)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to CreateUsers (20190801103101)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.5ms)[0m  [1m[35mDROP TABLE "users"[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::SchemaMigration Destroy (0.4ms)[0m  [1m[31mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = ?[0m  [["version", "20190801103101"]]
+  ↳ bin/rails:9
+  [1m[35m (98.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to CreateUsers (20190801104653)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ db/migrate/20190801104653_create_users.rb:3
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE TABLE "users" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "username" varchar)[0m
+  ↳ db/migrate/20190801104653_create_users.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190801104653"]]
+  ↳ bin/rails:9
+  [1m[35m (89.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to CreateRooms (20190801104837)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ db/migrate/20190801104837_create_rooms.rb:3
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE TABLE "rooms" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "room_no" integer, "capacity" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20190801104837_create_rooms.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190801104837"]]
+  ↳ bin/rails:9
+  [1m[35m (134.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to CreateMeets (20190801105350)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ db/migrate/20190801105350_create_meets.rb:3
+  [1m[35m (1.0ms)[0m  [1m[35mCREATE TABLE "meets" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "time_from" time, "time_to" time, "meet_date" date, "description" text, "subject" varchar, "room_no_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "room_no" integer, "capacity" integer, CONSTRAINT "fk_rails_4a99240847"
+FOREIGN KEY ("room_no_id")
+  REFERENCES "room_nos" ("id")
+)[0m
+  ↳ db/migrate/20190801105350_create_meets.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE  INDEX "index_meets_on_room_no_id" ON "meets" ("room_no_id")[0m
+  ↳ db/migrate/20190801105350_create_meets.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190801105350"]]
+  ↳ bin/rails:9
+  [1m[35m (271.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to CreateMeets (20190801105350)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.5ms)[0m  [1m[35mDROP TABLE "meets"[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::SchemaMigration Destroy (0.2ms)[0m  [1m[31mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = ?[0m  [["version", "20190801105350"]]
+  ↳ bin/rails:9
+  [1m[35m (152.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to CreateMeets (20190801111335)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ db/migrate/20190801111335_create_meets.rb:3
+  [1m[35m (1.2ms)[0m  [1m[35mCREATE TABLE "meets" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "time_from" time, "time_to" time, "meet_date" date, "description" text, "subject" varchar, "room_no_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, CONSTRAINT "fk_rails_4a99240847"
+FOREIGN KEY ("room_no_id")
+  REFERENCES "room_nos" ("id")
+)[0m
+  ↳ db/migrate/20190801111335_create_meets.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE  INDEX "index_meets_on_room_no_id" ON "meets" ("room_no_id")[0m
+  ↳ db/migrate/20190801111335_create_meets.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190801111335"]]
+  ↳ bin/rails:9
+  [1m[35m (96.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+MONGODB | EVENT: #<TopologyOpening topology=Unknown[]>
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | EVENT: #<TopologyChanged prev=Unknown[] new=Unknown[localhost:27017]>
+MONGODB | Topology type 'Unknown' changed to type 'Unknown'.
+MONGODB | EVENT: #<ServerOpening address=localhost:27017 topology=Unknown[localhost:27017]>
+MONGODB | Server localhost:27017 initializing.
+MONGODB | EVENT: #<ServerDescriptionChanged address=localhost:27017 topology=Single[localhost:27017] prev=#<Mongo::Server:Description:0x47013929987440 config={} average_round_trip_time=> new=#<Mongo::Server:Description:0x47013929839000 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-08-01 11:29:25 UTC, "logicalSessionTimeoutMinutes"=>30, "minWireVersion"=>0, "maxWireVersion"=>6, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.002398532>>
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'standalone'.
+MONGODB | EVENT: #<TopologyChanged prev=Unknown[localhost:27017] new=Single[localhost:27017]>
+MONGODB | Topology type 'Unknown' changed to type 'Single'.
+MONGODB | localhost:27017 | rmbk_development.find | STARTED | {"find"=>"rooms", "filter"=>{"room_no"=>1}, "projection"=>{"_id"=>1}, "limit"=>1, "$readPreference"=>{"mode"=>"primary"}, "lsid"=>{"id"=><BSON::Binary:0x47013929821000 type=uuid data=0x141a8863208a4ad3...>}}
+MONGODB | localhost:27017 | rmbk_development.find | SUCCEEDED | 0.001s
+MONGODB | localhost:27017 | rmbk_development.find | STARTED | {"find"=>"rooms", "filter"=>{"capacity"=>44}, "projection"=>{"_id"=>1}, "limit"=>1, "$readPreference"=>{"mode"=>"primary"}, "lsid"=>{"id"=><BSON::Binary:0x47013929821000 type=uuid data=0x141a8863208a4ad3...>}}
+MONGODB | localhost:27017 | rmbk_development.find | SUCCEEDED | 0.000s
+MONGODB | localhost:27017 | rmbk_development.insert | STARTED | {"insert"=>"rooms", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('5d42cd15d0ed5a5b642a86cb'), "room_no"=>1, "capacity"=>44}], "lsid"=>{"id"=><BSON::Binary:0x47013929821000 type=uuid data=0x141a8863208a4ad3...>}}
+MONGODB | localhost:27017 | rmbk_development.insert | SUCCEEDED | 0.263s
+MONGODB | localhost:27017 | rmbk_development.find | STARTED | {"find"=>"rooms", "filter"=>{"room_no"=>1}, "projection"=>{"_id"=>1}, "limit"=>1, "$readPreference"=>{"mode"=>"primary"}, "lsid"=>{"id"=><BSON::Binary:0x47013929821000 type=uuid data=0x141a8863208a4ad3...>}}
+MONGODB | localhost:27017 | rmbk_development.find | SUCCEEDED | 0.001s
+MONGODB | localhost:27017 | rmbk_development.find | STARTED | {"find"=>"rooms", "filter"=>{"room_no"=>2}, "projection"=>{"_id"=>1}, "limit"=>1, "$readPreference"=>{"mode"=>"primary"}, "lsid"=>{"id"=><BSON::Binary:0x47013929821000 type=uuid data=0x141a8863208a4ad3...>}}
+MONGODB | localhost:27017 | rmbk_development.find | SUCCEEDED | 0.001s
+MONGODB | localhost:27017 | rmbk_development.insert | STARTED | {"insert"=>"rooms", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('5d42cd5bd0ed5a5b642a86cc'), "room_no"=>2, "capacity"=>44}], "lsid"=>{"id"=><BSON::Binary:0x47013929821000 type=uuid data=0x141a8863208a4ad3...>}}
+MONGODB | localhost:27017 | rmbk_development.insert | SUCCEEDED | 0.000s
+MONGODB | localhost:27017 | rmbk_development.find | STARTED | {"find"=>"rooms", "filter"=>{"room_no"=>99}, "projection"=>{"_id"=>1}, "limit"=>1, "$readPreference"=>{"mode"=>"primary"}, "lsid"=>{"id"=><BSON::Binary:0x47013929821000 type=uuid data=0x141a8863208a4ad3...>}}
+MONGODB | localhost:27017 | rmbk_development.find | SUCCEEDED | 0.001s
+MONGODB | localhost:27017 | rmbk_development.insert | STARTED | {"insert"=>"rooms", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('5d42cd66d0ed5a5b642a86cd'), "room_no"=>99, "capacity"=>4444}], "lsid"=>{"id"=><BSON::Binary:0x47013929821000 type=uuid data=0x141a8863208a4ad3...>}}
+MONGODB | localhost:27017 | rmbk_development.insert | SUCCEEDED | 0.000s
+MONGODB | localhost:27017 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x47013929821000 type=uuid data=0x141a8863208a4ad3...>}]}
+MONGODB | localhost:27017 | admin.endSessions | SUCCEEDED | 0.000s
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to AddAdminToUsers (20190801113504)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.5ms)[0m  [1m[35mALTER TABLE "users" ADD "admin" boolean DEFAULT 0[0m
+  ↳ db/migrate/20190801113504_add_admin_to_users.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190801113504"]]
+  ↳ bin/rails:9
+  [1m[35m (83.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to AddPasswordDigestToUsers (20190801114107)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (1.0ms)[0m  [1m[35mALTER TABLE "users" ADD "password_digest" varchar[0m
+  ↳ db/migrate/20190801114107_add_password_digest_to_users.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190801114107"]]
+  ↳ bin/rails:9
+  [1m[35m (110.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to AddPasswordDigestToUsers (20190801114107)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE TEMPORARY TABLE "ausers" ("id" integer NOT NULL PRIMARY KEY, "username" varchar DEFAULT NULL, "admin" boolean DEFAULT 0, "password_digest" varchar DEFAULT NULL)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[32mINSERT INTO "ausers" ("id","username","admin","password_digest")
+                     SELECT "id","username","admin","password_digest" FROM "users"[0m
+  ↳ bin/rails:9
+  [1m[35m (0.8ms)[0m  [1m[35mDROP TABLE "users"[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE TABLE "users" ("id" integer NOT NULL PRIMARY KEY, "username" varchar DEFAULT NULL, "admin" boolean DEFAULT 0)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[32mINSERT INTO "users" ("id","username","admin")
+                     SELECT "id","username","admin" FROM "ausers"[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[35mDROP TABLE "ausers"[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::SchemaMigration Destroy (0.2ms)[0m  [1m[31mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = ?[0m  [["version", "20190801114107"]]
+  ↳ bin/rails:9
+  [1m[35m (73.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to AddPasswordDigestToUsers (20190801123103)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (1.2ms)[0m  [1m[35mALTER TABLE "users" ADD "password_digest" varchar[0m
+  ↳ db/migrate/20190801123103_add_password_digest_to_users.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190801123103"]]
+  ↳ bin/rails:9
+  [1m[35m (95.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+MONGODB | EVENT: #<TopologyOpening topology=Unknown[]>
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | EVENT: #<TopologyChanged prev=Unknown[] new=Unknown[localhost:27017]>
+MONGODB | Topology type 'Unknown' changed to type 'Unknown'.
+MONGODB | EVENT: #<ServerOpening address=localhost:27017 topology=Unknown[localhost:27017]>
+MONGODB | Server localhost:27017 initializing.
+MONGODB | EVENT: #<ServerDescriptionChanged address=localhost:27017 topology=Single[localhost:27017] prev=#<Mongo::Server:Description:0x47048698048040 config={} average_round_trip_time=> new=#<Mongo::Server:Description:0x47048698014000 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-08-01 13:04:07 UTC, "logicalSessionTimeoutMinutes"=>30, "minWireVersion"=>0, "maxWireVersion"=>6, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.002297612>>
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'standalone'.
+MONGODB | EVENT: #<TopologyChanged prev=Unknown[localhost:27017] new=Single[localhost:27017]>
+MONGODB | Topology type 'Unknown' changed to type 'Single'.
+MONGODB | localhost:27017 | rmbk_development.find | STARTED | {"find"=>"users", "filter"=>{"username"=>"Prajkta"}, "projection"=>{"_id"=>1}, "limit"=>1, "$readPreference"=>{"mode"=>"primary"}, "lsid"=>{"id"=><BSON::Binary:0x47048697955220 type=uuid data=0xbbb8bcf29d084fac...>}}
+MONGODB | localhost:27017 | rmbk_development.find | SUCCEEDED | 0.000s
+MONGODB | localhost:27017 | rmbk_development.insert | STARTED | {"insert"=>"users", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('5d42e347d0ed5a6243e21526'), "username"=>"Prajkta", "admin"=>true, "password_digest"=>"$2a$12$9HU.otk6Lt8jTsvufye37Orva2pHOySdJPAMzxXEBTaLZwZPbGCDq"}], "lsid"=>{"id"=><BSON::Bin...
+MONGODB | localhost:27017 | rmbk_development.insert | SUCCEEDED | 0.282s
+MONGODB | localhost:27017 | rmbk_development.find | STARTED | {"find"=>"users", "filter"=>{"username"=>"Prajkta"}, "projection"=>{"_id"=>1}, "limit"=>1, "$readPreference"=>{"mode"=>"primary"}, "lsid"=>{"id"=><BSON::Binary:0x47048697955220 type=uuid data=0xbbb8bcf29d084fac...>}}
+MONGODB | localhost:27017 | rmbk_development.find | SUCCEEDED | 0.000s
+MONGODB | localhost:27017 | rmbk_development.find | STARTED | {"find"=>"users", "filter"=>{"username"=>"Prajktaa"}, "projection"=>{"_id"=>1}, "limit"=>1, "$readPreference"=>{"mode"=>"primary"}, "lsid"=>{"id"=><BSON::Binary:0x47048697955220 type=uuid data=0xbbb8bcf29d084fac...>}}
+MONGODB | localhost:27017 | rmbk_development.find | SUCCEEDED | 0.000s
+MONGODB | localhost:27017 | rmbk_development.insert | STARTED | {"insert"=>"users", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('5d42e359d0ed5a6243e21527'), "username"=>"Prajktaa", "admin"=>true, "password_digest"=>"$2a$12$01UfCK7SQTPKPJ3iqiuBGewP4xzteYYXS6sR.tQOgEH9TQMjlC7sa"}], "lsid"=>{"id"=><BSON::Bi...
+MONGODB | localhost:27017 | rmbk_development.insert | SUCCEEDED | 0.000s
+Started GET "/signup" for 127.0.0.1 at 2019-08-01 18:34:52 +0530
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /var/lib/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by UserController#new as HTML
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+LoadError (cannot load such file -- bcrypt):
+  
+app/models/user.rb:8:in `<class:User>'
+app/models/user.rb:1:in `<top (required)>'
+app/controllers/user_controller.rb:13:in `new'
+Started GET "/signup" for 127.0.0.1 at 2019-08-01 18:35:01 +0530
+Processing by UserController#new as HTML
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+LoadError (cannot load such file -- bcrypt):
+  
+app/models/user.rb:8:in `<class:User>'
+app/models/user.rb:1:in `<top (required)>'
+app/controllers/user_controller.rb:13:in `new'
+Started GET "/signup" for 127.0.0.1 at 2019-08-01 18:35:05 +0530
+Processing by UserController#new as HTML
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+LoadError (cannot load such file -- bcrypt):
+  
+app/models/user.rb:8:in `<class:User>'
+app/models/user.rb:1:in `<top (required)>'
+app/controllers/user_controller.rb:13:in `new'
+Started GET "/signup" for 127.0.0.1 at 2019-08-01 18:36:59 +0530
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /var/lib/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by UserController#new as HTML
+  Rendering user/new.html.erb within layouts/application
+  Rendered user/new.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_navigation.html.erb (0.9ms)
+  Rendered layouts/_messagges.html.erb (0.5ms)
+Completed 200 OK in 2135ms (Views: 2120.9ms | ActiveRecord: 0.5ms | MongoDB: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2019-08-01 18:38:35 +0530
+Processing by UserController#new as HTML
+  Rendering user/new.html.erb within layouts/application
+  Rendered user/new.html.erb within layouts/application (17.5ms)
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+ActionView::Template::Error (Missing partial user/_form, application/_form with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/prajkta/Ruby/Rails/rmbk/app/views"
+):
+    1: <h1 align="center">Signup for Test</h1>
+    2: <%= render 'form' %>
+  
+app/views/user/new.html.erb:2:in `_app_views_user_new_html_erb__473837119283380788_69903834529180'
+Started GET "/signup" for 127.0.0.1 at 2019-08-01 18:39:02 +0530
+Processing by UserController#new as HTML
+  Rendering user/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (3.9ms)
+  Rendered meet/_form.html.erb (6.0ms)
+  Rendered user/new.html.erb within layouts/application (7.4ms)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `errors' for nil:NilClass):
+    1: <% if obj.errors.any? %>
+    2:     <div class="row">
+    3:         <div class="col-xs-8 col-xs-offset-2">
+    4:         <div class="panel panel-danger">
+  
+app/views/shared/_errors.html.erb:1:in `_app_views_shared__errors_html_erb___2144647612684666934_69903828183660'
+app/views/meet/_form.html.erb:1:in `_app_views_meet__form_html_erb__379609098496542628_69903828250880'
+app/views/user/new.html.erb:2:in `_app_views_user_new_html_erb__473837119283380788_69903828358040'
+Started GET "/signup" for 127.0.0.1 at 2019-08-01 18:40:44 +0530
+Processing by UserController#new as HTML
+  Rendering user/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.5ms)
+  Rendered user/_form.html.erb (176.7ms)
+  Rendered user/new.html.erb within layouts/application (178.0ms)
+Completed 500 Internal Server Error in 181ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `users_path' for #<#<Class:0x00005626678db290>:0x00007f2782c9bb60>
+Did you mean?  user_path):
+    1: <%= render 'shared/errors', obj: @user %>
+    2: <div class='row'>
+    3:     <div class='col-xs-12'>
+    4:         <%= form_for(@user, :html => {class: "form-horizontal", role: "form"}) do |f| %>
+    5:             <div class="form-group">
+    6:                 <div class="control-label col-sm-2">
+    7:                     <%= f.label :username %>
+  
+app/views/user/_form.html.erb:4:in `_app_views_user__form_html_erb__860604507485649325_69903837293600'
+app/views/user/new.html.erb:2:in `_app_views_user_new_html_erb__473837119283380788_69903837356700'
+Started GET "/signup" for 127.0.0.1 at 2019-08-01 18:41:59 +0530
+Processing by UserController#new as HTML
+  Rendering user/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.6ms)
+  Rendered user/_form.html.erb (159.8ms)
+  Rendered user/new.html.erb within layouts/application (161.1ms)
+Completed 500 Internal Server Error in 165ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `users_path' for #<#<Class:0x00005626678db290>:0x00007f2782b28878>
+Did you mean?  user_path):
+    1: <%= render 'shared/errors', obj: @user %>
+    2: <div class='row'>
+    3:     <div class='col-xs-12'>
+    4:         <%= form_for(@user, :html => {class: "form-horizontal", role: "form"}) do |f| %>
+    5:             <div class="form-group">
+    6:                 <div class="control-label col-sm-2">
+    7:                     <%= f.label :username %>
+  
+app/views/user/_form.html.erb:4:in `_app_views_user__form_html_erb__860604507485649325_69903836640220'
+app/views/user/new.html.erb:2:in `_app_views_user_new_html_erb__473837119283380788_69903836596420'
+Started GET "/signup" for 127.0.0.1 at 2019-08-01 18:42:46 +0530
+Processing by UserController#new as HTML
+  Rendering user/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.7ms)
+  Rendered user/_form.html.erb (182.8ms)
+  Rendered user/new.html.erb within layouts/application (184.1ms)
+Completed 500 Internal Server Error in 189ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `users_path' for #<#<Class:0x00005626678db290>:0x00007f2781038b30>
+Did you mean?  user_path):
+    1: <%= render 'shared/errors', obj: @user %>
+    2: <div class='row'>
+    3:     <div class='col-xs-12'>
+    4:         <%= form_for(@user, :html => {class: "form-horizontal", role: "form"}) do |f| %>
+    5:             <div class="form-group">
+    6:                 <div class="control-label col-sm-2">
+    7:                     <%= f.label :username %>
+  
+app/views/user/_form.html.erb:4:in `_app_views_user__form_html_erb__860604507485649325_69903826103740'
+app/views/user/new.html.erb:2:in `_app_views_user_new_html_erb__473837119283380788_69903822475700'
+Started GET "/signup" for 127.0.0.1 at 2019-08-01 18:43:40 +0530
+Processing by UserController#new as HTML
+  Rendering user/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.8ms)
+  Rendered user/_form.html.erb (252.4ms)
+  Rendered user/new.html.erb within layouts/application (254.0ms)
+Completed 500 Internal Server Error in 258ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `users_path' for #<#<Class:0x00005626678db290>:0x000056266749b6a8>
+Did you mean?  user_path):
+    1: <%= render 'shared/errors', obj: @user %>
+    2: <div class='row'>
+    3:     <div class='col-xs-12'>
+    4:         <%= form_for(@user, :html => {class: "form-horizontal", role: "form"}) do |f| %>
+    5:             <div class="form-group">
+    6:                 <div class="control-label col-sm-2">
+    7:                     <%= f.label :username %>
+  
+app/views/user/_form.html.erb:4:in `_app_views_user__form_html_erb__860604507485649325_47361471726260'
+app/views/user/new.html.erb:2:in `_app_views_user_new_html_erb__473837119283380788_47361470788220'
+Started POST "/__web_console/repl_sessions/16af554d5739fab5a2f96364b2200362/trace" for 127.0.0.1 at 2019-08-01 18:45:46 +0530
+Started GET "/signup" for 127.0.0.1 at 2019-08-01 18:48:33 +0530
+Processing by UserController#new as HTML
+  Rendering user/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.7ms)
+  Rendered user/_form.html.erb (167.9ms)
+  Rendered user/new.html.erb within layouts/application (169.2ms)
+Completed 500 Internal Server Error in 173ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `users_path' for #<#<Class:0x00005626678db290>:0x00007f278285ebb0>
+Did you mean?  user_path):
+    1: <%= render 'shared/errors', obj: @user %>
+    2: <div class='row'>
+    3:     <div class='col-xs-12'>
+    4:         <%= form_for @user do |f| %>
+    5:             <div class="form-group">
+    6:                 <div class="control-label col-sm-2">
+    7:                     <%= f.label :username %>
+  
+app/views/user/_form.html.erb:4:in `_app_views_user__form_html_erb__860604507485649325_69903835120760'
+app/views/user/new.html.erb:2:in `_app_views_user_new_html_erb__473837119283380788_69903835134560'
+Started GET "/signup" for 127.0.0.1 at 2019-08-01 18:48:57 +0530
+Processing by UserController#new as HTML
+  Rendering user/new.html.erb within layouts/application
+  Rendered user/new.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+SyntaxError (/home/prajkta/Ruby/Rails/rmbk/app/views/user/new.html.erb:2: syntax error, unexpected tIVAR, expecting ')'
+...er.append=( render 'form' @user );
+...                          ^~~~~):
+  
+app/views/user/new.html.erb:2: syntax error, unexpected tIVAR, expecting ')'
+Started GET "/signup" for 127.0.0.1 at 2019-08-01 18:52:08 +0530
+Processing by UserController#new as HTML
+  Rendering user/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (1.0ms)
+  Rendered user/_form.html.erb (285.3ms)
+  Rendered user/new.html.erb within layouts/application (286.5ms)
+Completed 500 Internal Server Error in 290ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `users_path' for #<#<Class:0x00005626678db290>:0x00007f27827bfbc8>
+Did you mean?  user_path):
+    1: <%= render 'shared/errors', obj: @user %>
+    2: <div class='row'>
+    3:     <div class='col-xs-12'>
+    4:         <%= form_for @user do |f| %>
+    5:             <div class="form-group">
+    6:                 <div class="control-label col-sm-2">
+    7:                     <%= f.label :username %>
+  
+app/views/user/_form.html.erb:4:in `_app_views_user__form_html_erb__860604507485649325_69903834852720'
+app/views/user/new.html.erb:2:in `_app_views_user_new_html_erb__473837119283380788_69903834817160'
+Started GET "/signup" for 127.0.0.1 at 2019-08-01 18:53:24 +0530
+Processing by UserController#new as HTML
+  Rendering user/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.5ms)
+  Rendered user/new.html.erb within layouts/application (155.5ms)
+Completed 500 Internal Server Error in 159ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `users_path' for #<#<Class:0x00005626678db290>:0x00007f27827da1d0>
+Did you mean?  user_path):
+    1: <%= render 'shared/errors', obj: @user %>
+    2: <div class='row'>
+    3:     <div class='col-xs-12'>
+    4:         <%= form_for @user do |f| %>
+    5:             <div class="form-group">
+    6:                 <div class="control-label col-sm-2">
+    7:                     <%= f.label :username %>
+  
+app/views/user/new.html.erb:4:in `_app_views_user_new_html_erb__473837119283380788_69903834862960'
+Started GET "/signup" for 127.0.0.1 at 2019-08-01 18:57:15 +0530
+Processing by UserController#new as HTML
+  Rendering user/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.3ms)
+  Rendered user/_form.html.erb (163.4ms)
+  Rendered user/new.html.erb within layouts/application (164.4ms)
+Completed 500 Internal Server Error in 173ms (ActiveRecord: 0.3ms | MongoDB: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `users_path' for #<#<Class:0x00007f278075d8a8>:0x00007f278072c7f8>
+Did you mean?  user_path):
+    1: <%= render 'shared/errors', obj: @user %>
+    2: <div class='row'>
+    3:     <div class='col-xs-12'>
+    4:         <%= form_for @user do |f| %>
+    5:             <div class="form-group">
+    6:                 <div class="control-label col-sm-2">
+    7:                     <%= f.label :username %>
+  
+app/views/user/_form.html.erb:4:in `_app_views_user__form_html_erb__860604507485649325_69903817440320'
+app/views/user/new.html.erb:2:in `_app_views_user_new_html_erb__473837119283380788_69903817833540'
+Started GET "/signup" for 127.0.0.1 at 2019-08-01 18:58:44 +0530
+Processing by UserController#new as HTML
+  Rendering user/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.8ms)
+  Rendered user/_form.html.erb (160.4ms)
+  Rendered user/new.html.erb within layouts/application (161.8ms)
+Completed 500 Internal Server Error in 165ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `users_path' for #<#<Class:0x00007f278075d8a8>:0x00007f2782a76768>
+Did you mean?  user_path):
+    1: <%= render 'shared/errors', obj: @user %>
+    2: <div class='row'>
+    3:     <div class='col-xs-12'>
+    4:         <%= form_for @user do |f| %>
+    5:             <div class="form-group">
+    6:                 <div class="control-label col-sm-2">
+    7:                     <%= f.label :username %>
+  
+app/views/user/_form.html.erb:4:in `_app_views_user__form_html_erb__860604507485649325_69903836185400'
+app/views/user/new.html.erb:2:in `_app_views_user_new_html_erb__473837119283380788_69903836231740'
+Started GET "/signup" for 127.0.0.1 at 2019-08-01 18:59:32 +0530
+Processing by UserController#new as HTML
+  Rendering user/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.7ms)
+  Rendered user/_form.html.erb (165.3ms)
+  Rendered user/new.html.erb within layouts/application (166.7ms)
+Completed 500 Internal Server Error in 171ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `users_path' for #<#<Class:0x00007f278075d8a8>:0x00007f2782a75840>
+Did you mean?  user_path):
+    1: <%= render 'shared/errors', obj: @user %>
+    2: <div class='row'>
+    3:     <div class='col-xs-12'>
+    4:         <%= form_for @user do |f| %>
+    5:             <div class="form-group">
+    6:                 <div class="control-label col-sm-2">
+    7:                     <%= f.label :username %>
+  
+app/views/user/_form.html.erb:4:in `_app_views_user__form_html_erb__860604507485649325_69903836157320'
+app/views/user/new.html.erb:2:in `_app_views_user_new_html_erb__473837119283380788_69903836229820'
+Started GET "/signup" for 127.0.0.1 at 2019-08-01 18:59:57 +0530
+Processing by UserController#new as HTML
+  Rendering user/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.7ms)
+  Rendered user/_form.html.erb (173.0ms)
+  Rendered user/new.html.erb within layouts/application (174.3ms)
+Completed 500 Internal Server Error in 177ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `users_path' for #<#<Class:0x00007f278075d8a8>:0x00007f278124cca0>
+Did you mean?  user_path):
+    1: <%= render 'shared/errors', obj: @user %>
+    2: <div class='row'>
+    3:     <div class='col-xs-12'>
+    4:         <%= form_for @user do |f| %>
+    5:             <div class="form-group">
+    6:                 <div class="control-label col-sm-2">
+    7:                     <%= f.label :username %>
+  
+app/views/user/_form.html.erb:4:in `_app_views_user__form_html_erb__860604507485649325_69903823329820'
+app/views/user/new.html.erb:2:in `_app_views_user_new_html_erb__473837119283380788_69903823586060'
+Started GET "/signup" for 127.0.0.1 at 2019-08-01 19:01:24 +0530
+Processing by UserController#new as HTML
+  Rendering user/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.4ms)
+  Rendered user/_form.html.erb (250.5ms)
+  Rendered user/new.html.erb within layouts/application (251.8ms)
+Completed 500 Internal Server Error in 255ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `users_path' for #<#<Class:0x00007f278075d8a8>:0x00005626674c9ee0>
+Did you mean?  user_path):
+    1: <%= render 'shared/errors', obj: @user %>
+    2: <div class='row'>
+    3:     <div class='col-xs-12'>
+    4:         <%= form_for @user do |f| %>
+    5:             <div class="form-group">
+    6:                 <div class="control-label col-sm-2">
+    7:                     <%= f.label :username %>
+  
+app/views/user/_form.html.erb:4:in `_app_views_user__form_html_erb__860604507485649325_47361469835860'
+app/views/user/new.html.erb:2:in `_app_views_user_new_html_erb__473837119283380788_47361470979880'
+Started GET "/signup" for 127.0.0.1 at 2019-08-01 19:01:33 +0530
+Processing by UserController#new as HTML
+  Rendering user/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.5ms)
+  Rendered user/_form.html.erb (155.7ms)
+  Rendered user/new.html.erb within layouts/application (157.3ms)
+Completed 500 Internal Server Error in 161ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `users_path' for #<#<Class:0x00007f278075d8a8>:0x00007f27828a1d70>
+Did you mean?  user_path):
+    1: <%= render 'shared/errors', obj: @user %>
+    2: <div class='row'>
+    3:     <div class='col-xs-12'>
+    4:         <%= form_for @user do |f| %>
+    5:             <div class="form-group">
+    6:                 <div class="control-label col-sm-2">
+    7:                     <%= f.label :username %>
+  
+app/views/user/_form.html.erb:4:in `_app_views_user__form_html_erb__860604507485649325_69903835257540'
+app/views/user/new.html.erb:2:in `_app_views_user_new_html_erb__473837119283380788_69903835272020'
+Started GET "/signup" for 127.0.0.1 at 2019-08-01 19:05:43 +0530
+Processing by UserController#new as HTML
+  Rendering user/new.html.erb within layouts/application
+  Rendered user/new.html.erb within layouts/application (156.4ms)
+Completed 500 Internal Server Error in 160ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `users_path' for #<#<Class:0x00007f278075d8a8>:0x00007f2782878038>
+Did you mean?  user_path):
+    1: <h1 align="center">Signup for Room Book</h1>
+    2: 
+    3: <%= form_for @user do |f| %>
+    4:     <p>
+    5:         <%= f.label :username %> <br/>
+    6:         <%= f.text_field :username %> 
+  
+app/views/user/new.html.erb:3:in `_app_views_user_new_html_erb__473837119283380788_69903835186600'
+Started GET "/signup" for 127.0.0.1 at 2019-08-01 19:07:36 +0530
+Processing by UserController#new as HTML
+  Rendering user/new.html.erb within layouts/application
+  Rendered user/new.html.erb within layouts/application (172.4ms)
+Completed 500 Internal Server Error in 176ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `users_path' for #<#<Class:0x00007f278075d8a8>:0x00007f278082eb60>
+Did you mean?  user_path):
+    1: <h1 align="center">Signup for Room Book</h1>
+    2: 
+    3: <%= form_for @user do |f| %>
+    4:     <p>
+    5:         <%= f.label :username %> <br/>
+    6:         <%= f.text_field :username, class: "form-control", placeholder: "Enter User Name", autofocus: true %> 
+  
+app/views/user/new.html.erb:3:in `_app_views_user_new_html_erb__473837119283380788_69903818278900'
+Started GET "/signup" for 127.0.0.1 at 2019-08-01 19:08:29 +0530
+Processing by UserController#new as HTML
+  Rendering user/new.html.erb within layouts/application
+  Rendered user/new.html.erb within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+SyntaxError (/home/prajkta/Ruby/Rails/rmbk/app/views/user/new.html.erb:7: syntax error, unexpected '<'
+    </p>
+    ^
+/home/prajkta/Ruby/Rails/rmbk/app/views/user/new.html.erb:9: unmatched close parenthesis: /p>
+    <p>
+        <%= f.label :password );@output_buffer.safe_append=' <br/
+/home/prajkta/Ruby/Rails/rmbk/app/views/user/new.html.erb:14: unknown regexp option - p
+/home/prajkta/Ruby/Rails/rmbk/app/views/user/new.html.erb:19: unterminated string meets end of file
+          end
+             ^
+/home/prajkta/Ruby/Rails/rmbk/app/views/user/new.html.erb:19: syntax error, unexpected end-of-input, expecting ')'
+          end
+             ^):
+  
+app/views/user/new.html.erb:7: syntax error, unexpected '<'
+app/views/user/new.html.erb:9: unmatched close parenthesis: /p>
+app/views/user/new.html.erb:14: unknown regexp option - p
+app/views/user/new.html.erb:19: unterminated string meets end of file
+app/views/user/new.html.erb:19: syntax error, unexpected end-of-input, expecting ')'
+Started GET "/signup" for 127.0.0.1 at 2019-08-01 19:09:05 +0530
+Processing by UserController#new as HTML
+  Rendering user/new.html.erb within layouts/application
+  Rendered user/new.html.erb within layouts/application (217.3ms)
+Completed 500 Internal Server Error in 221ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `users_path' for #<#<Class:0x00007f278075d8a8>:0x00007f2782995f10>
+Did you mean?  user_path):
+    1: <h1 align="center">Signup for Room Book</h1>
+    2: 
+    3: <%= form_for @user do |f| %>
+    4:     <p>
+    5:         <%= f.label :username %> <br/>
+    6:         <%= f.text_field :username %> 
+  
+app/views/user/new.html.erb:3:in `_app_views_user_new_html_erb__473837119283380788_69903835771940'
+Started GET "/signup" for 127.0.0.1 at 2019-08-01 19:15:08 +0530
+Processing by UserController#new as HTML
+  Rendering user/new.html.erb within layouts/application
+  Rendered user/new.html.erb within layouts/application (147.9ms)
+Completed 500 Internal Server Error in 157ms (ActiveRecord: 0.3ms | MongoDB: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `users_path' for #<#<Class:0x00007f2782769930>:0x00007f278277ff78>
+Did you mean?  user_path):
+    1: <h1 align="center">Signup for Room Book</h1>
+    2: 
+    3: <%= form_for @user do |f| %>
+    4:     <p>
+    5:         <%= f.label :username %> <br/>
+    6:         <%= f.text_field :username %> 
+  
+app/views/user/new.html.erb:3:in `_app_views_user_new_html_erb__473837119283380788_69903834634780'
+Started GET "/signup" for 127.0.0.1 at 2019-08-01 19:15:21 +0530
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /var/lib/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by UserController#new as HTML
+  Rendering user/new.html.erb within layouts/application
+  Rendered user/new.html.erb within layouts/application (188.3ms)
+Completed 500 Internal Server Error in 208ms (ActiveRecord: 0.5ms | MongoDB: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `users_path' for #<#<Class:0x00007f777889db58>:0x00007f777877def8>
+Did you mean?  user_path):
+    1: <h1 align="center">Signup for Room Book</h1>
+    2: 
+    3: <%= form_for @user do |f| %>
+    4:     <p>
+    5:         <%= f.label :username %> <br/>
+    6:         <%= f.text_field :username %> 
+  
+app/views/user/new.html.erb:3:in `_app_views_user_new_html_erb___716817295491687975_70075550069860'

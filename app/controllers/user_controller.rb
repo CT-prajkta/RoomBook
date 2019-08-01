@@ -1,6 +1,5 @@
 class UserController < ApplicationController
-  #before_action :set_user, only: [:show, :edit, :update]
-
+  before_action :set_user, only: [:show, :edit, :update]
 
   def index
     @users = User.all
@@ -11,7 +10,7 @@ class UserController < ApplicationController
   end
 
   def new
-    #@user = User.new
+    @user = User.new
   end
 
   def edit
@@ -54,16 +53,5 @@ class UserController < ApplicationController
     def user_params
       params.require(:user).permit(:username, :email, :password)
     end
-    def require_same_user
-      if current_user != @user && current_user.admin?
-        flash[:danger] = "You can only edit or delete your own account"
-        redirect_to root_path
-      end
-    end
-    def require_admin
-      if logged_in? and !current_user.admin?
-        flash[:danger] = "Only admin users can perform that action"      
-        redirect_to root_path      
-      end      
-    end
+
 end
