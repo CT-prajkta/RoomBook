@@ -731,3 +731,268 @@ ActionView::Template::Error (undefined local variable or method `index_link_tag'
     6: <%= link_to 'Sign IN', signup_path %>
   
 app/views/welcome/home.html.erb:4:in `_app_views_welcome_home_html_erb__1523910212450039044_70280435816560'
+Started GET "/" for 127.0.0.1 at 2019-08-01 12:19:18 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (8.7ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+ActionView::Template::Error (Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( index.jpg )` to `config/initializers/assets.rb` and restart your server):
+    1: <%= link_to 'Sign Up', signup_path %>
+    2: 
+    3: <%= image_tag("index.jpeg") %>
+    4: 
+    5: 
+    6: <%= link_to 'Sign IN', signup_path %>
+  
+app/views/welcome/home.html.erb:3:in `_app_views_welcome_home_html_erb__1523910212450039044_70280509328220'
+Started GET "/" for 127.0.0.1 at 2019-08-01 12:20:40 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (48.9ms)
+Completed 500 Internal Server Error in 52ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+ActionView::Template::Error (Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( index.png )` to `config/initializers/assets.rb` and restart your server):
+    1: <%= link_to 'Sign Up', signup_path %>
+    2: 
+    3: <%= image_tag("index.png") %>
+    4: 
+    5: 
+    6: <%= link_to 'Sign IN', signup_path %>
+  
+app/views/welcome/home.html.erb:3:in `_app_views_welcome_home_html_erb__1523910212450039044_70280407409880'
+Started GET "/" for 127.0.0.1 at 2019-08-01 12:27:11 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (44.7ms)
+Completed 500 Internal Server Error in 48ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+ActionView::Template::Error (Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( index.jpg )` to `config/initializers/assets.rb` and restart your server):
+    1: <%= link_to 'Sign Up', signup_path %>
+    2: 
+    3: <%= image_tag("index.jpg") %>
+    4: 
+    5: 
+    6: <%= link_to 'Sign IN', signup_path %>
+  
+app/views/welcome/home.html.erb:3:in `_app_views_welcome_home_html_erb__1523910212450039044_70280402058260'
+Started GET "/" for 127.0.0.1 at 2019-08-01 12:27:55 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (244.5ms)
+Completed 500 Internal Server Error in 255ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+ActionView::Template::Error (Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( index.jpg )` to `config/initializers/assets.rb` and restart your server):
+    1: <%= link_to 'Sign Up', signup_path %>
+    2: 
+    3: <%= image_tag("index.jpg") %>
+    4: 
+    5: 
+    6: <%= link_to 'Sign IN', signup_path %>
+  
+app/views/welcome/home.html.erb:3:in `_app_views_welcome_home_html_erb__3297534931745322290_47030027630840'
+Started GET "/" for 127.0.0.1 at 2019-08-01 12:28:17 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (13.0ms)
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+ActionView::Template::Error (Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( index.jpg )` to `config/initializers/assets.rb` and restart your server):
+    1: <%= link_to 'Sign Up', signup_path %>
+    2: 
+    3: <%= image_tag("index.jpg") %>
+    4: 
+    5: 
+    6: <%= link_to 'Sign IN', signup_path %>
+  
+app/views/welcome/home.html.erb:3:in `_app_views_welcome_home_html_erb__3297534931745322290_70204504444600'
+Started GET "/" for 127.0.0.1 at 2019-08-01 12:28:47 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (226.5ms)
+Completed 500 Internal Server Error in 236ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+ActionView::Template::Error (Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( index.jpg )` to `config/initializers/assets.rb` and restart your server):
+    1: <%= link_to 'Sign Up', signup_path %>
+    2: 
+    3: <%= image_tag("index.jpg") %>
+    4: 
+    5: 
+    6: <%= link_to 'Sign IN', signup_path %>
+  
+app/views/welcome/home.html.erb:3:in `_app_views_welcome_home_html_erb__3379305678017172972_46934876658980'
+Started GET "/" for 127.0.0.1 at 2019-08-01 12:30:03 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (11.4ms)
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+ActionView::Template::Error (Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( index.jpg )` to `config/initializers/assets.rb` and restart your server):
+    1: <%= link_to 'Sign Up', signup_path %>
+    2: 
+    3: <%= image_tag("index.jpg") %>
+    4: 
+    5: 
+    6: <%= link_to 'Sign IN', signup_path %>
+  
+app/views/welcome/home.html.erb:3:in `_app_views_welcome_home_html_erb__3379305678017172972_70196662314820'
+Started GET "/" for 127.0.0.1 at 2019-08-01 12:32:33 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (3.7ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+ActionView::Template::Error (The asset "index.jpg" is not present in the asset pipeline.):
+    1: <%= link_to 'Sign Up', signup_path %>
+    2: 
+    3: <%= image_tag("index.jpg") %>
+    4: 
+    5: 
+    6: <%= link_to 'Sign IN', signup_path %>
+  
+app/views/welcome/home.html.erb:3:in `_app_views_welcome_home_html_erb__3379305678017172972_70196660855020'
+Started GET "/" for 127.0.0.1 at 2019-08-01 12:32:52 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (54.1ms)
+Completed 500 Internal Server Error in 57ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+ActionView::Template::Error (Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( index.jpg )` to `config/initializers/assets.rb` and restart your server):
+    1: <%= link_to 'Sign Up', signup_path %>
+    2: 
+    3: <%= image_tag("index.jpg") %>
+    4: 
+    5: 
+    6: <%= link_to 'Sign IN', signup_path %>
+  
+app/views/welcome/home.html.erb:3:in `_app_views_welcome_home_html_erb__3379305678017172972_70196658960240'
+Started GET "/" for 127.0.0.1 at 2019-08-01 12:35:03 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (11.8ms)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+ActionView::Template::Error (Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( index.jpg )` to `config/initializers/assets.rb` and restart your server):
+    1: <%= link_to 'Sign Up', signup_path %>
+    2: 
+    3: <%= image_tag "index.jpg" %>
+    4: 
+    5: 
+    6: <%= link_to 'Sign IN', signup_path %>
+  
+app/views/welcome/home.html.erb:3:in `_app_views_welcome_home_html_erb__3379305678017172972_70196659996980'
+Started GET "/" for 127.0.0.1 at 2019-08-01 12:36:09 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (16.6ms)
+Completed 500 Internal Server Error in 21ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+ActionView::Template::Error (Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( index.jpg )` to `config/initializers/assets.rb` and restart your server):
+    1: <%= link_to 'Sign Up', signup_path %>
+    2: 
+    3: <%= image_tag "index.jpg" %>
+    4: 
+    5: 
+    6: <%= link_to 'Sign IN', signup_path %>
+  
+app/views/welcome/home.html.erb:3:in `_app_views_welcome_home_html_erb__3379305678017172972_70196661698440'
+Started GET "/" for 127.0.0.1 at 2019-08-01 12:37:01 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (19.5ms)
+Completed 500 Internal Server Error in 24ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+ActionView::Template::Error (Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( index.jpg )` to `config/initializers/assets.rb` and restart your server):
+    1: <%= link_to 'Sign Up', signup_path %>
+    2: 
+    3: <%= image_tag "index.jpg" %>
+    4: 
+    5: 
+    6: <%= link_to 'Sign IN', signup_path %>
+  
+app/views/welcome/home.html.erb:3:in `_app_views_welcome_home_html_erb__3379305678017172972_46934864887480'
+Started GET "/" for 127.0.0.1 at 2019-08-01 12:37:17 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (197.6ms)
+Completed 500 Internal Server Error in 208ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+ActionView::Template::Error (Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( index.jpg )` to `config/initializers/assets.rb` and restart your server):
+    1: <%= link_to 'Sign Up', signup_path %>
+    2: 
+    3: <%= image_tag "index.jpg" %>
+    4: 
+    5: 
+    6: <%= link_to 'Sign IN', signup_path %>
+  
+app/views/welcome/home.html.erb:3:in `_app_views_welcome_home_html_erb___1245741247765112937_47378941040320'
+Started GET "/" for 127.0.0.1 at 2019-08-01 12:37:54 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (12.0ms)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+ActionView::Template::Error (Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( index.jpg )` to `config/initializers/assets.rb` and restart your server):
+    1: <%= link_to 'Sign Up', signup_path %>
+    2: 
+    3: <%= image_tag "index.jpg" %>
+    4: 
+    5: 
+    6: <%= link_to 'Sign IN', signup_path %>
+  
+app/views/welcome/home.html.erb:3:in `_app_views_welcome_home_html_erb___1245741247765112937_70136969110920'
+Started GET "/" for 127.0.0.1 at 2019-08-01 12:38:08 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (189.0ms)
+Completed 200 OK in 249ms (Views: 242.9ms | ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-08-01 12:39:52 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 34ms (Views: 31.8ms | ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
