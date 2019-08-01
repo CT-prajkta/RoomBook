@@ -644,3 +644,90 @@ Processing by WelcomeController#home as HTML
 Completed 200 OK in 27ms (Views: 25.8ms | ActiveRecord: 0.0ms | MongoDB: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2019-08-01 11:32:34 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (48.1ms)
+Completed 500 Internal Server Error in 51ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+ActionView::Template::Error (Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( index.jpg )` to `config/initializers/assets.rb` and restart your server):
+    1: <%= link_to 'Sign Up', signup_path %>
+    2: 
+    3: <%= image_tag 'index.jpeg' %>
+    4: 
+    5: <%= link_to 'Sign IN', signup_path %>
+  
+app/views/welcome/home.html.erb:3:in `_app_views_welcome_home_html_erb__1523910212450039044_70280503686000'
+Started GET "/" for 127.0.0.1 at 2019-08-01 11:42:10 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (242.8ms)
+Completed 500 Internal Server Error in 246ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `index' for #<#<Class:0x00007fd6de456ac0>:0x00007fd6e113e4e8>):
+    1: <%= link_to 'Sign Up', signup_path %>
+    2: 
+    3: <%= image_tag(index.jpeg) %>
+    4: <%= favicon_link_tag %>
+    5: 
+    6: <%= link_to 'Sign IN', signup_path %>
+  
+app/views/welcome/home.html.erb:3:in `_app_views_welcome_home_html_erb__1523910212450039044_70280437954380'
+Started GET "/" for 127.0.0.1 at 2019-08-01 11:42:39 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (18.2ms)
+Completed 500 Internal Server Error in 23ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+ActionView::Template::Error (Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( index.jpg )` to `config/initializers/assets.rb` and restart your server):
+    1: <%= link_to 'Sign Up', signup_path %>
+    2: 
+    3: <%= image_tag("index.jpeg") %>
+    4: <%= favicon_link_tag %>
+    5: 
+    6: <%= link_to 'Sign IN', signup_path %>
+  
+app/views/welcome/home.html.erb:3:in `_app_views_welcome_home_html_erb__1523910212450039044_70280504831260'
+Started GET "/" for 127.0.0.1 at 2019-08-01 11:43:03 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (10.6ms)
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+ActionView::Template::Error (Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( index.jpg )` to `config/initializers/assets.rb` and restart your server):
+    1: <%= link_to 'Sign Up', signup_path %>
+    2: 
+    3: <%= image_tag("index.jpeg") %>
+    4: <%= favicon_link_tag %>
+    5: 
+    6: <%= link_to 'Sign IN', signup_path %>
+  
+app/views/welcome/home.html.erb:3:in `_app_views_welcome_home_html_erb__1523910212450039044_70280442658020'
+Started GET "/" for 127.0.0.1 at 2019-08-01 11:44:04 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (262.2ms)
+Completed 500 Internal Server Error in 266ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `index_link_tag' for #<#<Class:0x00007fd6e1a371d0>:0x00007fd6e0d2a7f8>):
+    1: <%= link_to 'Sign Up', signup_path %>
+    2: 
+    3: <!--%= image_tag("index.jpeg") %-->
+    4: <%= index_link_tag %>
+    5: 
+    6: <%= link_to 'Sign IN', signup_path %>
+  
+app/views/welcome/home.html.erb:4:in `_app_views_welcome_home_html_erb__1523910212450039044_70280435816560'
