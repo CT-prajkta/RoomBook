@@ -996,3 +996,18 @@ Processing by WelcomeController#home as HTML
 Completed 200 OK in 34ms (Views: 31.8ms | ActiveRecord: 0.0ms | MongoDB: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2019-08-01 12:46:20 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 28ms (Views: 26.0ms | ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+Started GET "/meet/edit" for 127.0.0.1 at 2019-08-01 12:47:47 +0530
+Processing by MeetController#show as HTML
+  Parameters: {"id"=>"edit"}
+  Rendering meet/show.html.erb within layouts/application
+  Rendered meet/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 26ms (Views: 24.8ms | ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
