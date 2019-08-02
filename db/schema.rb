@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_08_01_123103) do
+ActiveRecord::Schema.define(version: 2019_08_02_074209) do
 
   create_table "meets", force: :cascade do |t|
     t.time "time_from"
@@ -21,7 +21,9 @@ ActiveRecord::Schema.define(version: 2019_08_01_123103) do
     t.integer "room_no_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer "username_id"
     t.index ["room_no_id"], name: "index_meets_on_room_no_id"
+    t.index ["username_id"], name: "index_meets_on_username_id"
   end
 
   create_table "rooms", force: :cascade do |t|

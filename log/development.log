@@ -2910,3 +2910,2350 @@ puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
 puma (3.12.1) lib/puma/server.rb:474:in `process_client'
 puma (3.12.1) lib/puma/server.rb:334:in `block in run'
 puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/signup" for 127.0.0.1 at 2019-08-02 12:04:25 +0530
+Processing by UserController#new as HTML
+  Rendering user/new.html.erb within layouts/application
+  Rendered user/new.html.erb within layouts/application (3.2ms)
+  Rendered layouts/_navigation.html.erb (0.9ms)
+  Rendered layouts/_messagges.html.erb (0.7ms)
+Completed 200 OK in 77ms (Views: 75.2ms | ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2019-08-02 12:11:27 +0530
+Processing by UserController#new as HTML
+  Rendering user/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.7ms)
+  Rendered user/_form.html.erb (54.6ms)
+  Rendered user/new.html.erb within layouts/application (60.0ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_messagges.html.erb (0.5ms)
+Completed 200 OK in 125ms (Views: 124.1ms | ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2019-08-02 12:13:08 +0530
+Processing by UserController#new as HTML
+  Rendering user/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.6ms)
+  Rendered user/_form.html.erb (5.0ms)
+  Rendered user/new.html.erb within layouts/application (9.2ms)
+  Rendered layouts/_navigation.html.erb (0.9ms)
+  Rendered layouts/_messagges.html.erb (0.7ms)
+Completed 200 OK in 75ms (Views: 73.8ms | ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2019-08-02 12:13:39 +0530
+Processing by UserController#new as HTML
+  Rendering user/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.6ms)
+  Rendered user/_form.html.erb (5.1ms)
+  Rendered user/new.html.erb within layouts/application (11.3ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_messagges.html.erb (0.5ms)
+Completed 200 OK in 76ms (Views: 74.5ms | ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2019-08-02 12:13:42 +0530
+Processing by UserController#new as HTML
+  Rendering user/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.4ms)
+  Rendered user/_form.html.erb (4.3ms)
+  Rendered user/new.html.erb within layouts/application (7.6ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_messagges.html.erb (0.7ms)
+Completed 200 OK in 78ms (Views: 76.2ms | ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2019-08-02 12:13:55 +0530
+Processing by UserController#new as HTML
+  Rendering user/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.7ms)
+  Rendered user/_form.html.erb (5.6ms)
+  Rendered user/new.html.erb within layouts/application (9.6ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_messagges.html.erb (0.6ms)
+Completed 200 OK in 79ms (Views: 77.7ms | ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2019-08-02 12:15:04 +0530
+Processing by UserController#new as HTML
+  Rendering user/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.7ms)
+  Rendered user/_form.html.erb (5.4ms)
+  Rendered user/new.html.erb within layouts/application (9.7ms)
+  Rendered layouts/_navigation.html.erb (0.9ms)
+  Rendered layouts/_messagges.html.erb (0.5ms)
+Completed 200 OK in 77ms (Views: 75.6ms | ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2019-08-02 12:15:22 +0530
+Processing by UserController#new as HTML
+  Rendering user/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.4ms)
+  Rendered user/_form.html.erb (3.4ms)
+  Rendered user/new.html.erb within layouts/application (7.0ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_messagges.html.erb (0.5ms)
+Completed 200 OK in 72ms (Views: 70.3ms | ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2019-08-02 12:15:54 +0530
+Processing by UserController#new as HTML
+  Rendering user/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.7ms)
+  Rendered user/_form.html.erb (4.5ms)
+  Rendered user/new.html.erb within layouts/application (7.1ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_messagges.html.erb (0.6ms)
+Completed 200 OK in 73ms (Views: 71.5ms | ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2019-08-02 12:15:56 +0530
+Processing by UserController#new as HTML
+  Rendering user/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.5ms)
+  Rendered user/_form.html.erb (3.9ms)
+  Rendered user/new.html.erb within layouts/application (7.9ms)
+  Rendered layouts/_navigation.html.erb (1.3ms)
+  Rendered layouts/_messagges.html.erb (1.4ms)
+Completed 200 OK in 112ms (Views: 110.9ms | ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2019-08-02 12:16:44 +0530
+Processing by UserController#new as HTML
+  Rendering user/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.6ms)
+  Rendered user/_form.html.erb (4.1ms)
+  Rendered user/new.html.erb within layouts/application (7.8ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_messagges.html.erb (0.6ms)
+Completed 200 OK in 77ms (Views: 75.7ms | ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2019-08-02 12:17:00 +0530
+Processing by UserController#new as HTML
+  Rendering user/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.7ms)
+  Rendered user/_form.html.erb (5.2ms)
+  Rendered user/new.html.erb within layouts/application (9.0ms)
+  Rendered layouts/_navigation.html.erb (0.9ms)
+  Rendered layouts/_messagges.html.erb (0.6ms)
+Completed 200 OK in 71ms (Views: 69.2ms | ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2019-08-02 12:17:12 +0530
+Processing by UserController#new as HTML
+  Rendering user/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.4ms)
+  Rendered user/_form.html.erb (3.9ms)
+  Rendered user/new.html.erb within layouts/application (7.2ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_messagges.html.erb (0.5ms)
+Completed 200 OK in 70ms (Views: 68.2ms | ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+Started POST "/signup.5d43dc70d0ed5a3eac77764e" for 127.0.0.1 at 2019-08-02 12:17:38 +0530
+  
+ActionController::RoutingError (No route matches [POST] "/signup.5d43dc70d0ed5a3eac77764e"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/signup" for 127.0.0.1 at 2019-08-02 12:22:14 +0530
+Processing by UserController#new as HTML
+  Rendering user/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.7ms)
+  Rendered user/_form.html.erb (5.1ms)
+  Rendered user/new.html.erb within layouts/application (301.8ms)
+Completed 500 Internal Server Error in 305ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `users_path' for #<#<Class:0x00007f46548e2af0>:0x00007f46558a2e40>
+Did you mean?  user_path):
+    13:         <%= f.submit %> 
+    14:     </p>
+    15: <% end %>
+    16: <%= link_to 'Back', users_path %>
+  
+app/views/user/new.html.erb:16:in `_app_views_user_new_html_erb___1543784553646464926_69970029798000'
+Started GET "/signup" for 127.0.0.1 at 2019-08-02 12:22:29 +0530
+Processing by UserController#new as HTML
+  Rendering user/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.5ms)
+  Rendered user/_form.html.erb (5.1ms)
+  Rendered user/new.html.erb within layouts/application (12.7ms)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"user"}, missing required keys: [:id]):
+    13:         <%= f.submit %> 
+    14:     </p>
+    15: <% end %>
+    16: <%= link_to 'Back', user_path %>
+  
+app/views/user/new.html.erb:16:in `_app_views_user_new_html_erb___1543784553646464926_69970036271520'
+Started GET "/signup" for 127.0.0.1 at 2019-08-02 12:23:20 +0530
+Processing by UserController#new as HTML
+  Rendering user/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.5ms)
+  Rendered user/_form.html.erb (4.1ms)
+  Rendered user/new.html.erb within layouts/application (9.3ms)
+  Rendered layouts/_navigation.html.erb (0.8ms)
+  Rendered layouts/_messagges.html.erb (0.7ms)
+Completed 200 OK in 83ms (Views: 81.7ms | ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2019-08-02 12:23:37 +0530
+Processing by UserController#new as HTML
+  Rendering user/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.7ms)
+  Rendered user/_form.html.erb (4.5ms)
+  Rendered user/new.html.erb within layouts/application (5.7ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_messagges.html.erb (0.4ms)
+Completed 200 OK in 67ms (Views: 65.9ms | ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2019-08-02 12:24:42 +0530
+Processing by UserController#new as HTML
+  Rendering user/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.6ms)
+  Rendered user/_form.html.erb (5.2ms)
+  Rendered user/new.html.erb within layouts/application (6.5ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_messagges.html.erb (0.4ms)
+Completed 200 OK in 80ms (Views: 78.4ms | ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2019-08-02 12:24:51 +0530
+Processing by UserController#new as HTML
+  Rendering user/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.5ms)
+  Rendered user/_form.html.erb (3.9ms)
+  Rendered user/new.html.erb within layouts/application (5.3ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_messagges.html.erb (0.5ms)
+Completed 200 OK in 68ms (Views: 67.0ms | ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2019-08-02 12:25:00 +0530
+Processing by UserController#new as HTML
+  Rendering user/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.9ms)
+  Rendered user/_form.html.erb (5.9ms)
+  Rendered user/new.html.erb within layouts/application (7.3ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messagges.html.erb (0.7ms)
+Completed 200 OK in 73ms (Views: 71.8ms | ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2019-08-02 12:25:20 +0530
+Processing by UserController#new as HTML
+  Rendering user/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.5ms)
+  Rendered user/_form.html.erb (11.9ms)
+  Rendered user/new.html.erb within layouts/application (14.2ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_messagges.html.erb (0.6ms)
+Completed 200 OK in 83ms (Views: 80.9ms | ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2019-08-02 12:25:42 +0530
+Processing by UserController#new as HTML
+  Rendering user/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.6ms)
+  Rendered user/_form.html.erb (3.9ms)
+  Rendered user/new.html.erb within layouts/application (5.1ms)
+  Rendered layouts/_navigation.html.erb (0.9ms)
+  Rendered layouts/_messagges.html.erb (0.7ms)
+Completed 200 OK in 71ms (Views: 69.9ms | ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2019-08-02 12:26:25 +0530
+Processing by UserController#new as HTML
+  Rendering user/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.6ms)
+  Rendered user/_form.html.erb (5.0ms)
+  Rendered user/new.html.erb within layouts/application (6.5ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_messagges.html.erb (0.5ms)
+Completed 200 OK in 68ms (Views: 66.0ms | ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+Started POST "/signup.5d43de99d0ed5a3eac777658" for 127.0.0.1 at 2019-08-02 12:26:32 +0530
+  
+ActionController::RoutingError (No route matches [POST] "/signup.5d43de99d0ed5a3eac777658"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/signup" for 127.0.0.1 at 2019-08-02 12:30:29 +0530
+Processing by UserController#new as HTML
+  Rendering user/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.9ms)
+  Rendered user/_form.html.erb (7.1ms)
+  Rendered user/new.html.erb within layouts/application (8.5ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_messagges.html.erb (1.3ms)
+Completed 200 OK in 125ms (Views: 123.2ms | ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-08-02 12:30:42 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_messagges.html.erb (0.6ms)
+Completed 200 OK in 70ms (Views: 68.1ms | ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-08-02 12:30:43 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_messagges.html.erb (0.5ms)
+Completed 200 OK in 64ms (Views: 62.2ms | ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2019-08-02 12:30:45 +0530
+Processing by UserController#new as HTML
+  Rendering user/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.7ms)
+  Rendered user/_form.html.erb (13.3ms)
+  Rendered user/new.html.erb within layouts/application (14.9ms)
+  Rendered layouts/_navigation.html.erb (0.9ms)
+  Rendered layouts/_messagges.html.erb (0.7ms)
+Completed 200 OK in 86ms (Views: 83.9ms | ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+Started GET "/user" for 127.0.0.1 at 2019-08-02 12:30:50 +0530
+Processing by UserController#index as HTML
+  Rendering user/index.html.erb within layouts/application
+  Rendered user/index.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_navigation.html.erb (0.9ms)
+  Rendered layouts/_messagges.html.erb (0.5ms)
+Completed 200 OK in 61ms (Views: 59.7ms | ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+Started GET "/signup/" for 127.0.0.1 at 2019-08-02 12:49:09 +0530
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /var/lib/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.2.3) lib/active_record/migration.rb:579:in `check_pending!'
+activerecord (5.2.3) lib/active_record/migration.rb:556:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.3) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to AddUserToMeets (20190802071809)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to AddUserToMeets (20190802071809)
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to AddUserToMeets (20190802071809)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to AddUserToMeets (20190802074209)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.5ms)[0m  [1m[35mALTER TABLE "meets" ADD "username_id" integer[0m
+  ↳ db/migrate/20190802074209_add_user_to_meets.rb:3
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ db/migrate/20190802074209_add_user_to_meets.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE  INDEX "index_meets_on_username_id" ON "meets" ("username_id")[0m
+  ↳ db/migrate/20190802074209_add_user_to_meets.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190802074209"]]
+  ↳ bin/rails:9
+  [1m[35m (102.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Started POST "/user/5d43d862d0ed5a3eac777641" for 127.0.0.1 at 2019-08-02 13:13:20 +0530
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /var/lib/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  
+ActionController::RoutingError (No route matches [POST] "/user/5d43d862d0ed5a3eac777641"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/user/5d43d862d0ed5a3eac777641" for 127.0.0.1 at 2019-08-02 13:13:24 +0530
+Processing by UserController#show as HTML
+  Parameters: {"id"=>"5d43d862d0ed5a3eac777641"}
+MONGODB | EVENT: #<TopologyOpening topology=Unknown[]>
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | EVENT: #<TopologyChanged prev=Unknown[] new=Unknown[localhost:27017]>
+MONGODB | Topology type 'Unknown' changed to type 'Unknown'.
+MONGODB | EVENT: #<ServerOpening address=localhost:27017 topology=Unknown[localhost:27017]>
+MONGODB | Server localhost:27017 initializing.
+MONGODB | EVENT: #<ServerDescriptionChanged address=localhost:27017 topology=Single[localhost:27017] prev=#<Mongo::Server:Description:0x69970035364140 config={} average_round_trip_time=> new=#<Mongo::Server:Description:0x69970035326760 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-08-02 07:43:24 UTC, "logicalSessionTimeoutMinutes"=>30, "minWireVersion"=>0, "maxWireVersion"=>6, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.001881894>>
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'standalone'.
+MONGODB | EVENT: #<TopologyChanged prev=Unknown[localhost:27017] new=Single[localhost:27017]>
+MONGODB | Topology type 'Unknown' changed to type 'Single'.
+MONGODB | localhost:27017 | rmbk_development.find | STARTED | {"find"=>"users", "filter"=>{"_id"=>BSON::ObjectId('5d43d862d0ed5a3eac777641')}, "lsid"=>{"id"=><BSON::Binary:0x69970035320480 type=uuid data=0x0b41bb4068214e85...>}}
+MONGODB | localhost:27017 | rmbk_development.find | SUCCEEDED | 0.036s
+Completed 404 Not Found in 57ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+Mongoid::Errors::DocumentNotFound (
+message:
+  Document(s) not found for class User with id(s) 5d43d862d0ed5a3eac777641.
+summary:
+  When calling User.find with an id or array of ids, each parameter must match a document in the database or this error will be raised. The search was for the id(s): 5d43d862d0ed5a3eac777641 ... (1 total) and the following ids were not found: 5d43d862d0ed5a3eac777641.
+resolution:
+  Search for an id that is in the database or set the Mongoid.raise_not_found_error configuration option to false, which will cause a nil to be returned instead of raising this error when searching for a single id, or only the matched documents when searching for multiples.):
+  
+app/controllers/user_controller.rb:49:in `set_user'
+Started GET "/users" for 127.0.0.1 at 2019-08-02 13:14:25 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/users"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/user" for 127.0.0.1 at 2019-08-02 13:14:29 +0530
+Processing by UserController#index as HTML
+  Rendering user/index.html.erb within layouts/application
+  Rendered user/index.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_navigation.html.erb (0.9ms)
+  Rendered layouts/_messagges.html.erb (0.5ms)
+Completed 200 OK in 70ms (Views: 62.0ms | ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2019-08-02 13:14:39 +0530
+Processing by UserController#new as HTML
+  Rendering user/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.7ms)
+  Rendered user/_form.html.erb (5.4ms)
+  Rendered user/new.html.erb within layouts/application (6.8ms)
+  Rendered layouts/_navigation.html.erb (0.9ms)
+  Rendered layouts/_messagges.html.erb (0.6ms)
+Completed 200 OK in 80ms (Views: 76.9ms | ActiveRecord: 0.5ms | MongoDB: 0.0ms)
+
+
+Started POST "/signup.5d43e9e7d0ed5a3eac77765b" for 127.0.0.1 at 2019-08-02 13:14:53 +0530
+  
+ActionController::RoutingError (No route matches [POST] "/signup.5d43e9e7d0ed5a3eac77765b"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/user/1" for 127.0.0.1 at 2019-08-02 13:16:37 +0530
+Processing by UserController#show as HTML
+  Parameters: {"id"=>"1"}
+MONGODB | localhost:27017 | rmbk_development.find | STARTED | {"find"=>"users", "filter"=>{"_id"=>"1"}, "lsid"=>{"id"=><BSON::Binary:0x69970035320480 type=uuid data=0x0b41bb4068214e85...>}}
+MONGODB | localhost:27017 | rmbk_development.find | SUCCEEDED | 0.000s
+Completed 404 Not Found in 8ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+Mongoid::Errors::DocumentNotFound (
+message:
+  Document(s) not found for class User with id(s) 1.
+summary:
+  When calling User.find with an id or array of ids, each parameter must match a document in the database or this error will be raised. The search was for the id(s): 1 ... (1 total) and the following ids were not found: 1.
+resolution:
+  Search for an id that is in the database or set the Mongoid.raise_not_found_error configuration option to false, which will cause a nil to be returned instead of raising this error when searching for a single id, or only the matched documents when searching for multiples.):
+  
+app/controllers/user_controller.rb:49:in `set_user'
+Started GET "/user/1/edit" for 127.0.0.1 at 2019-08-02 13:16:42 +0530
+Processing by UserController#edit as HTML
+  Parameters: {"id"=>"1"}
+MONGODB | localhost:27017 | rmbk_development.find | STARTED | {"find"=>"users", "filter"=>{"_id"=>"1"}, "lsid"=>{"id"=><BSON::Binary:0x69970035320480 type=uuid data=0x0b41bb4068214e85...>}}
+MONGODB | localhost:27017 | rmbk_development.find | SUCCEEDED | 0.000s
+Completed 404 Not Found in 4ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+Mongoid::Errors::DocumentNotFound (
+message:
+  Document(s) not found for class User with id(s) 1.
+summary:
+  When calling User.find with an id or array of ids, each parameter must match a document in the database or this error will be raised. The search was for the id(s): 1 ... (1 total) and the following ids were not found: 1.
+resolution:
+  Search for an id that is in the database or set the Mongoid.raise_not_found_error configuration option to false, which will cause a nil to be returned instead of raising this error when searching for a single id, or only the matched documents when searching for multiples.):
+  
+app/controllers/user_controller.rb:49:in `set_user'
+Started GET "/user/2/edit" for 127.0.0.1 at 2019-08-02 13:16:49 +0530
+Processing by UserController#edit as HTML
+  Parameters: {"id"=>"2"}
+MONGODB | localhost:27017 | rmbk_development.find | STARTED | {"find"=>"users", "filter"=>{"_id"=>"2"}, "lsid"=>{"id"=><BSON::Binary:0x69970035320480 type=uuid data=0x0b41bb4068214e85...>}}
+MONGODB | localhost:27017 | rmbk_development.find | SUCCEEDED | 0.000s
+Completed 404 Not Found in 4ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+Mongoid::Errors::DocumentNotFound (
+message:
+  Document(s) not found for class User with id(s) 2.
+summary:
+  When calling User.find with an id or array of ids, each parameter must match a document in the database or this error will be raised. The search was for the id(s): 2 ... (1 total) and the following ids were not found: 2.
+resolution:
+  Search for an id that is in the database or set the Mongoid.raise_not_found_error configuration option to false, which will cause a nil to be returned instead of raising this error when searching for a single id, or only the matched documents when searching for multiples.):
+  
+app/controllers/user_controller.rb:49:in `set_user'
+MONGODB | EVENT: #<TopologyOpening topology=Unknown[]>
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | EVENT: #<TopologyChanged prev=Unknown[] new=Unknown[localhost:27017]>
+MONGODB | Topology type 'Unknown' changed to type 'Unknown'.
+MONGODB | EVENT: #<ServerOpening address=localhost:27017 topology=Unknown[localhost:27017]>
+MONGODB | Server localhost:27017 initializing.
+MONGODB | EVENT: #<ServerDescriptionChanged address=localhost:27017 topology=Single[localhost:27017] prev=#<Mongo::Server:Description:0x47460635051120 config={} average_round_trip_time=> new=#<Mongo::Server:Description:0x47460635492100 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-08-02 07:49:22 UTC, "logicalSessionTimeoutMinutes"=>30, "minWireVersion"=>0, "maxWireVersion"=>6, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.00362827>>
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'standalone'.
+MONGODB | EVENT: #<TopologyChanged prev=Unknown[localhost:27017] new=Single[localhost:27017]>
+MONGODB | Topology type 'Unknown' changed to type 'Single'.
+MONGODB | localhost:27017 | rmbk_development.find | STARTED | {"find"=>"users", "filter"=>{"username"=>"Prajuuuu"}, "projection"=>{"_id"=>1}, "limit"=>1, "$readPreference"=>{"mode"=>"primary"}, "lsid"=>{"id"=><BSON::Binary:0x47460635452700 type=uuid data=0x9c672b7a0d344365...>}}
+MONGODB | localhost:27017 | rmbk_development.find | SUCCEEDED | 0.001s
+MONGODB | localhost:27017 | rmbk_development.insert | STARTED | {"insert"=>"users", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('5d43eb02d0ed5a4964a3698b'), "username"=>"Prajuuuu", "admin"=>true, "password_digest"=>"$2a$12$0CXlB0EnMVscg0jdm/eXnO3LKCy/kiLcsZ2L/Fq4gFkTCOGF7iyVK"}], "lsid"=>{"id"=><BSON::Bi...
+MONGODB | localhost:27017 | rmbk_development.insert | SUCCEEDED | 0.001s
+MONGODB | localhost:27017 | rmbk_development.find | STARTED | {"find"=>"users", "filter"=>{"username"=>"Prajuuuu"}, "projection"=>{"_id"=>1}, "limit"=>1, "$readPreference"=>{"mode"=>"primary"}, "lsid"=>{"id"=><BSON::Binary:0x47460635452700 type=uuid data=0x9c672b7a0d344365...>}}
+MONGODB | localhost:27017 | rmbk_development.find | SUCCEEDED | 0.001s
+MONGODB | localhost:27017 | rmbk_development.find | STARTED | {"find"=>"users", "filter"=>{"username"=>"Prajuuu"}, "projection"=>{"_id"=>1}, "limit"=>1, "$readPreference"=>{"mode"=>"primary"}, "lsid"=>{"id"=><BSON::Binary:0x47460635452700 type=uuid data=0x9c672b7a0d344365...>}}
+MONGODB | localhost:27017 | rmbk_development.find | SUCCEEDED | 0.000s
+MONGODB | localhost:27017 | rmbk_development.insert | STARTED | {"insert"=>"users", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('5d43eb1dd0ed5a4964a3698c'), "username"=>"Prajuuu", "admin"=>true, "password_digest"=>"$2a$12$Lyl7.Hp8Bvd.WsLRM6cyWe8/4539jLXvvrBKtnuYjo5uQPlK28kVy"}], "lsid"=>{"id"=><BSON::Bin...
+MONGODB | localhost:27017 | rmbk_development.insert | SUCCEEDED | 0.000s
+Started GET "/signup" for 127.0.0.1 at 2019-08-02 13:28:21 +0530
+Processing by UserController#new as HTML
+  Rendering user/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.5ms)
+  Rendered user/_form.html.erb (3.3ms)
+  Rendered user/new.html.erb within layouts/application (4.5ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_messagges.html.erb (0.5ms)
+Completed 200 OK in 70ms (Views: 68.1ms | ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+Started POST "/user/5d43ed1dd0ed5a3eac77765c" for 127.0.0.1 at 2019-08-02 13:28:32 +0530
+  
+ActionController::RoutingError (No route matches [POST] "/user/5d43ed1dd0ed5a3eac77765c"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started POST "/user/5d43ed1dd0ed5a3eac77765c" for 127.0.0.1 at 2019-08-02 13:31:11 +0530
+  
+ActionController::RoutingError (No route matches [POST] "/user/5d43ed1dd0ed5a3eac77765c"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/user/5d43ed1dd0ed5a3eac77765c" for 127.0.0.1 at 2019-08-02 13:31:18 +0530
+Processing by UserController#show as HTML
+  Parameters: {"id"=>"5d43ed1dd0ed5a3eac77765c"}
+MONGODB | localhost:27017 | rmbk_development.find | STARTED | {"find"=>"users", "filter"=>{"_id"=>BSON::ObjectId('5d43ed1dd0ed5a3eac77765c')}, "lsid"=>{"id"=><BSON::Binary:0x69970035320480 type=uuid data=0x0b41bb4068214e85...>}}
+MONGODB | localhost:27017 | rmbk_development.find | SUCCEEDED | 0.000s
+Completed 404 Not Found in 14ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+Mongoid::Errors::DocumentNotFound (
+message:
+  Document(s) not found for class User with id(s) 5d43ed1dd0ed5a3eac77765c.
+summary:
+  When calling User.find with an id or array of ids, each parameter must match a document in the database or this error will be raised. The search was for the id(s): 5d43ed1dd0ed5a3eac77765c ... (1 total) and the following ids were not found: 5d43ed1dd0ed5a3eac77765c.
+resolution:
+  Search for an id that is in the database or set the Mongoid.raise_not_found_error configuration option to false, which will cause a nil to be returned instead of raising this error when searching for a single id, or only the matched documents when searching for multiples.):
+  
+app/controllers/user_controller.rb:50:in `set_user'
+Started GET "/user/5" for 127.0.0.1 at 2019-08-02 13:32:04 +0530
+Processing by UserController#show as HTML
+  Parameters: {"id"=>"5"}
+MONGODB | localhost:27017 | rmbk_development.find | STARTED | {"find"=>"users", "filter"=>{"_id"=>"5"}, "lsid"=>{"id"=><BSON::Binary:0x69970035320480 type=uuid data=0x0b41bb4068214e85...>}}
+MONGODB | localhost:27017 | rmbk_development.find | SUCCEEDED | 0.000s
+Completed 404 Not Found in 6ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+Mongoid::Errors::DocumentNotFound (
+message:
+  Document(s) not found for class User with id(s) 5.
+summary:
+  When calling User.find with an id or array of ids, each parameter must match a document in the database or this error will be raised. The search was for the id(s): 5 ... (1 total) and the following ids were not found: 5.
+resolution:
+  Search for an id that is in the database or set the Mongoid.raise_not_found_error configuration option to false, which will cause a nil to be returned instead of raising this error when searching for a single id, or only the matched documents when searching for multiples.):
+  
+app/controllers/user_controller.rb:50:in `set_user'
+Started GET "/user/5/edit" for 127.0.0.1 at 2019-08-02 13:32:14 +0530
+Processing by UserController#edit as HTML
+  Parameters: {"id"=>"5"}
+MONGODB | localhost:27017 | rmbk_development.find | STARTED | {"find"=>"users", "filter"=>{"_id"=>"5"}, "lsid"=>{"id"=><BSON::Binary:0x69970035320480 type=uuid data=0x0b41bb4068214e85...>}}
+MONGODB | localhost:27017 | rmbk_development.find | SUCCEEDED | 0.000s
+Completed 404 Not Found in 4ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+Mongoid::Errors::DocumentNotFound (
+message:
+  Document(s) not found for class User with id(s) 5.
+summary:
+  When calling User.find with an id or array of ids, each parameter must match a document in the database or this error will be raised. The search was for the id(s): 5 ... (1 total) and the following ids were not found: 5.
+resolution:
+  Search for an id that is in the database or set the Mongoid.raise_not_found_error configuration option to false, which will cause a nil to be returned instead of raising this error when searching for a single id, or only the matched documents when searching for multiples.):
+  
+app/controllers/user_controller.rb:50:in `set_user'
+Started GET "/user/1/edit" for 127.0.0.1 at 2019-08-02 13:32:19 +0530
+Processing by UserController#edit as HTML
+  Parameters: {"id"=>"1"}
+MONGODB | localhost:27017 | rmbk_development.find | STARTED | {"find"=>"users", "filter"=>{"_id"=>"1"}, "lsid"=>{"id"=><BSON::Binary:0x69970035320480 type=uuid data=0x0b41bb4068214e85...>}}
+MONGODB | localhost:27017 | rmbk_development.find | SUCCEEDED | 0.000s
+Completed 404 Not Found in 4ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+Mongoid::Errors::DocumentNotFound (
+message:
+  Document(s) not found for class User with id(s) 1.
+summary:
+  When calling User.find with an id or array of ids, each parameter must match a document in the database or this error will be raised. The search was for the id(s): 1 ... (1 total) and the following ids were not found: 1.
+resolution:
+  Search for an id that is in the database or set the Mongoid.raise_not_found_error configuration option to false, which will cause a nil to be returned instead of raising this error when searching for a single id, or only the matched documents when searching for multiples.):
+  
+app/controllers/user_controller.rb:50:in `set_user'
+Started GET "/user/1/edit" for 127.0.0.1 at 2019-08-02 13:33:17 +0530
+Processing by UserController#edit as HTML
+  Parameters: {"id"=>"1"}
+MONGODB | localhost:27017 | rmbk_development.find | STARTED | {"find"=>"users", "filter"=>{"_id"=>"1"}, "lsid"=>{"id"=><BSON::Binary:0x69970035320480 type=uuid data=0x0b41bb4068214e85...>}}
+MONGODB | localhost:27017 | rmbk_development.find | SUCCEEDED | 0.000s
+Completed 404 Not Found in 5ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+Mongoid::Errors::DocumentNotFound (
+message:
+  Document(s) not found for class User with id(s) 1.
+summary:
+  When calling User.find with an id or array of ids, each parameter must match a document in the database or this error will be raised. The search was for the id(s): 1 ... (1 total) and the following ids were not found: 1.
+resolution:
+  Search for an id that is in the database or set the Mongoid.raise_not_found_error configuration option to false, which will cause a nil to be returned instead of raising this error when searching for a single id, or only the matched documents when searching for multiples.):
+  
+app/controllers/user_controller.rb:50:in `set_user'
+Started GET "/user/1655/edit" for 127.0.0.1 at 2019-08-02 13:33:24 +0530
+Processing by UserController#edit as HTML
+  Parameters: {"id"=>"1655"}
+MONGODB | localhost:27017 | rmbk_development.find | STARTED | {"find"=>"users", "filter"=>{"_id"=>"1655"}, "lsid"=>{"id"=><BSON::Binary:0x69970035320480 type=uuid data=0x0b41bb4068214e85...>}}
+MONGODB | localhost:27017 | rmbk_development.find | SUCCEEDED | 0.000s
+Completed 404 Not Found in 4ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+Mongoid::Errors::DocumentNotFound (
+message:
+  Document(s) not found for class User with id(s) 1655.
+summary:
+  When calling User.find with an id or array of ids, each parameter must match a document in the database or this error will be raised. The search was for the id(s): 1655 ... (1 total) and the following ids were not found: 1655.
+resolution:
+  Search for an id that is in the database or set the Mongoid.raise_not_found_error configuration option to false, which will cause a nil to be returned instead of raising this error when searching for a single id, or only the matched documents when searching for multiples.):
+  
+app/controllers/user_controller.rb:50:in `set_user'
+Started GET "/user/1655/edit" for 127.0.0.1 at 2019-08-02 13:34:42 +0530
+Processing by UserController#edit as HTML
+  Parameters: {"id"=>"1655"}
+MONGODB | localhost:27017 | rmbk_development.find | STARTED | {"find"=>"users", "filter"=>{"_id"=>"1655"}, "lsid"=>{"id"=><BSON::Binary:0x69970035320480 type=uuid data=0x0b41bb4068214e85...>}}
+MONGODB | localhost:27017 | rmbk_development.find | SUCCEEDED | 0.000s
+Completed 404 Not Found in 10ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+Mongoid::Errors::DocumentNotFound (
+message:
+  Document(s) not found for class User with id(s) 1655.
+summary:
+  When calling User.find with an id or array of ids, each parameter must match a document in the database or this error will be raised. The search was for the id(s): 1655 ... (1 total) and the following ids were not found: 1655.
+resolution:
+  Search for an id that is in the database or set the Mongoid.raise_not_found_error configuration option to false, which will cause a nil to be returned instead of raising this error when searching for a single id, or only the matched documents when searching for multiples.):
+  
+app/controllers/user_controller.rb:50:in `set_user'
+Started GET "/signup" for 127.0.0.1 at 2019-08-02 13:34:54 +0530
+Processing by UserController#new as HTML
+  Rendering user/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.5ms)
+  Rendered user/_form.html.erb (3.9ms)
+  Rendered user/new.html.erb within layouts/application (5.2ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_messagges.html.erb (0.5ms)
+Completed 200 OK in 74ms (Views: 70.3ms | ActiveRecord: 0.5ms | MongoDB: 0.0ms)
+
+
+Started POST "/user/5d43eea6d0ed5a3eac77765d" for 127.0.0.1 at 2019-08-02 13:35:08 +0530
+  
+ActionController::RoutingError (No route matches [POST] "/user/5d43eea6d0ed5a3eac77765d"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/user/5d43eea6d0ed5a3eac77765d/show" for 127.0.0.1 at 2019-08-02 13:35:25 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/user/5d43eea6d0ed5a3eac77765d/show"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started POST "/user/5d43eea6d0ed5a3eac77765d" for 127.0.0.1 at 2019-08-02 13:35:46 +0530
+  
+ActionController::RoutingError (No route matches [POST] "/user/5d43eea6d0ed5a3eac77765d"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+MONGODB | localhost:27017 | rmbk_development.find | STARTED | {"find"=>"users", "filter"=>{"username"=>"Prajuuuutgfv"}, "projection"=>{"_id"=>1}, "limit"=>1, "$readPreference"=>{"mode"=>"primary"}, "lsid"=>{"id"=><BSON::Binary:0x47460635452700 type=uuid data=0x9c672b7a0d344365...>}}
+MONGODB | localhost:27017 | rmbk_development.find | SUCCEEDED | 0.001s
+MONGODB | localhost:27017 | rmbk_development.insert | STARTED | {"insert"=>"users", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('5d43ef62d0ed5a4964a3698d'), "username"=>"Prajuuuutgfv", "admin"=>true, "password_digest"=>"$2a$12$6.wxRKZxYla.w8BigVYw5O8LXNmpRknzBghKhsdlEY3B7T12Ua.BO"}], "lsid"=>{"id"=><BSON...
+MONGODB | localhost:27017 | rmbk_development.insert | SUCCEEDED | 0.000s
+Started POST "/user/5d43eea6d0ed5a3eac77765d" for 127.0.0.1 at 2019-08-02 13:44:11 +0530
+  
+ActionController::RoutingError (No route matches [POST] "/user/5d43eea6d0ed5a3eac77765d"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/signup" for 127.0.0.1 at 2019-08-02 13:44:17 +0530
+Processing by UserController#new as HTML
+  Rendering user/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.6ms)
+  Rendered user/_form.html.erb (3.8ms)
+  Rendered user/new.html.erb within layouts/application (5.1ms)
+  Rendered layouts/_navigation.html.erb (0.9ms)
+  Rendered layouts/_messagges.html.erb (0.4ms)
+Completed 200 OK in 74ms (Views: 63.7ms | ActiveRecord: 0.4ms | MongoDB: 0.0ms)
+
+
+Started POST "/user/5d43f0d9d0ed5a3eac77765e" for 127.0.0.1 at 2019-08-02 13:44:28 +0530
+  
+ActionController::RoutingError (No route matches [POST] "/user/5d43f0d9d0ed5a3eac77765e"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started POST "/user/5d43f0d9d0ed5a3eac77765e" for 127.0.0.1 at 2019-08-02 13:45:39 +0530
+  
+ActionController::RoutingError (No route matches [POST] "/user/5d43f0d9d0ed5a3eac77765e"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/signup" for 127.0.0.1 at 2019-08-02 13:45:47 +0530
+Processing by UserController#new as HTML
+  Rendering user/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.6ms)
+  Rendered user/_form.html.erb (173.2ms)
+  Rendered user/new.html.erb within layouts/application (174.7ms)
+Completed 500 Internal Server Error in 177ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `show_user_path' for #<#<Class:0x00007f4648404b70>:0x00007f4655312520>):
+    2: 
+    3: <div class='row'>
+    4:     <div class='col-xs-12'>
+    5:         <%= form_for @user, url: show_user_path(@user) do |f| %>
+    6:             <div class="form-group">
+    7:                 <div class="control-label col-sm-2">
+    8:                     <%= f.label :username %>
+  
+app/views/user/_form.html.erb:5:in `_app_views_user__form_html_erb__3289180786787695947_69970026482880'
+app/views/user/new.html.erb:2:in `_app_views_user_new_html_erb___1543784553646464926_69970027325680'
+Started GET "/signup" for 127.0.0.1 at 2019-08-02 13:45:56 +0530
+Processing by UserController#new as HTML
+  Rendering user/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.5ms)
+  Rendered user/_form.html.erb (223.9ms)
+  Rendered user/new.html.erb within layouts/application (225.2ms)
+Completed 500 Internal Server Error in 227ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `show_user_path' for #<#<Class:0x00007f4648404b70>:0x00007f4655bb03d0>):
+    2: 
+    3: <div class='row'>
+    4:     <div class='col-xs-12'>
+    5:         <%= form_for @user, url: show_user_path(@user) do |f| %>
+    6:             <div class="form-group">
+    7:                 <div class="control-label col-sm-2">
+    8:                     <%= f.label :username %>
+  
+app/views/user/_form.html.erb:5:in `_app_views_user__form_html_erb__3289180786787695947_69970031794720'
+app/views/user/new.html.erb:2:in `_app_views_user_new_html_erb___1543784553646464926_69970031383520'
+Started GET "/signup" for 127.0.0.1 at 2019-08-02 13:48:46 +0530
+Processing by UserController#new as HTML
+  Rendering user/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.8ms)
+  Rendered user/_form.html.erb (157.4ms)
+  Rendered user/new.html.erb within layouts/application (158.6ms)
+Completed 500 Internal Server Error in 161ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `show_user_path' for #<#<Class:0x00007f4648404b70>:0x00007f465624f6a0>):
+    2: 
+    3: <div class='row'>
+    4:     <div class='col-xs-12'>
+    5:         <%= form_for @user, url: show_user_path(@user) do |f| %>
+    6:             <div class="form-group">
+    7:                 <div class="control-label col-sm-2">
+    8:                     <%= f.label :username %>
+  
+app/views/user/_form.html.erb:5:in `_app_views_user__form_html_erb__3289180786787695947_69970034838180'
+app/views/user/new.html.erb:2:in `_app_views_user_new_html_erb___1543784553646464926_69970034851860'
+Started GET "/signup" for 127.0.0.1 at 2019-08-02 13:48:59 +0530
+Processing by UserController#new as HTML
+  Rendering user/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.5ms)
+  Rendered user/_form.html.erb (4.0ms)
+  Rendered user/new.html.erb within layouts/application (5.2ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_messagges.html.erb (0.4ms)
+Completed 200 OK in 65ms (Views: 63.9ms | ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+Started POST "/user/5d43f1f3d0ed5a3eac777662" for 127.0.0.1 at 2019-08-02 13:52:54 +0530
+  
+ActionController::RoutingError (No route matches [POST] "/user/5d43f1f3d0ed5a3eac777662"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started POST "/user/5d43f1f3d0ed5a3eac777662" for 127.0.0.1 at 2019-08-02 14:22:02 +0530
+  
+ActionController::RoutingError (No route matches [POST] "/user/5d43f1f3d0ed5a3eac777662"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/user" for 127.0.0.1 at 2019-08-02 14:31:45 +0530
+Processing by UserController#index as HTML
+  Rendering user/index.html.erb within layouts/application
+  Rendered user/index.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_messagges.html.erb (0.5ms)
+Completed 200 OK in 92ms (Views: 83.9ms | ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+Started GET "/user" for 127.0.0.1 at 2019-08-02 14:57:12 +0530
+Processing by UserController#index as HTML
+  Rendering user/index.html.erb within layouts/application
+  Rendered user/index.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_messagges.html.erb (0.6ms)
+Completed 200 OK in 101ms (Views: 91.8ms | ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+Started GET "/user" for 127.0.0.1 at 2019-08-02 14:57:15 +0530
+Processing by UserController#index as HTML
+  Rendering user/index.html.erb within layouts/application
+  Rendered user/index.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_messagges.html.erb (0.5ms)
+Completed 200 OK in 62ms (Views: 60.1ms | ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+Started GET "/user" for 127.0.0.1 at 2019-08-02 14:57:17 +0530
+Processing by UserController#index as HTML
+  Rendering user/index.html.erb within layouts/application
+  Rendered user/index.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_messagges.html.erb (0.6ms)
+Completed 200 OK in 69ms (Views: 67.0ms | ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+Started GET "/user" for 127.0.0.1 at 2019-08-02 14:57:18 +0530
+Processing by UserController#index as HTML
+  Rendering user/index.html.erb within layouts/application
+  Rendered user/index.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messagges.html.erb (0.6ms)
+Completed 200 OK in 66ms (Views: 64.3ms | ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-08-02 14:57:19 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (2.7ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_messagges.html.erb (0.6ms)
+Completed 200 OK in 69ms (Views: 67.8ms | ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2019-08-02 14:57:21 +0530
+Processing by UserController#new as HTML
+  Rendering user/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.8ms)
+  Rendered user/_form.html.erb (153.3ms)
+  Rendered user/new.html.erb within layouts/application (154.7ms)
+Completed 500 Internal Server Error in 161ms (ActiveRecord: 0.8ms | MongoDB: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `users_path' for #<#<Class:0x00007f463c157820>:0x00007f4654a52570>
+Did you mean?  user_path):
+    2: 
+    3: <div class='row'>
+    4:     <div class='col-xs-12'>
+    5:         <%= form_for(@user, :html => {class: "form-horizontal", role: "form"})  do |f| %>
+    6:             <div class="form-group">
+    7:                 <div class="control-label col-sm-2">
+    8:                     <%= f.label :username %>
+  
+app/views/user/_form.html.erb:5:in `_app_views_user__form_html_erb__3289180786787695947_69970021952180'
+app/views/user/new.html.erb:2:in `_app_views_user_new_html_erb___1543784553646464926_69970022289020'
+Started GET "/user/5d43f1f3d0ed5a3eac777662" for 127.0.0.1 at 2019-08-02 15:06:18 +0530
+Processing by UserController#show as HTML
+  Parameters: {"id"=>"5d43f1f3d0ed5a3eac777662"}
+MONGODB | localhost:27017 | rmbk_development.find | STARTED | {"find"=>"users", "filter"=>{"_id"=>BSON::ObjectId('5d43f1f3d0ed5a3eac777662')}, "lsid"=>{"id"=><BSON::Binary:0x69970033779440 type=uuid data=0x51371f689aeb4c67...>}}
+MONGODB | localhost:27017 | rmbk_development.find | SUCCEEDED | 0.000s
+Completed 404 Not Found in 5ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+Mongoid::Errors::DocumentNotFound (
+message:
+  Document(s) not found for class User with id(s) 5d43f1f3d0ed5a3eac777662.
+summary:
+  When calling User.find with an id or array of ids, each parameter must match a document in the database or this error will be raised. The search was for the id(s): 5d43f1f3d0ed5a3eac777662 ... (1 total) and the following ids were not found: 5d43f1f3d0ed5a3eac777662.
+resolution:
+  Search for an id that is in the database or set the Mongoid.raise_not_found_error configuration option to false, which will cause a nil to be returned instead of raising this error when searching for a single id, or only the matched documents when searching for multiples.):
+  
+app/controllers/user_controller.rb:50:in `set_user'
+Started GET "/" for 127.0.0.1 at 2019-08-02 15:06:22 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_messagges.html.erb (0.6ms)
+Completed 200 OK in 69ms (Views: 67.9ms | ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2019-08-02 15:06:25 +0530
+Processing by UserController#new as HTML
+  Rendering user/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.5ms)
+  Rendered user/_form.html.erb (4.8ms)
+  Rendered user/new.html.erb within layouts/application (6.3ms)
+  Rendered layouts/_navigation.html.erb (1.1ms)
+  Rendered layouts/_messagges.html.erb (0.6ms)
+Completed 200 OK in 69ms (Views: 67.3ms | ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+Started POST "/user/5d440419d0ed5a3eac777664" for 127.0.0.1 at 2019-08-02 15:06:38 +0530
+  
+ActionController::RoutingError (No route matches [POST] "/user/5d440419d0ed5a3eac777664"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/signup" for 127.0.0.1 at 2019-08-02 15:09:45 +0530
+Processing by UserController#new as HTML
+  Rendering user/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.6ms)
+  Rendered user/_form.html.erb (153.7ms)
+  Rendered user/new.html.erb within layouts/application (155.1ms)
+Completed 500 Internal Server Error in 159ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `create' for #<#<Class:0x00007f463c157820>:0x00007f4656113c28>):
+    2: 
+    3: <div class='row'>
+    4:     <div class='col-xs-12'>
+    5:         <%= form_for @user, as: :post, url: create(@user)  do |f| %>
+    6:             <div class="form-group">
+    7:                 <div class="control-label col-sm-2">
+    8:                     <%= f.label :username %>
+  
+app/views/user/_form.html.erb:5:in `_app_views_user__form_html_erb__3289180786787695947_69970034190460'
+app/views/user/new.html.erb:2:in `_app_views_user_new_html_erb___1543784553646464926_69970034205360'
+Started GET "/signup" for 127.0.0.1 at 2019-08-02 15:09:48 +0530
+Processing by UserController#new as HTML
+  Rendering user/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.4ms)
+  Rendered user/_form.html.erb (156.0ms)
+  Rendered user/new.html.erb within layouts/application (157.1ms)
+Completed 500 Internal Server Error in 160ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `create' for #<#<Class:0x00007f463c157820>:0x00007f463c00f698>):
+    2: 
+    3: <div class='row'>
+    4:     <div class='col-xs-12'>
+    5:         <%= form_for @user, as: :post, url: create(@user)  do |f| %>
+    6:             <div class="form-group">
+    7:                 <div class="control-label col-sm-2">
+    8:                     <%= f.label :username %>
+  
+app/views/user/_form.html.erb:5:in `_app_views_user__form_html_erb__3289180786787695947_69969817331280'
+app/views/user/new.html.erb:2:in `_app_views_user_new_html_erb___1543784553646464926_69969815568420'
+Started GET "/signup" for 127.0.0.1 at 2019-08-02 15:10:05 +0530
+Processing by UserController#new as HTML
+  Rendering user/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.5ms)
+  Rendered user/_form.html.erb (158.9ms)
+  Rendered user/new.html.erb within layouts/application (160.5ms)
+Completed 500 Internal Server Error in 164ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `new' for #<#<Class:0x00007f463c157820>:0x00007f4656248800>):
+    2: 
+    3: <div class='row'>
+    4:     <div class='col-xs-12'>
+    5:         <%= form_for @user, as: :post, url: new(@user)  do |f| %>
+    6:             <div class="form-group">
+    7:                 <div class="control-label col-sm-2">
+    8:                     <%= f.label :username %>
+  
+app/views/user/_form.html.erb:5:in `_app_views_user__form_html_erb__3289180786787695947_69970034822340'
+app/views/user/new.html.erb:2:in `_app_views_user_new_html_erb___1543784553646464926_69970034837700'
+Started GET "/signup" for 127.0.0.1 at 2019-08-02 15:12:39 +0530
+Processing by UserController#new as HTML
+  Rendering user/new.html.erb within layouts/application
+  Rendered user/_form.html.erb (1.1ms)
+  Rendered user/new.html.erb within layouts/application (2.4ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+SyntaxError (/home/prajkta/Ruby/Rails/rmbk/app/views/user/_form.html.erb:5: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+...orm_for @user, method="PUT" url: new(@user)  do |f| @output_...
+...                            ^~~):
+  
+app/views/user/_form.html.erb:5: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+app/views/user/new.html.erb:2:in `_app_views_user_new_html_erb___1543784553646464926_69969886783980'
+Started GET "/signup" for 127.0.0.1 at 2019-08-02 15:23:42 +0530
+Processing by UserController#new as HTML
+  Rendering user/new.html.erb within layouts/application
+  Rendered user/_form.html.erb (1.1ms)
+  Rendered user/new.html.erb within layouts/application (2.5ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+SyntaxError (/home/prajkta/Ruby/Rails/rmbk/app/views/user/_form.html.erb:5: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+...duct||(Product.new([some params])), :remote => true, :as => ...
+...                         ^~~~~~
+/home/prajkta/Ruby/Rails/rmbk/app/views/user/_form.html.erb:5: Can't assign to true
+...ome params])), :remote => true, :as => :product_data, :url =...
+...                              ^
+/home/prajkta/Ruby/Rails/rmbk/app/views/user/_form.html.erb:5: syntax error, unexpected =>, expecting &. or :: or '[' or '.'
+...ams])), :remote => true, :as => :product_data, :url => {:con...
+...                             ^~
+/home/prajkta/Ruby/Rails/rmbk/app/views/user/_form.html.erb:5: syntax error, unexpected ',', expecting ')'
+...=> :products, action: :update}, :html => {:class => 'form-ho...
+...                              ^
+/home/prajkta/Ruby/Rails/rmbk/app/views/user/_form.html.erb:5: syntax error, unexpected keyword_do, expecting ')'
+...:class => 'form-horizontal'} do |f| @output_buffer.safe_appe...
+...                             ^~
+/home/prajkta/Ruby/Rails/rmbk/app/views/user/_form.html.erb:6: syntax error, unexpected ',', expecting ')'
+...@user||(User.new(user_params)), :remote => true, :as => :use...
+...                              ^
+/home/prajkta/Ruby/Rails/rmbk/app/views/user/_form.html.erb:6: Can't assign to true
+...user_params)), :remote => true, :as => :user, :url => {:cont...
+...                              ^
+/home/prajkta/Ruby/Rails/rmbk/app/views/user/_form.html.erb:6: syntax error, unexpected =>, expecting &. or :: or '[' or '.'
+...rams)), :remote => true, :as => :user, :url => {:controller ...
+...                             ^~
+/home/prajkta/Ruby/Rails/rmbk/app/views/user/_form.html.erb:6: syntax error, unexpected ',', expecting ')'
+...ler => :user, action: :create}, :html => {:class => 'form-ho...
+...                              ^
+/home/prajkta/Ruby/Rails/rmbk/app/views/user/_form.html.erb:6: syntax error, unexpected keyword_do, expecting ')'
+...lass => 'form-horizontal'})  do |f| @output_buffer.safe_appe...
+...                             ^~
+/home/prajkta/Ruby/Rails/rmbk/app/views/user/_form.html.erb:40: syntax error, unexpected keyword_ensure, expecting end-of-input
+          ensure
+          ^~~~~~):
+  
+app/views/user/_form.html.erb:5: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+app/views/user/_form.html.erb:5: Can't assign to true
+app/views/user/_form.html.erb:5: syntax error, unexpected =>, expecting &. or :: or '[' or '.'
+app/views/user/_form.html.erb:5: syntax error, unexpected ',', expecting ')'
+app/views/user/_form.html.erb:5: syntax error, unexpected keyword_do, expecting ')'
+app/views/user/_form.html.erb:6: syntax error, unexpected ',', expecting ')'
+app/views/user/_form.html.erb:6: Can't assign to true
+app/views/user/_form.html.erb:6: syntax error, unexpected =>, expecting &. or :: or '[' or '.'
+app/views/user/_form.html.erb:6: syntax error, unexpected ',', expecting ')'
+app/views/user/_form.html.erb:6: syntax error, unexpected keyword_do, expecting ')'
+app/views/user/_form.html.erb:40: syntax error, unexpected keyword_ensure, expecting end-of-input
+app/views/user/new.html.erb:2:in `_app_views_user_new_html_erb___1543784553646464926_69969918468820'
+Started GET "/signup" for 127.0.0.1 at 2019-08-02 15:24:06 +0530
+Processing by UserController#new as HTML
+  Rendering user/new.html.erb within layouts/application
+  Rendered user/_form.html.erb (0.9ms)
+  Rendered user/new.html.erb within layouts/application (2.3ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+SyntaxError (/home/prajkta/Ruby/Rails/rmbk/app/views/user/_form.html.erb:6: syntax error, unexpected ',', expecting ')'
+...@user||(User.new(user_params)), :remote => true, :as => :use...
+...                              ^
+/home/prajkta/Ruby/Rails/rmbk/app/views/user/_form.html.erb:6: Can't assign to true
+...user_params)), :remote => true, :as => :user, :url => {:cont...
+...                              ^
+/home/prajkta/Ruby/Rails/rmbk/app/views/user/_form.html.erb:6: syntax error, unexpected =>, expecting &. or :: or '[' or '.'
+...rams)), :remote => true, :as => :user, :url => {:controller ...
+...                             ^~
+/home/prajkta/Ruby/Rails/rmbk/app/views/user/_form.html.erb:6: syntax error, unexpected ',', expecting keyword_end
+...ler => :user, action: :create}, :html => {:class => 'form-ho...
+...                              ^
+/home/prajkta/Ruby/Rails/rmbk/app/views/user/_form.html.erb:6: syntax error, unexpected ')', expecting keyword_end
+... {:class => 'form-horizontal'})  do |f| @output_buffer.safe_...
+...                              ^
+/home/prajkta/Ruby/Rails/rmbk/app/views/user/_form.html.erb:40: syntax error, unexpected keyword_ensure, expecting end-of-input
+          ensure
+          ^~~~~~):
+  
+app/views/user/_form.html.erb:6: syntax error, unexpected ',', expecting ')'
+app/views/user/_form.html.erb:6: Can't assign to true
+app/views/user/_form.html.erb:6: syntax error, unexpected =>, expecting &. or :: or '[' or '.'
+app/views/user/_form.html.erb:6: syntax error, unexpected ',', expecting keyword_end
+app/views/user/_form.html.erb:6: syntax error, unexpected ')', expecting keyword_end
+app/views/user/_form.html.erb:40: syntax error, unexpected keyword_ensure, expecting end-of-input
+app/views/user/new.html.erb:2:in `_app_views_user_new_html_erb___1543784553646464926_69970036801640'
+Started GET "/signup" for 127.0.0.1 at 2019-08-02 15:26:51 +0530
+Processing by UserController#new as HTML
+  Rendering user/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.7ms)
+  Rendered user/_form.html.erb (5.1ms)
+  Rendered user/new.html.erb within layouts/application (6.4ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_messagges.html.erb (0.7ms)
+Completed 200 OK in 75ms (Views: 74.4ms | ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+Started POST "/user" for 127.0.0.1 at 2019-08-02 15:27:02 +0530
+Processing by UserController#create as JS
+  Parameters: {"utf8"=>"✓", "user"=>{"username"=>"dRGSDRvg@email.comasdc", "password"=>"[FILTERED]"}, "commit"=>"Sign Up"}
+MONGODB | localhost:27017 | rmbk_development.find | STARTED | {"find"=>"users", "filter"=>{"username"=>"dRGSDRvg@email.comasdc"}, "projection"=>{"_id"=>1}, "limit"=>1, "$readPreference"=>{"mode"=>"primary"}, "lsid"=>{"id"=><BSON::Binary:0x69970033779440 type=uuid data=0x51371f689aeb4c67...>}}
+MONGODB | localhost:27017 | rmbk_development.find | SUCCEEDED | 0.000s
+MONGODB | localhost:27017 | rmbk_development.insert | STARTED | {"insert"=>"users", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('5d4408eed0ed5a3eac777668'), "username"=>"dRGSDRvg@email.comasdc", "password_digest"=>"$2a$12$PmhWHO8o8S8gLZMy10THseWoohkqVJ61D5ATDkbc1Mn1sNKWo9FQi"}], "lsid"=>{"id"=><BSON::Bin...
+MONGODB | localhost:27017 | rmbk_development.insert | SUCCEEDED | 0.000s
+Completed 500 Internal Server Error in 410ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+NoMethodError (undefined method `show_user_path' for #<UserController:0x0000561a2a2a5338>):
+  
+app/controllers/user_controller.rb:24:in `create'
+Started POST "/user" for 127.0.0.1 at 2019-08-02 15:27:23 +0530
+Processing by UserController#create as JS
+  Parameters: {"utf8"=>"✓", "user"=>{"username"=>"dRGSDRvdcse", "password"=>"[FILTERED]"}, "commit"=>"Sign Up"}
+MONGODB | localhost:27017 | rmbk_development.find | STARTED | {"find"=>"users", "filter"=>{"username"=>"dRGSDRvdcse"}, "projection"=>{"_id"=>1}, "limit"=>1, "$readPreference"=>{"mode"=>"primary"}, "lsid"=>{"id"=><BSON::Binary:0x69970033779440 type=uuid data=0x51371f689aeb4c67...>}}
+MONGODB | localhost:27017 | rmbk_development.find | SUCCEEDED | 0.000s
+MONGODB | localhost:27017 | rmbk_development.insert | STARTED | {"insert"=>"users", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('5d440903d0ed5a3eac777669'), "username"=>"dRGSDRvdcse", "password_digest"=>"$2a$12$X4IoMya4Yr45DX1l.JD1sO/L6qyN.BMc2eqx12WTfQrV4PMdiSM6."}], "lsid"=>{"id"=><BSON::Binary:0x69970...
+MONGODB | localhost:27017 | rmbk_development.insert | SUCCEEDED | 0.000s
+Completed 500 Internal Server Error in 387ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+NoMethodError (undefined method `show_user_path' for #<UserController:0x00007f4648421720>):
+  
+app/controllers/user_controller.rb:24:in `create'
+Started POST "/user" for 127.0.0.1 at 2019-08-02 15:27:28 +0530
+Processing by UserController#create as JS
+  Parameters: {"utf8"=>"✓", "user"=>{"username"=>"dRGSDRvdcse", "password"=>"[FILTERED]"}, "commit"=>"Sign Up"}
+MONGODB | localhost:27017 | rmbk_development.find | STARTED | {"find"=>"users", "filter"=>{"username"=>"dRGSDRvdcse"}, "projection"=>{"_id"=>1}, "limit"=>1, "$readPreference"=>{"mode"=>"primary"}, "lsid"=>{"id"=><BSON::Binary:0x69970033779440 type=uuid data=0x51371f689aeb4c67...>}}
+MONGODB | localhost:27017 | rmbk_development.find | SUCCEEDED | 0.001s
+  Rendering user/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.9ms)
+  Rendered user/_form.html.erb (22.9ms)
+  Rendered user/new.html.erb within layouts/application (27.3ms)
+Completed 500 Internal Server Error in 336ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `came_from_user?' for "dRGSDRvdcse":String):
+     9:                     <%= f.label :username %>
+    10:                 </div>
+    11:                 <div class="col-sm-6">
+    12:                     <%= f.text_field :username, class: "form-control", placeholder: "Enter User Name", autofocus: true %>
+    13:                 </div>
+    14:             </div>
+    15:             <br>
+  
+app/views/user/_form.html.erb:12:in `block in _app_views_user__form_html_erb__3289180786787695947_69970027623940'
+app/views/user/_form.html.erb:5:in `_app_views_user__form_html_erb__3289180786787695947_69970027623940'
+app/views/user/new.html.erb:2:in `_app_views_user_new_html_erb___1543784553646464926_69970027479440'
+app/controllers/user_controller.rb:26:in `create'
+Started POST "/user" for 127.0.0.1 at 2019-08-02 15:28:00 +0530
+Processing by UserController#create as JS
+  Parameters: {"utf8"=>"✓", "user"=>{"username"=>"dRGSDRvdcse", "password"=>"[FILTERED]"}, "commit"=>"Sign Up"}
+MONGODB | localhost:27017 | rmbk_development.find | STARTED | {"find"=>"users", "filter"=>{"username"=>"dRGSDRvdcse"}, "projection"=>{"_id"=>1}, "limit"=>1, "$readPreference"=>{"mode"=>"primary"}, "lsid"=>{"id"=><BSON::Binary:0x69970033779440 type=uuid data=0x51371f689aeb4c67...>}}
+MONGODB | localhost:27017 | rmbk_development.find | SUCCEEDED | 0.000s
+  Rendering user/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.9ms)
+  Rendered user/_form.html.erb (15.1ms)
+  Rendered user/new.html.erb within layouts/application (18.7ms)
+Completed 500 Internal Server Error in 321ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `came_from_user?' for "dRGSDRvdcse":String):
+     9:                     <%= f.label :username %>
+    10:                 </div>
+    11:                 <div class="col-sm-6">
+    12:                     <%= f.text_field :username, class: "form-control", placeholder: "Enter User Name", autofocus: true %>
+    13:                 </div>
+    14:             </div>
+    15:             <br>
+  
+app/views/user/_form.html.erb:12:in `block in _app_views_user__form_html_erb__3289180786787695947_69969818430360'
+app/views/user/_form.html.erb:5:in `_app_views_user__form_html_erb__3289180786787695947_69969818430360'
+app/views/user/new.html.erb:2:in `_app_views_user_new_html_erb___1543784553646464926_69969818459000'
+app/controllers/user_controller.rb:26:in `create'
+Started POST "/user" for 127.0.0.1 at 2019-08-02 15:28:08 +0530
+Processing by UserController#create as JS
+  Parameters: {"utf8"=>"✓", "user"=>{"username"=>"dRGSDRvdcse", "password"=>"[FILTERED]"}, "commit"=>"Sign Up"}
+MONGODB | localhost:27017 | rmbk_development.find | STARTED | {"find"=>"users", "filter"=>{"username"=>"dRGSDRvdcse"}, "projection"=>{"_id"=>1}, "limit"=>1, "$readPreference"=>{"mode"=>"primary"}, "lsid"=>{"id"=><BSON::Binary:0x69970033779440 type=uuid data=0x51371f689aeb4c67...>}}
+MONGODB | localhost:27017 | rmbk_development.find | SUCCEEDED | 0.000s
+  Rendering user/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (1.0ms)
+  Rendered user/_form.html.erb (15.2ms)
+  Rendered user/new.html.erb within layouts/application (18.8ms)
+Completed 500 Internal Server Error in 317ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `came_from_user?' for "dRGSDRvdcse":String):
+     9:                     <%= f.label :username %>
+    10:                 </div>
+    11:                 <div class="col-sm-6">
+    12:                     <%= f.text_field :username, class: "form-control", placeholder: "Enter User Name", autofocus: true %>
+    13:                 </div>
+    14:             </div>
+    15:             <br>
+  
+app/views/user/_form.html.erb:12:in `block in _app_views_user__form_html_erb__3289180786787695947_69970033795520'
+app/views/user/_form.html.erb:5:in `_app_views_user__form_html_erb__3289180786787695947_69970033795520'
+app/views/user/new.html.erb:2:in `_app_views_user_new_html_erb___1543784553646464926_69970034164380'
+app/controllers/user_controller.rb:26:in `create'
+Started POST "/user" for 127.0.0.1 at 2019-08-02 15:28:12 +0530
+Processing by UserController#create as JS
+  Parameters: {"utf8"=>"✓", "user"=>{"username"=>"dRGSDRvdcse", "password"=>"[FILTERED]"}, "commit"=>"Sign Up"}
+MONGODB | localhost:27017 | rmbk_development.find | STARTED | {"find"=>"users", "filter"=>{"username"=>"dRGSDRvdcse"}, "projection"=>{"_id"=>1}, "limit"=>1, "$readPreference"=>{"mode"=>"primary"}, "lsid"=>{"id"=><BSON::Binary:0x69970033779440 type=uuid data=0x51371f689aeb4c67...>}}
+MONGODB | localhost:27017 | rmbk_development.find | SUCCEEDED | 0.000s
+  Rendering user/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (1.0ms)
+  Rendered user/_form.html.erb (15.2ms)
+  Rendered user/new.html.erb within layouts/application (18.8ms)
+Completed 500 Internal Server Error in 327ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `came_from_user?' for "dRGSDRvdcse":String):
+     9:                     <%= f.label :username %>
+    10:                 </div>
+    11:                 <div class="col-sm-6">
+    12:                     <%= f.text_field :username, class: "form-control", placeholder: "Enter User Name", autofocus: true %>
+    13:                 </div>
+    14:             </div>
+    15:             <br>
+  
+app/views/user/_form.html.erb:12:in `block in _app_views_user__form_html_erb__3289180786787695947_69969919784680'
+app/views/user/_form.html.erb:5:in `_app_views_user__form_html_erb__3289180786787695947_69969919784680'
+app/views/user/new.html.erb:2:in `_app_views_user_new_html_erb___1543784553646464926_69969919819120'
+app/controllers/user_controller.rb:26:in `create'
+Started GET "/signup" for 127.0.0.1 at 2019-08-02 15:28:29 +0530
+Processing by UserController#new as HTML
+  Rendering user/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.5ms)
+  Rendered user/_form.html.erb (4.0ms)
+  Rendered user/new.html.erb within layouts/application (5.3ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messagges.html.erb (0.8ms)
+Completed 200 OK in 87ms (Views: 85.3ms | ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+Started POST "/user" for 127.0.0.1 at 2019-08-02 15:28:44 +0530
+Processing by UserController#create as JS
+  Parameters: {"utf8"=>"✓", "user"=>{"username"=>"dRGSDRvg@emaazsxdcfgvtyh", "password"=>"[FILTERED]"}, "commit"=>"Sign Up"}
+MONGODB | localhost:27017 | rmbk_development.find | STARTED | {"find"=>"users", "filter"=>{"username"=>"dRGSDRvg@emaazsxdcfgvtyh"}, "projection"=>{"_id"=>1}, "limit"=>1, "$readPreference"=>{"mode"=>"primary"}, "lsid"=>{"id"=><BSON::Binary:0x69970033779440 type=uuid data=0x51371f689aeb4c67...>}}
+MONGODB | localhost:27017 | rmbk_development.find | SUCCEEDED | 0.001s
+MONGODB | localhost:27017 | rmbk_development.insert | STARTED | {"insert"=>"users", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('5d440955d0ed5a3eac77766a'), "username"=>"dRGSDRvg@emaazsxdcfgvtyh", "password_digest"=>"$2a$12$nQw/j01McrvjZdUKAPEigOJB8C1xkZPB1wmPxL5bP385ZetZtl5si"}], "lsid"=>{"id"=><BSON::B...
+MONGODB | localhost:27017 | rmbk_development.insert | SUCCEEDED | 0.001s
+Completed 500 Internal Server Error in 388ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+NoMethodError (undefined method `show_user_path' for #<UserController:0x00007f465645b2f0>):
+  
+app/controllers/user_controller.rb:24:in `create'
+Started POST "/user" for 127.0.0.1 at 2019-08-02 15:28:48 +0530
+Processing by UserController#create as JS
+  Parameters: {"utf8"=>"✓", "user"=>{"username"=>"dRGSDRvg@emaazsxdcfgvtyh", "password"=>"[FILTERED]"}, "commit"=>"Sign Up"}
+MONGODB | localhost:27017 | rmbk_development.find | STARTED | {"find"=>"users", "filter"=>{"username"=>"dRGSDRvg@emaazsxdcfgvtyh"}, "projection"=>{"_id"=>1}, "limit"=>1, "$readPreference"=>{"mode"=>"primary"}, "lsid"=>{"id"=><BSON::Binary:0x69970033779440 type=uuid data=0x51371f689aeb4c67...>}}
+MONGODB | localhost:27017 | rmbk_development.find | SUCCEEDED | 0.000s
+  Rendering user/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (1.0ms)
+  Rendered user/_form.html.erb (17.0ms)
+  Rendered user/new.html.erb within layouts/application (21.0ms)
+Completed 500 Internal Server Error in 323ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `came_from_user?' for "dRGSDRvg@emaazsxdcfgvtyh":String):
+     9:                     <%= f.label :username %>
+    10:                 </div>
+    11:                 <div class="col-sm-6">
+    12:                     <%= f.text_field :username, class: "form-control", placeholder: "Enter User Name", autofocus: true %>
+    13:                 </div>
+    14:             </div>
+    15:             <br>
+  
+app/views/user/_form.html.erb:12:in `block in _app_views_user__form_html_erb__3289180786787695947_69969918440960'
+app/views/user/_form.html.erb:5:in `_app_views_user__form_html_erb__3289180786787695947_69969918440960'
+app/views/user/new.html.erb:2:in `_app_views_user_new_html_erb___1543784553646464926_69969918460120'
+app/controllers/user_controller.rb:26:in `create'
+Started POST "/user" for 127.0.0.1 at 2019-08-02 15:28:59 +0530
+Processing by UserController#create as JS
+  Parameters: {"utf8"=>"✓", "user"=>{"username"=>"dRGSDRvg@emaazsxdcfgvtyh", "password"=>"[FILTERED]"}, "commit"=>"Sign Up"}
+MONGODB | localhost:27017 | rmbk_development.find | STARTED | {"find"=>"users", "filter"=>{"username"=>"dRGSDRvg@emaazsxdcfgvtyh"}, "projection"=>{"_id"=>1}, "limit"=>1, "$readPreference"=>{"mode"=>"primary"}, "lsid"=>{"id"=><BSON::Binary:0x69970033779440 type=uuid data=0x51371f689aeb4c67...>}}
+MONGODB | localhost:27017 | rmbk_development.find | SUCCEEDED | 0.000s
+  Rendering user/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (1.4ms)
+  Rendered user/_form.html.erb (15.6ms)
+  Rendered user/new.html.erb within layouts/application (19.3ms)
+Completed 500 Internal Server Error in 317ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `came_from_user?' for "dRGSDRvg@emaazsxdcfgvtyh":String):
+     9:                     <%= f.label :username %>
+    10:                 </div>
+    11:                 <div class="col-sm-6">
+    12:                     <%= f.text_field :username, class: "form-control", placeholder: "Enter User Name", autofocus: true %>
+    13:                 </div>
+    14:             </div>
+    15:             <br>
+  
+app/views/user/_form.html.erb:12:in `block in _app_views_user__form_html_erb__3289180786787695947_47335189875480'
+app/views/user/_form.html.erb:5:in `_app_views_user__form_html_erb__3289180786787695947_47335189875480'
+app/views/user/new.html.erb:2:in `_app_views_user_new_html_erb___1543784553646464926_47335190107460'
+app/controllers/user_controller.rb:26:in `create'
+Started POST "/user" for 127.0.0.1 at 2019-08-02 15:29:03 +0530
+Processing by UserController#create as JS
+  Parameters: {"utf8"=>"✓", "user"=>{"username"=>"dRGSDRvg@emaazsxdcfgvtyh", "password"=>"[FILTERED]"}, "commit"=>"Sign Up"}
+MONGODB | localhost:27017 | rmbk_development.find | STARTED | {"find"=>"users", "filter"=>{"username"=>"dRGSDRvg@emaazsxdcfgvtyh"}, "projection"=>{"_id"=>1}, "limit"=>1, "$readPreference"=>{"mode"=>"primary"}, "lsid"=>{"id"=><BSON::Binary:0x69970033779440 type=uuid data=0x51371f689aeb4c67...>}}
+MONGODB | localhost:27017 | rmbk_development.find | SUCCEEDED | 0.000s
+  Rendering user/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (1.5ms)
+  Rendered user/_form.html.erb (15.6ms)
+  Rendered user/new.html.erb within layouts/application (19.6ms)
+Completed 500 Internal Server Error in 319ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `came_from_user?' for "dRGSDRvg@emaazsxdcfgvtyh":String):
+     9:                     <%= f.label :username %>
+    10:                 </div>
+    11:                 <div class="col-sm-6">
+    12:                     <%= f.text_field :username, class: "form-control", placeholder: "Enter User Name", autofocus: true %>
+    13:                 </div>
+    14:             </div>
+    15:             <br>
+  
+app/views/user/_form.html.erb:12:in `block in _app_views_user__form_html_erb__3289180786787695947_69970036733380'
+app/views/user/_form.html.erb:5:in `_app_views_user__form_html_erb__3289180786787695947_69970036733380'
+app/views/user/new.html.erb:2:in `_app_views_user_new_html_erb___1543784553646464926_69970036746040'
+app/controllers/user_controller.rb:26:in `create'
+Started POST "/user" for 127.0.0.1 at 2019-08-02 15:32:29 +0530
+Processing by UserController#create as JS
+  Parameters: {"utf8"=>"✓", "user"=>{"username"=>"dRGSDRvg@emaazsxdcfgvtyh", "password"=>"[FILTERED]"}, "commit"=>"Sign Up"}
+MONGODB | localhost:27017 | rmbk_development.find | STARTED | {"find"=>"users", "filter"=>{"username"=>"dRGSDRvg@emaazsxdcfgvtyh"}, "projection"=>{"_id"=>1}, "limit"=>1, "$readPreference"=>{"mode"=>"primary"}, "lsid"=>{"id"=><BSON::Binary:0x69970033779440 type=uuid data=0x51371f689aeb4c67...>}}
+MONGODB | localhost:27017 | rmbk_development.find | SUCCEEDED | 0.000s
+  Rendering user/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.9ms)
+  Rendered user/_form.html.erb (180.0ms)
+  Rendered user/new.html.erb within layouts/application (183.7ms)
+Completed 500 Internal Server Error in 481ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `user_users_path' for #<#<Class:0x00007f463c157820>:0x00007f463c5d8c28>
+Did you mean?  user_path):
+    2: 
+    3: <div class='row'>
+    4:     <div class='col-xs-12'>
+    5:     <%= form_for [:user, @user] do |f| %>
+    6:         <!---%= form_for (@user||(User.new(user_params)), :remote => true, :as => :user, :url => {:controller => :user, action: :create}, :html => {:class => 'form-horizontal'})  do |f| %--->
+    7:             <div class="form-group">
+    8:                 <div class="control-label col-sm-2">
+  
+app/views/user/_form.html.erb:5:in `_app_views_user__form_html_erb__3289180786787695947_69969818555800'
+app/views/user/new.html.erb:2:in `_app_views_user_new_html_erb___1543784553646464926_69969818576420'
+app/controllers/user_controller.rb:26:in `create'
+Started POST "/user" for 127.0.0.1 at 2019-08-02 15:32:34 +0530
+Processing by UserController#create as JS
+  Parameters: {"utf8"=>"✓", "user"=>{"username"=>"dRGSDRvg@emaazsxdcfgvtyh", "password"=>"[FILTERED]"}, "commit"=>"Sign Up"}
+MONGODB | localhost:27017 | rmbk_development.find | STARTED | {"find"=>"users", "filter"=>{"username"=>"dRGSDRvg@emaazsxdcfgvtyh"}, "projection"=>{"_id"=>1}, "limit"=>1, "$readPreference"=>{"mode"=>"primary"}, "lsid"=>{"id"=><BSON::Binary:0x69970033779440 type=uuid data=0x51371f689aeb4c67...>}}
+MONGODB | localhost:27017 | rmbk_development.find | SUCCEEDED | 0.000s
+  Rendering user/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (1.2ms)
+  Rendered user/_form.html.erb (164.8ms)
+  Rendered user/new.html.erb within layouts/application (168.4ms)
+Completed 500 Internal Server Error in 467ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `user_users_path' for #<#<Class:0x00007f463c157820>:0x00007f46548a58d0>
+Did you mean?  user_path):
+    2: 
+    3: <div class='row'>
+    4:     <div class='col-xs-12'>
+    5:     <%= form_for [:user, @user] do |f| %>
+    6:         <!---%= form_for (@user||(User.new(user_params)), :remote => true, :as => :user, :url => {:controller => :user, action: :create}, :html => {:class => 'form-horizontal'})  do |f| %--->
+    7:             <div class="form-group">
+    8:                 <div class="control-label col-sm-2">
+  
+app/views/user/_form.html.erb:5:in `_app_views_user__form_html_erb__3289180786787695947_69970021105020'
+app/views/user/new.html.erb:2:in `_app_views_user_new_html_erb___1543784553646464926_69970021293520'
+app/controllers/user_controller.rb:26:in `create'
+Started GET "/" for 127.0.0.1 at 2019-08-02 15:32:36 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (2.6ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messagges.html.erb (0.7ms)
+Completed 200 OK in 75ms (Views: 73.5ms | ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2019-08-02 15:32:38 +0530
+Processing by UserController#new as HTML
+  Rendering user/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.6ms)
+  Rendered user/_form.html.erb (187.3ms)
+  Rendered user/new.html.erb within layouts/application (188.7ms)
+Completed 500 Internal Server Error in 193ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `user_users_path' for #<#<Class:0x00007f463c157820>:0x00007f4654abd2d0>
+Did you mean?  user_path):
+    2: 
+    3: <div class='row'>
+    4:     <div class='col-xs-12'>
+    5:     <%= form_for [:user, @user] do |f| %>
+    6:         <!---%= form_for (@user||(User.new(user_params)), :remote => true, :as => :user, :url => {:controller => :user, action: :create}, :html => {:class => 'form-horizontal'})  do |f| %--->
+    7:             <div class="form-group">
+    8:                 <div class="control-label col-sm-2">
+  
+app/views/user/_form.html.erb:5:in `_app_views_user__form_html_erb__3289180786787695947_69970022189360'
+app/views/user/new.html.erb:2:in `_app_views_user_new_html_erb___1543784553646464926_69970022516040'
+Started GET "/" for 127.0.0.1 at 2019-08-02 15:34:19 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_navigation.html.erb (0.8ms)
+  Rendered layouts/_messagges.html.erb (0.6ms)
+Completed 200 OK in 73ms (Views: 71.6ms | ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2019-08-02 15:34:21 +0530
+  
+SyntaxError (/home/prajkta/Ruby/Rails/rmbk/app/controllers/user_controller.rb:24: syntax error, unexpected ')', expecting keyword_end
+      redirect_to @user)     
+                       ^):
+  
+app/controllers/user_controller.rb:24: syntax error, unexpected ')', expecting keyword_end
+Started GET "/signup" for 127.0.0.1 at 2019-08-02 15:35:58 +0530
+Processing by UserController#new as HTML
+  Rendering user/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.5ms)
+  Rendered user/_form.html.erb (149.3ms)
+  Rendered user/new.html.erb within layouts/application (150.5ms)
+Completed 500 Internal Server Error in 160ms (ActiveRecord: 0.3ms | MongoDB: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `users_path' for #<#<Class:0x00007f46453135e8>:0x00007f4645311bf8>
+Did you mean?  user_path):
+    2: 
+    3: <div class='row'>
+    4:     <div class='col-xs-12'>
+    5:     <%= form_for @user do |f| %>
+    6:         <!---%= form_for (@user||(User.new(user_params)), :remote => true, :as => :user, :url => {:controller => :user, action: :create}, :html => {:class => 'form-horizontal'})  do |f| %--->
+    7:             <div class="form-group">
+    8:                 <div class="control-label col-sm-2">
+  
+app/views/user/_form.html.erb:5:in `_app_views_user__form_html_erb__3289180786787695947_69969892725460'
+app/views/user/new.html.erb:2:in `_app_views_user_new_html_erb___1543784553646464926_69969892646680'
+Started GET "/signup" for 127.0.0.1 at 2019-08-02 15:37:32 +0530
+Processing by UserController#new as HTML
+  Rendering user/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.5ms)
+  Rendered user/_form.html.erb (149.7ms)
+  Rendered user/new.html.erb within layouts/application (150.8ms)
+Completed 500 Internal Server Error in 160ms (ActiveRecord: 0.3ms | MongoDB: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `users_path' for #<#<Class:0x00007f4645338438>:0x00007f4644b25840>
+Did you mean?  user_path):
+    2: 
+    3: <div class='row'>
+    4:     <div class='col-xs-12'>
+    5:     <%= form_for(@user, :html => {class: "form-horizontal", role: "form"})  do |f| %>
+    6:         <!---%= form_for (@user||(User.new(user_params)), :remote => true, :as => :user, :url => {:controller => :user, action: :create}, :html => {:class => 'form-horizontal'})  do |f| %--->
+    7:             <div class="form-group">
+    8:                 <div class="control-label col-sm-2">
+  
+app/views/user/_form.html.erb:5:in `_app_views_user__form_html_erb__3289180786787695947_69969886276580'
+app/views/user/new.html.erb:2:in `_app_views_user_new_html_erb___1543784553646464926_69969892722280'
+Started GET "/signup" for 127.0.0.1 at 2019-08-02 15:38:23 +0530
+Processing by UserController#new as HTML
+  Rendering user/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.8ms)
+  Rendered user/_form.html.erb (4.6ms)
+  Rendered user/new.html.erb within layouts/application (6.2ms)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"user"}, missing required keys: [:id]):
+    2: 
+    3: <div class='row'>
+    4:     <div class='col-xs-12'>
+    5:     <%= form_for(@user, :url => user_path)  do |f| %>
+    6:         <!---%= form_for (@user||(User.new(user_params)), :remote => true, :as => :user, :url => {:controller => :user, action: :create}, :html => {:class => 'form-horizontal'})  do |f| %--->
+    7:             <div class="form-group">
+    8:                 <div class="control-label col-sm-2">
+  
+app/views/user/_form.html.erb:5:in `_app_views_user__form_html_erb__3289180786787695947_69969918356820'
+app/views/user/new.html.erb:2:in `_app_views_user_new_html_erb___1543784553646464926_69969918393240'
+Started GET "/signup" for 127.0.0.1 at 2019-08-02 15:38:39 +0530
+Processing by UserController#new as HTML
+  Rendering user/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.5ms)
+  Rendered user/_form.html.erb (3.6ms)
+  Rendered user/new.html.erb within layouts/application (4.7ms)
+  Rendered layouts/_navigation.html.erb (1.5ms)
+  Rendered layouts/_messagges.html.erb (0.8ms)
+Completed 200 OK in 66ms (Views: 64.5ms | ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+Started POST "/user/5d440ba7d0ed5a3eac777670" for 127.0.0.1 at 2019-08-02 15:38:45 +0530
+  
+ActionController::RoutingError (No route matches [POST] "/user/5d440ba7d0ed5a3eac777670"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started POST "/user/5d440ba7d0ed5a3eac777670" for 127.0.0.1 at 2019-08-02 15:40:44 +0530
+  
+ActionController::RoutingError (No route matches [POST] "/user/5d440ba7d0ed5a3eac777670"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/signup" for 127.0.0.1 at 2019-08-02 15:44:39 +0530
+Processing by UserController#new as HTML
+  Rendering user/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.4ms)
+  Rendered user/_form.html.erb (3.6ms)
+  Rendered user/new.html.erb within layouts/application (4.7ms)
+  Rendered layouts/_navigation.html.erb (0.9ms)
+  Rendered layouts/_messagges.html.erb (0.6ms)
+Completed 200 OK in 82ms (Views: 73.9ms | ActiveRecord: 0.3ms | MongoDB: 0.0ms)
+
+
+Started POST "/user/5d440d0fd0ed5a3eac777671" for 127.0.0.1 at 2019-08-02 15:44:47 +0530
+  
+ActionController::RoutingError (No route matches [POST] "/user/5d440d0fd0ed5a3eac777671"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/signup" for 127.0.0.1 at 2019-08-02 15:46:19 +0530
+Processing by UserController#new as HTML
+  Rendering user/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.6ms)
+  Rendered user/_form.html.erb (4.6ms)
+  Rendered user/new.html.erb within layouts/application (5.7ms)
+  Rendered layouts/_navigation.html.erb (1.1ms)
+  Rendered layouts/_messagges.html.erb (0.5ms)
+Completed 200 OK in 81ms (Views: 72.3ms | ActiveRecord: 0.4ms | MongoDB: 0.0ms)
+
+
+Started POST "/user/5d440d73d0ed5a3eac777672" for 127.0.0.1 at 2019-08-02 15:46:26 +0530
+  
+ActionController::RoutingError (No route matches [POST] "/user/5d440d73d0ed5a3eac777672"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-08-02 15:49:12 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_navigation.html.erb (1.1ms)
+  Rendered layouts/_messagges.html.erb (0.8ms)
+Completed 200 OK in 71ms (Views: 69.2ms | ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2019-08-02 15:49:14 +0530
+Processing by UserController#new as HTML
+  Rendering user/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (12.1ms)
+  Rendered user/_form.html.erb (169.6ms)
+  Rendered user/new.html.erb within layouts/application (171.0ms)
+Completed 500 Internal Server Error in 175ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `users_path' for #<#<Class:0x00007f463c415d00>:0x0000561a28525b28>
+Did you mean?  user_path):
+    2: 
+    3: <div class='row'>
+    4:     <div class='col-xs-12'>
+    5:     <%= form_for(@user, :url => @user)  do |f| %>
+    6:         <!---%= form_for (@user||(User.new(user_params)), :remote => true, :as => :user, :url => {:controller => :user, action: :create}, :html => {:class => 'form-horizontal'})  do |f| %--->
+    7:             <div class="form-group">
+    8:                 <div class="control-label col-sm-2">
+  
+app/views/user/_form.html.erb:5:in `_app_views_user__form_html_erb__3289180786787695947_47335168710580'
+app/views/user/new.html.erb:2:in `_app_views_user_new_html_erb___1543784553646464926_47335173164520'
+Started GET "/signup" for 127.0.0.1 at 2019-08-02 15:50:09 +0530
+Processing by UserController#new as HTML
+  Rendering user/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.8ms)
+  Rendered user/_form.html.erb (5.1ms)
+  Rendered user/new.html.erb within layouts/application (6.7ms)
+  Rendered layouts/_navigation.html.erb (0.8ms)
+  Rendered layouts/_messagges.html.erb (0.5ms)
+Completed 200 OK in 79ms (Views: 77.1ms | ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+Started POST "/user" for 127.0.0.1 at 2019-08-02 15:50:14 +0530
+Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RNYxFkmsoUwT+F32a2P4Kl5vsV4zNreu/S77jx9wWiguZEqhcSjtD3R0I7fsEt5OklGSEvxgAHvZqIAAfimgLQ==", "user"=>{"username"=>"dRGSDRvg@email.com", "password"=>"[FILTERED]"}, "commit"=>"Sign Up"}
+MONGODB | localhost:27017 | rmbk_development.find | STARTED | {"find"=>"users", "filter"=>{"username"=>"dRGSDRvg@email.com"}, "projection"=>{"_id"=>1}, "limit"=>1, "$readPreference"=>{"mode"=>"primary"}, "lsid"=>{"id"=><BSON::Binary:0x69970033779440 type=uuid data=0x51371f689aeb4c67...>}}
+MONGODB | localhost:27017 | rmbk_development.find | SUCCEEDED | 0.001s
+MONGODB | localhost:27017 | rmbk_development.insert | STARTED | {"insert"=>"users", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('5d440e5fd0ed5a3eac777674'), "username"=>"dRGSDRvg@email.com", "password_digest"=>"$2a$12$Y0T6LuiD1UUCCOtNNFATE.D83pZG3Yj9WApSuIVFV0G1IJlfP9NX6"}], "lsid"=>{"id"=><BSON::Binary:...
+MONGODB | localhost:27017 | rmbk_development.insert | SUCCEEDED | 0.000s
+Completed 500 Internal Server Error in 317ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+ActionController::UrlGenerationError (No route matches {:action=>"show", :controller=>"user"}, missing required keys: [:id]):
+  
+app/controllers/user_controller.rb:24:in `create'
+Started GET "/" for 127.0.0.1 at 2019-08-02 15:51:00 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (3.2ms)
+  Rendered layouts/_navigation.html.erb (0.9ms)
+  Rendered layouts/_messagges.html.erb (0.7ms)
+Completed 200 OK in 107ms (Views: 105.1ms | ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2019-08-02 15:51:02 +0530
+Processing by UserController#new as HTML
+  Rendering user/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.7ms)
+  Rendered user/_form.html.erb (5.1ms)
+  Rendered user/new.html.erb within layouts/application (6.4ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messagges.html.erb (0.7ms)
+Completed 200 OK in 88ms (Views: 74.0ms | ActiveRecord: 0.6ms | MongoDB: 0.0ms)
+
+
+Started POST "/user" for 127.0.0.1 at 2019-08-02 15:51:09 +0530
+Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YrDltBXAoqKwPwdkjsG+naGdikkxUBsNhnhCzpMDDSzjRhzdCUAGjQ5pu3hJUJi3JUfXxmpMOGE/NgLdDRaJoA==", "user"=>{"username"=>"dRGStDRvg@email.comzx edwrsdaa", "password"=>"[FILTERED]"}, "commit"=>"Sign Up"}
+MONGODB | localhost:27017 | rmbk_development.find | STARTED | {"find"=>"users", "filter"=>{"username"=>"dRGStDRvg@email.comzx edwrsdaa"}, "projection"=>{"_id"=>1}, "limit"=>1, "$readPreference"=>{"mode"=>"primary"}, "lsid"=>{"id"=><BSON::Binary:0x69970033779440 type=uuid data=0x51371f689aeb4c67...>}}
+MONGODB | localhost:27017 | rmbk_development.find | SUCCEEDED | 0.000s
+MONGODB | localhost:27017 | rmbk_development.insert | STARTED | {"insert"=>"users", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('5d440e96d0ed5a3eac777675'), "username"=>"dRGStDRvg@email.comzx edwrsdaa", "password_digest"=>"$2a$12$HXZDtc6gnttulWbiIeMj9OWp.0bf1chsvpP5gkRPQUYJ1/u0aqRte"}], "lsid"=>{"id"=><B...
+MONGODB | localhost:27017 | rmbk_development.insert | SUCCEEDED | 0.000s
+Completed 500 Internal Server Error in 305ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+ActionController::UrlGenerationError (No route matches {:action=>"show", :controller=>"user"}, missing required keys: [:id]):
+  
+app/controllers/user_controller.rb:24:in `create'
+Started GET "/signup" for 127.0.0.1 at 2019-08-02 15:52:54 +0530
+Processing by UserController#new as HTML
+  Rendering user/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.4ms)
+  Rendered user/_form.html.erb (5.0ms)
+  Rendered user/new.html.erb within layouts/application (6.0ms)
+  Rendered layouts/_navigation.html.erb (1.2ms)
+  Rendered layouts/_messagges.html.erb (0.6ms)
+Completed 200 OK in 87ms (Views: 78.5ms | ActiveRecord: 0.3ms | MongoDB: 0.0ms)
+
+
+Started GET "/signup/" for 127.0.0.1 at 2019-08-02 15:53:09 +0530
+Processing by UserController#new as HTML
+  Rendering user/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.7ms)
+  Rendered user/_form.html.erb (4.8ms)
+  Rendered user/new.html.erb within layouts/application (6.2ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messagges.html.erb (0.5ms)
+Completed 200 OK in 73ms (Views: 71.6ms | ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-08-02 15:54:56 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_navigation.html.erb (0.8ms)
+  Rendered layouts/_messagges.html.erb (0.6ms)
+Completed 200 OK in 71ms (Views: 69.8ms | ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2019-08-02 15:54:58 +0530
+Processing by UserController#new as HTML
+  Rendering user/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.8ms)
+  Rendered user/_form.html.erb (5.3ms)
+  Rendered user/new.html.erb within layouts/application (6.7ms)
+  Rendered layouts/_navigation.html.erb (0.8ms)
+  Rendered layouts/_messagges.html.erb (0.6ms)
+Completed 200 OK in 80ms (Views: 78.3ms | ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+Started POST "/user" for 127.0.0.1 at 2019-08-02 15:55:01 +0530
+Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"t4zneYNLpLdtWD1Y2YnDyXm+ZoFB8lmjX3je8eNeuCQ2eh4Qn8sAmNMOgUQeGOXj/WQ7Dhrues/mNp7ifUs8qA==", "user"=>{"username"=>"praj.m.j@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Sign Up"}
+MONGODB | localhost:27017 | rmbk_development.find | STARTED | {"find"=>"users", "filter"=>{"username"=>"praj.m.j@gmail.com"}, "projection"=>{"_id"=>1}, "limit"=>1, "$readPreference"=>{"mode"=>"primary"}, "lsid"=>{"id"=><BSON::Binary:0x69970033779440 type=uuid data=0x51371f689aeb4c67...>}}
+MONGODB | localhost:27017 | rmbk_development.find | SUCCEEDED | 0.001s
+MONGODB | localhost:27017 | rmbk_development.insert | STARTED | {"insert"=>"users", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('5d440f7dd0ed5a3eac777676'), "username"=>"praj.m.j@gmail.com", "password_digest"=>"$2a$12$cds6uSPOIS/uH5B1nLEZCOzks4o4GlOmQVLYm/F2i2x1I8CJbfiEe"}], "lsid"=>{"id"=><BSON::Binary:...
+MONGODB | localhost:27017 | rmbk_development.insert | SUCCEEDED | 0.000s
+Completed 500 Internal Server Error in 337ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+ActionController::UrlGenerationError (No route matches {:action=>"show", :controller=>"user"}, missing required keys: [:id]):
+  
+app/controllers/user_controller.rb:24:in `create'
+Started GET "/user/5d440ba7d0ed5a3eac777670" for 127.0.0.1 at 2019-08-02 15:59:48 +0530
+Processing by UserController#show as HTML
+  Parameters: {"id"=>"5d440ba7d0ed5a3eac777670"}
+MONGODB | localhost:27017 | rmbk_development.find | STARTED | {"find"=>"users", "filter"=>{"_id"=>BSON::ObjectId('5d440ba7d0ed5a3eac777670')}, "lsid"=>{"id"=><BSON::Binary:0x69970033779440 type=uuid data=0x51371f689aeb4c67...>}}
+MONGODB | localhost:27017 | rmbk_development.find | SUCCEEDED | 0.000s
+Completed 404 Not Found in 7ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+Mongoid::Errors::DocumentNotFound (
+message:
+  Document(s) not found for class User with id(s) 5d440ba7d0ed5a3eac777670.
+summary:
+  When calling User.find with an id or array of ids, each parameter must match a document in the database or this error will be raised. The search was for the id(s): 5d440ba7d0ed5a3eac777670 ... (1 total) and the following ids were not found: 5d440ba7d0ed5a3eac777670.
+resolution:
+  Search for an id that is in the database or set the Mongoid.raise_not_found_error configuration option to false, which will cause a nil to be returned instead of raising this error when searching for a single id, or only the matched documents when searching for multiples.):
+  
+app/controllers/user_controller.rb:50:in `set_user'
+Started GET "/" for 127.0.0.1 at 2019-08-02 15:59:55 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (2.7ms)
+  Rendered layouts/_navigation.html.erb (1.2ms)
+  Rendered layouts/_messagges.html.erb (0.8ms)
+Completed 200 OK in 78ms (Views: 76.2ms | ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2019-08-02 15:59:59 +0530
+Processing by UserController#new as HTML
+  Rendering user/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.9ms)
+  Rendered user/_form.html.erb (5.7ms)
+  Rendered user/new.html.erb within layouts/application (7.5ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_messagges.html.erb (0.6ms)
+Completed 200 OK in 92ms (Views: 90.5ms | ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+Started POST "/user" for 127.0.0.1 at 2019-08-02 16:00:07 +0530
+Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Tn+c57D1roVn0z6DyhkLjHZD4AXOtUPTeXls/F1RU4DPiWWOrHUKqtmFgp8NiC2m8pm9ipWpYL/ANyzvw0TXDA==", "user"=>{"username"=>"dRGSDRvg@email.comaedxfsvxc ", "password"=>"[FILTERED]"}, "commit"=>"Sign Up"}
+MONGODB | localhost:27017 | rmbk_development.find | STARTED | {"find"=>"users", "filter"=>{"username"=>"dRGSDRvg@email.comaedxfsvxc "}, "projection"=>{"_id"=>1}, "limit"=>1, "$readPreference"=>{"mode"=>"primary"}, "lsid"=>{"id"=><BSON::Binary:0x69970033779440 type=uuid data=0x51371f689aeb4c67...>}}
+MONGODB | localhost:27017 | rmbk_development.find | SUCCEEDED | 0.000s
+MONGODB | localhost:27017 | rmbk_development.insert | STARTED | {"insert"=>"users", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('5d4410afd0ed5a3eac777677'), "username"=>"dRGSDRvg@email.comaedxfsvxc ", "password_digest"=>"$2a$12$j57F3FqOKh5z769jYGc4vOrMPhb5xLqKml4bglgZpqwx2xUNzkWOu"}], "lsid"=>{"id"=><BSO...
+MONGODB | localhost:27017 | rmbk_development.insert | SUCCEEDED | 0.000s
+Completed 500 Internal Server Error in 300ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+  
+ActionController::UrlGenerationError (No route matches {:action=>"show", :controller=>"user"}, missing required keys: [:id]):
+  
+app/controllers/user_controller.rb:24:in `create'
+Started GET "/" for 127.0.0.1 at 2019-08-02 16:00:41 +0530
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (1.8ms)
+  Rendered layouts/_navigation.html.erb (0.8ms)
+  Rendered layouts/_messagges.html.erb (0.7ms)
+Completed 200 OK in 74ms (Views: 72.7ms | ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2019-08-02 16:00:44 +0530
+Processing by UserController#new as HTML
+  Rendering user/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.5ms)
+  Rendered user/_form.html.erb (5.6ms)
+  Rendered user/new.html.erb within layouts/application (7.2ms)
+  Rendered layouts/_navigation.html.erb (0.8ms)
+  Rendered layouts/_messagges.html.erb (0.6ms)
+Completed 200 OK in 83ms (Views: 71.2ms | ActiveRecord: 0.5ms | MongoDB: 0.0ms)
+
+
+Started POST "/user" for 127.0.0.1 at 2019-08-02 16:00:49 +0530
+Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rCCiLDnZNsoCYqTp2XNpS9IY9BimA4qYFMrG/l0kH5ct1ltFJVmS5bw0GPUe4k9hVsKpl/0fqfSthIbtwzGbGw==", "user"=>{"username"=>"dRGSDRvg@email.comdssssszxc d", "password"=>"[FILTERED]"}, "commit"=>"Sign Up"}
+MONGODB | localhost:27017 | rmbk_development.find | STARTED | {"find"=>"users", "filter"=>{"username"=>"dRGSDRvg@email.comdssssszxc d"}, "projection"=>{"_id"=>1}, "limit"=>1, "$readPreference"=>{"mode"=>"primary"}, "lsid"=>{"id"=><BSON::Binary:0x69970033779440 type=uuid data=0x51371f689aeb4c67...>}}
+MONGODB | localhost:27017 | rmbk_development.find | SUCCEEDED | 0.001s
+MONGODB | localhost:27017 | rmbk_development.insert | STARTED | {"insert"=>"users", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('5d4410d9d0ed5a3eac777678'), "username"=>"dRGSDRvg@email.comdssssszxc d", "password_digest"=>"$2a$12$SfvdpIqt38AOP4BEgu3h4OssYB5Jwh2TBxV7x6AFrRsHF5EJ2dspy"}], "lsid"=>{"id"=><BS...
+MONGODB | localhost:27017 | rmbk_development.insert | SUCCEEDED | 0.000s
+Redirected to http://localhost:3000/user/5d4410d9d0ed5a3eac777678
+Completed 302 Found in 311ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+Started GET "/user/5d4410d9d0ed5a3eac777678" for 127.0.0.1 at 2019-08-02 16:00:49 +0530
+Processing by UserController#show as HTML
+  Parameters: {"id"=>"5d4410d9d0ed5a3eac777678"}
+MONGODB | localhost:27017 | rmbk_development.find | STARTED | {"find"=>"users", "filter"=>{"_id"=>BSON::ObjectId('5d4410d9d0ed5a3eac777678')}, "lsid"=>{"id"=><BSON::Binary:0x69970033779440 type=uuid data=0x51371f689aeb4c67...>}}
+MONGODB | localhost:27017 | rmbk_development.find | SUCCEEDED | 0.000s
+MONGODB | localhost:27017 | rmbk_development.find | STARTED | {"find"=>"users", "filter"=>{"_id"=>BSON::ObjectId('5d4410d9d0ed5a3eac777678')}, "lsid"=>{"id"=><BSON::Binary:0x69970033779440 type=uuid data=0x51371f689aeb4c67...>}}
+MONGODB | localhost:27017 | rmbk_development.find | SUCCEEDED | 0.000s
+  Rendering user/show.html.erb within layouts/application
+  Rendered user/show.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_navigation.html.erb (1.1ms)
+  Rendered layouts/_messagges.html.erb (0.6ms)
+Completed 200 OK in 82ms (Views: 67.2ms | ActiveRecord: 0.8ms | MongoDB: 0.0ms)
+
+

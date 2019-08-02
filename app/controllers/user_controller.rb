@@ -6,7 +6,7 @@ class UserController < ApplicationController
   end
 
   def show
-    
+    @user = User.find(params[:id])
   end
 
   def new
@@ -19,8 +19,9 @@ class UserController < ApplicationController
   def create
     @user = User.new(user_params)
     if @user.save
-      flash[:success] = "Welcome to the alpha blog #{@user.username}"      
-      redirect_to user_path(@user)      
+      flash[:success] = "Welcome to the Room Booking #{@user.username}"      
+      p "Welcome to the Room Booking #{@user.username}"
+      redirect_to user_path(@user)
     else      
         render 'new'      
     end    
@@ -30,7 +31,7 @@ class UserController < ApplicationController
   def update
     if @user.update(user_params)    
       flash[:success] = "Your account was updated successfully"    
-      redirect_to articles_path    
+      redirect_to room_path    
     else    
       render 'edit'    
     end
