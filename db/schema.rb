@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_08_02_074209) do
+ActiveRecord::Schema.define(version: 2019_08_02_115408) do
 
   create_table "meets", force: :cascade do |t|
     t.time "time_from"
@@ -36,7 +36,7 @@ ActiveRecord::Schema.define(version: 2019_08_02_074209) do
   create_table "users", force: :cascade do |t|
     t.string "username"
     t.boolean "admin", default: false
-    t.string "password_digest"
+    t.string "password_digested"
   end
 
 end

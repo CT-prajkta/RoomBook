@@ -1,2 +1,15 @@
-<h1>Room#show</h1>
+<h1>Roomshow</h1>
 <p>Find me in app/views/room/show.html.erb</p>
+
+<div><h1 align="center"> Welcome to <%= @room.room_no %>'s page</p1>
+
+<h4 align="center"> <%= @room.capacity %>'s meet</p4>
+</div>
+ 
+<div>
+    <%= link_to 'Edit', edit_room_path(@room), class: "btn-xlarge"  %>        
+    <%= link_to "Delete room", room_path, method: :delete,
+                    data: {  confirm: "Are you sure you want to delete the article?"},
+                    class: "btn btn-xs btn-danger" %>
+    <%= link_to "Rooms", room_index_path, class: "btn-xlarge" %>
+</div>

@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   #post 'login', to: 'sessions#create'
   #delete 'logout', to: 'sessions#destroy'
   get 'signup', to: 'user#new'
+  #patch 'room/edit', to: 'room#update'
   resources :user
   resources :meet, :room
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html

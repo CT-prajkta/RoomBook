@@ -14,13 +14,13 @@ class UserController < ApplicationController
   end
 
   def edit
+    @user = User.find(params[:id])
   end
 
   def create
     @user = User.new(user_params)
     if @user.save
       flash[:success] = "Welcome to the Room Booking #{@user.username}"      
-      p "Welcome to the Room Booking #{@user.username}"
       redirect_to user_path(@user)
     else      
         render 'new'      
@@ -31,7 +31,7 @@ class UserController < ApplicationController
   def update
     if @user.update(user_params)    
       flash[:success] = "Your account was updated successfully"    
-      redirect_to room_path    
+      redirect_to user_path    
     else    
       render 'edit'    
     end
@@ -45,14 +45,13 @@ class UserController < ApplicationController
   end
 
   private
-    # Use callbacks to share common setup or constraints between actions.
+  
     def set_user
       @user = User.find(params[:id])
     end
 
-    # Never trust parameters from the scary internet, only allow the white list through.
     def user_params
-      params.require(:user).permit(:username, :email, :password)
+      params.require(:user).permit(:username, :password)
     end
 
 end

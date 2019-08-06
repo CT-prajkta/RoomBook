@@ -34,7 +34,7 @@ $navbar-default-bg: rgb(139, 56, 56);
 
 .btn-xlarge {
     font-size: 1.7em;
-    background-color: black;
+    background-color: rgb(199, 12, 12);
 }
 .article-actions {
     border-top: 1px solid #eaeaea;
@@ -91,23 +91,15 @@ color: #222;
 }
 
 footer small {
-
-float: left;
-
+  float: left;
 }
 
 footer ul {
-
-float: right;
-
-list-style: none;
-
+  float: right;
+  list-style: none;
 }
 
 footer ul li {
-
-float: left;
-
-margin-left: 15px;
-
+    float: left;
+    margin-left: 15px;
 }
