@@ -33,9 +33,8 @@ class RoomController < ApplicationController
     end
   end
   def update
-    @room = Room.new(room_params)
-    if @room.save
-      flash[:success] = "Welcome to the Room  #{@room.room_no}"      
+    if @room.update(room_params)
+      flash[:success] = "Welcome to the Room  #{@room.room_no} with updated details"      
       redirect_to room_path(@room)
     else      
         render 'edit'      

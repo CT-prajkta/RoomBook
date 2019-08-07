@@ -27,12 +27,3 @@
 <br>
 
 <%= link_to 'Sign up', signup_path %>
-<h1>Room#index</h1>
-<p>Find me in app/views/room/index.html.erb</p>
-<div>
-    <%= link_to 'Edit', edit_room_path(@room)  %>
-    <%= link_to "Delete room", room_path, method: :delete,
-                    data: {  confirm: "Are you sure you want to delete the room?"},
-                    class: "btn btn-xs btn-danger" %>
-                        <%= link_to 'Show', @room %> |
-</div>
