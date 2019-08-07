@@ -1,4 +1,58 @@
+<h1 align="center"> Arrange new Meet</h1>
 
-	<h1 align="center"> Arrange new Meet</h1>
-<%= render 'form', meet: @meet %>
-<%= render 'form', meet: @meet %>
+<div class='row'>
+	<div class='col-xs-12'>
+    <%= form_for(@meet, :url => {:controller => :meet, action: :create})  do |f| %>
+            <div class="form-group">
+                <div class="control-label col-sm-2">
+                    <%= f.label :subject %>
+                </div>
+                <div class="col-sm-6">
+                	<%= f.text_field :subject, class: "form-control", placeholder: "enter subject", autofocus: true %>                                      
+                </div>
+			</div><br><br><br>
+			<div class="form-group">
+				<div class="control-label col-sm-2">
+					<%= f.label :meet_date_time %>
+				</div>
+				<div class="col-sm-6">
+					<%= f.datetime_field :meet_date_time, class: "form-control", autofocus: true %>
+				</div>
+			</div><br><br><br>
+			<div class="form-group">
+				<div class="control-label col-sm-2">
+					<%= f.label :meet_to_datetime %>
+				</div>
+				<div class="col-sm-6">
+					<%= f.datetime_field :meet_to_datetime, class: "form-control", autofocus: true %>
+				</div>
+			</div><br><br><br>
+            <div class="form-group">
+                <div class="control-label col-sm-2">
+                    <%= f.label :description %>
+                </div>
+				<div class="col-sm-6">
+					<%= f.text_area :description, rows: 10, class: "form-control", placeholder: "Body of meeting" %>
+                </div>
+			</div><br><br>
+			<div class="form-group">
+				<div class="row">            
+					<div class="col-sm-offset-2 col-sm-8">            
+							<%= f.collection_check_boxes :room_no_id, Room.all, :id, :room_no do |cb| %>
+							<% cb.label(class: "checkbox-inline input_checkbox") {cb.check_box(class: "checkbox") + cb.text} %>            
+						<% end %>            
+					</div>            
+				</div>            
+			</div>
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <%= f.submit(@meet.new_record? ? "Sign Up" : "Update account", class: 'btn btn-primary btn-lg') %>
+                </div>
+            </div>
+        <% end %>
+        <br><br>
+        <div class="col-xs-4 col-xs-offset-4">
+            [ <%= link_to "Cancel request and return to home", root_path %> ]
+        </div>
+    </div>
+</div>

@@ -17,9 +17,10 @@ class MeetController < ApplicationController
   end
 
   def destroy
-    @meet = Meet.new(params[:id])
+    @meet = Meet.find(params[:id])
     @meet.destroy
     flash[:success] = "room #{@meet.subject} and reated schedule deleted"   
+    redirect_to meet_path
   end
 
   def create
@@ -32,8 +33,7 @@ class MeetController < ApplicationController
     end 
   end
   def update
-    @meet = Meet.new(meet_params)
-    if @meet.save
+    if Meet.update(meet_params)
       flash[:success] = "View of #{@meet.subject}"   
       redirect_to meet_path(@meet)
     else      
@@ -46,7 +46,6 @@ class MeetController < ApplicationController
   end
 
   def meet_params
-    params.require(:meet).permit(:subject)
+    params.require(:meet).permit(:subject, :meet_date_time, :meet_to_datetime, :description, :room_no_id, :username_id)
   end
-
 end

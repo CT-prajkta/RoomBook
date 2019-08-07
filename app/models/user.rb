@@ -1,4 +1,4 @@
-class User < ApplicationRecord
+class User < ActiveRecord::Base
   include Mongoid::Document
   field :username, type: String
   field :admin, type: Boolean

@@ -1,8 +1,10 @@
 <div>
-    <%= link_to 'Edit', edit_user_path(@user)  %>
+    <h1>@meet.subject</h1>
+<div>
+    <%= link_to 'Edit', edit_meet_path(@meet)  %>
     
     
-    <%= link_to "Delete user", user_path, method: :delete,
-                    data: {  confirm: "Are you sure you want to delete the article?"},
+    <%= link_to "Delete Meeting", meet_path, method: :delete,
+                    data: {  confirm: "Are you sure you want to delete the meeting?"},
                     class: "btn btn-xs btn-danger" %>
 </div>

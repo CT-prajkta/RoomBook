@@ -12,7 +12,10 @@
 //
 
 //= require bootstrap-sprockets
+//= require moment
+//= require tempusdominus-bootstrap-4.js
 //= require rails-ujs
-//= require activestorage
+
 //= require turbolinks
+//= require jquery-ui
 //= require_tree .
