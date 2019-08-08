@@ -19,8 +19,8 @@ class RoomController < ApplicationController
   def destroy
     @room = Room.find(params[:id])
     @room.destroy
-    flash[:danger] = "Romm and all meets relaaated to this room deleted"
-    redirect_to room_path
+    flash[:danger] = "Room and all meets related to this room deleted"
+    redirect_to room_index_path
   end
 
   def create

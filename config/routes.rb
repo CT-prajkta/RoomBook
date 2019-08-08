@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  #resources :sessions
   resources :events
   #get 'welcome/home', to: 'welcome#home'
   root 'welcome#home'

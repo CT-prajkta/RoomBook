@@ -1,5 +1,6 @@
 class MeetController < ApplicationController
   before_action :set_meet, only: [:show, :edit, :update, :destroy]
+  
   def index
     @meets = Meet.all
   end
@@ -20,7 +21,7 @@ class MeetController < ApplicationController
     @meet = Meet.find(params[:id])
     @meet.destroy
     flash[:success] = "room #{@meet.subject} and reated schedule deleted"   
-    redirect_to meet_path
+    redirect_to meet_index_path
   end
 
   def create

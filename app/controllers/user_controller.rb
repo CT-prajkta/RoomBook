@@ -1,12 +1,12 @@
 class UserController < ApplicationController
-  before_action :set_user, only: [:show, :edit, :update]
+  before_action :set_user, only: [:show, :edit, :update, :destroy]
 
   def index
     @users = User.all
   end
 
   def show
-    @user = User.find(params[:id])
+    @user_meets = @user.meets.all
   end
 
   def new
@@ -16,7 +16,8 @@ class UserController < ApplicationController
   def create
     @user = User.new(user_params)
     if @user.save
-      flash[:success] = "Welcome to the Room Booking #{@user.username}"      
+      session[:user_id] = @user.id
+      flash[:success] = "Hello #{@user.username} \n Welcome to the Room Booking "      
       redirect_to new_meet_path
     else      
         render 'new'      
@@ -24,7 +25,6 @@ class UserController < ApplicationController
   end
   
   def edit
-    @user = User.find(params[:id])
   end
 
   def update
@@ -37,10 +37,9 @@ class UserController < ApplicationController
   end
 
   def destroy
-    @user = User.find(params[:id])
     @user.destroy
     flash[:danger] = "User and all articles created by user have been deleted"
-    redirect_to user_path
+    redirect_to user_index_path
   end
 
   private  
