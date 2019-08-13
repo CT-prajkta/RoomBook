@@ -7,7 +7,7 @@ class SessionsController < ApplicationController
     if user && user.authenticate(params[:session][:password])
       session[:user_id] = user.id
       flash[:success] = "Hello #{user.username} \n You have logged in"
-      redirect_to room_index_path
+      redirect_to new_meet_path
     else
       flash[:success] = "wrong credentials"
       render 'new'

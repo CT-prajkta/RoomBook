@@ -6,7 +6,9 @@ class MeetController < ApplicationController
   end
 
   def new
+    @rooms= Room.all
     @meet=Meet.new
+    @meets=Meet.all
   end
 
   def edit
@@ -30,7 +32,7 @@ class MeetController < ApplicationController
       flash[:success] = "View of #{@meet.subject}"   
       redirect_to meet_path(@meet)
     else      
-        render 'new'      
+      redirect_to new_meet_path
     end 
   end
   def update
@@ -47,6 +49,6 @@ class MeetController < ApplicationController
   end
 
   def meet_params
-    params.require(:meet).permit(:subject, :meet_date_time, :meet_to_datetime, :description, :room_no_id, :username_id)
+    params.require(:meet).permit(:subject, :meet_date_time, :meet_to_datetime, :description, :req_seats, :room_id)
   end
 end
