@@ -1,6 +1,5 @@
 class MeetController < ApplicationController
   before_action :set_meet, only: [:show, :edit, :update, :destroy]
-  
   def index
     @meets = Meet.all
   end

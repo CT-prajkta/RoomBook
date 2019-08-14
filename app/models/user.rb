@@ -1,3 +1,4 @@
+#require 'spec_helper'
 class User < ActiveRecord::Base
   include Mongoid::Document
   field :username, type: String

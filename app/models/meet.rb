@@ -1,3 +1,4 @@
+#require 'spec_helper'
 class Meet < ActiveRecord::Base
     include Mongoid::Document
     belongs_to :user
@@ -24,6 +25,3 @@ class Meet < ActiveRecord::Base
     #Room.find({_id:{$nin:[ ]}})
     #Band.where(name: "Photek").!exists?
 end
-						#<!---%= f.collection_check_boxes :room_id, Room.all(), :id, :room_no do |cb| %>
-							#<% cb.label(class: "checkbox-inline input_checkbox") {cb.check_box(class: "checkbox") + cb.text} %>            
-						#<% end %--> 

@@ -1,3 +1,4 @@
+#require 'spec_helper'
 class Room < ActiveRecord::Base
     include Mongoid::Document
     field :room_no, type: Integer

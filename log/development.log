@@ -19047,3 +19047,173 @@ Completed 200 OK in 85ms (Views: 83.9ms | ActiveRecord: 0.0ms | MongoDB: 0.0ms)
 
 MONGODB | localhost:27017 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x69870695781280 type=uuid data=0x58bd53f1bc7648cd...>}]}
 MONGODB | localhost:27017 | admin.endSessions | SUCCEEDED | 0.000s
+Started GET "/login" for 127.0.0.1 at 2019-08-14 11:10:49 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (36.1ms)
+MONGODB | EVENT: #<TopologyOpening topology=Unknown[]>
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | EVENT: #<TopologyChanged prev=Unknown[] new=Unknown[localhost:27017]>
+MONGODB | Topology type 'Unknown' changed to type 'Unknown'.
+MONGODB | EVENT: #<ServerOpening address=localhost:27017 topology=Unknown[localhost:27017]>
+MONGODB | Server localhost:27017 initializing.
+MONGODB | EVENT: #<ServerDescriptionChanged address=localhost:27017 topology=Single[localhost:27017] prev=#<Mongo::Server:Description:0x70320553129980 config={} average_round_trip_time=> new=#<Mongo::Server:Description:0x70320124368060 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-08-14 05:40:50 UTC, "logicalSessionTimeoutMinutes"=>30, "minWireVersion"=>0, "maxWireVersion"=>6, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.002249569>>
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'standalone'.
+MONGODB | EVENT: #<TopologyChanged prev=Unknown[localhost:27017] new=Single[localhost:27017]>
+MONGODB | Topology type 'Unknown' changed to type 'Single'.
+MONGODB | localhost:27017 | rmbk_development.find | STARTED | {"find"=>"users", "filter"=>{"_id"=>BSON::ObjectId('5d4d5adad0ed5a43a97f23c9')}, "lsid"=>{"id"=><BSON::Binary:0x70320533811980 type=uuid data=0xeb408c61d116453e...>}}
+MONGODB | localhost:27017 | rmbk_development.find | SUCCEEDED | 0.049s
+  Rendered layouts/_navigation.html.erb (158.2ms)
+  Rendered layouts/_messagges.html.erb (0.7ms)
+Completed 200 OK in 911ms (Views: 902.0ms | ActiveRecord: 3.2ms | MongoDB: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2019-08-14 11:11:06 +0530
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GTgH6ssySNMPC3Bt2de1oErdibdZp2tdFKxi+l86AXRzinxd87YEkGiHDixeppPEhuOq+5bx3IgwKhl1PmP7cQ==", "session"=>{"username"=>"Signu", "password"=>"[FILTERED]"}, "commit"=>"Log In"}
+MONGODB | localhost:27017 | rmbk_development.find | STARTED | {"find"=>"users", "filter"=>{"username"=>"Signu"}, "lsid"=>{"id"=><BSON::Binary:0x70320533811980 type=uuid data=0xeb408c61d116453e...>}}
+MONGODB | localhost:27017 | rmbk_development.find | SUCCEEDED | 0.001s
+Redirected to http://localhost:3000/meet/new
+Completed 302 Found in 306ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+Started GET "/meet/new" for 127.0.0.1 at 2019-08-14 11:11:06 +0530
+Processing by MeetController#new as HTML
+  Rendering meet/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.4ms)
+MONGODB | localhost:27017 | rmbk_development.find | STARTED | {"find"=>"rooms", "filter"=>{}, "lsid"=>{"id"=><BSON::Binary:0x70320533811980 type=uuid data=0xeb408c61d116453e...>}}
+MONGODB | localhost:27017 | rmbk_development.find | SUCCEEDED | 0.000s
+MONGODB | localhost:27017 | rmbk_development.find | STARTED | {"find"=>"meets", "filter"=>{}, "lsid"=>{"id"=><BSON::Binary:0x70320533811980 type=uuid data=0xeb408c61d116453e...>}}
+MONGODB | localhost:27017 | rmbk_development.find | SUCCEEDED | 0.001s
+MONGODB | localhost:27017 | rmbk_development.find | STARTED | {"find"=>"meets", "filter"=>{}, "lsid"=>{"id"=><BSON::Binary:0x70320533811980 type=uuid data=0xeb408c61d116453e...>}}
+MONGODB | localhost:27017 | rmbk_development.find | SUCCEEDED | 0.001s
+MONGODB | localhost:27017 | rmbk_development.find | STARTED | {"find"=>"meets", "filter"=>{}, "lsid"=>{"id"=><BSON::Binary:0x70320533811980 type=uuid data=0xeb408c61d116453e...>}}
+MONGODB | localhost:27017 | rmbk_development.find | SUCCEEDED | 0.000s
+MONGODB | localhost:27017 | rmbk_development.find | STARTED | {"find"=>"meets", "filter"=>{}, "lsid"=>{"id"=><BSON::Binary:0x70320533811980 type=uuid data=0xeb408c61d116453e...>}}
+MONGODB | localhost:27017 | rmbk_development.find | SUCCEEDED | 0.000s
+  Rendered meet/_form.html.erb (21.7ms)
+  Rendered meet/new.html.erb within layouts/application (38.7ms)
+MONGODB | localhost:27017 | rmbk_development.find | STARTED | {"find"=>"users", "filter"=>{"_id"=>BSON::ObjectId('5d4d5adad0ed5a43a97f23c9')}, "lsid"=>{"id"=><BSON::Binary:0x70320533811980 type=uuid data=0xeb408c61d116453e...>}}
+MONGODB | localhost:27017 | rmbk_development.find | SUCCEEDED | 0.000s
+  Rendered layouts/_navigation.html.erb (3.8ms)
+  Rendered layouts/_messagges.html.erb (0.1ms)
+Completed 200 OK in 152ms (Views: 106.8ms | ActiveRecord: 0.7ms | MongoDB: 0.0ms)
+
+
+Started POST "/meet" for 127.0.0.1 at 2019-08-14 11:12:04 +0530
+Processing by MeetController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"B4OP+rCb+a+6nOAXmriaSamc+Ckzad3WROOCUUoKtMptMfRNiB+17N0QnlYdybwtZaLbZfw/agNgZfneK1NOzw==", "meet"=>{"subject"=>"SignuSignu", "description"=>"SignuSignu", "meet_date_time"=>"2019-08-14T09:00:00 ", "meet_to_datetime"=>"2019-08-14T12:00:00 ", "req_seats"=>"9"}, "commit"=>"New Meet Create"}
+Redirected to http://localhost:3000/meet/new
+Completed 302 Found in 8ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+Started GET "/meet/new" for 127.0.0.1 at 2019-08-14 11:12:04 +0530
+Processing by MeetController#new as HTML
+  Rendering meet/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.0ms)
+MONGODB | localhost:27017 | rmbk_development.find | STARTED | {"find"=>"rooms", "filter"=>{}, "lsid"=>{"id"=><BSON::Binary:0x70320533811980 type=uuid data=0xeb408c61d116453e...>}}
+MONGODB | localhost:27017 | rmbk_development.find | SUCCEEDED | 0.000s
+MONGODB | localhost:27017 | rmbk_development.find | STARTED | {"find"=>"meets", "filter"=>{}, "lsid"=>{"id"=><BSON::Binary:0x70320533811980 type=uuid data=0xeb408c61d116453e...>}}
+MONGODB | localhost:27017 | rmbk_development.find | SUCCEEDED | 0.000s
+MONGODB | localhost:27017 | rmbk_development.find | STARTED | {"find"=>"meets", "filter"=>{}, "lsid"=>{"id"=><BSON::Binary:0x70320533811980 type=uuid data=0xeb408c61d116453e...>}}
+MONGODB | localhost:27017 | rmbk_development.find | SUCCEEDED | 0.000s
+MONGODB | localhost:27017 | rmbk_development.find | STARTED | {"find"=>"meets", "filter"=>{}, "lsid"=>{"id"=><BSON::Binary:0x70320533811980 type=uuid data=0xeb408c61d116453e...>}}
+MONGODB | localhost:27017 | rmbk_development.find | SUCCEEDED | 0.000s
+MONGODB | localhost:27017 | rmbk_development.find | STARTED | {"find"=>"meets", "filter"=>{}, "lsid"=>{"id"=><BSON::Binary:0x70320533811980 type=uuid data=0xeb408c61d116453e...>}}
+MONGODB | localhost:27017 | rmbk_development.find | SUCCEEDED | 0.000s
+  Rendered meet/_form.html.erb (17.5ms)
+  Rendered meet/new.html.erb within layouts/application (20.7ms)
+MONGODB | localhost:27017 | rmbk_development.find | STARTED | {"find"=>"users", "filter"=>{"_id"=>BSON::ObjectId('5d4d5adad0ed5a43a97f23c9')}, "lsid"=>{"id"=><BSON::Binary:0x70320533811980 type=uuid data=0xeb408c61d116453e...>}}
+MONGODB | localhost:27017 | rmbk_development.find | SUCCEEDED | 0.000s
+  Rendered layouts/_navigation.html.erb (3.8ms)
+  Rendered layouts/_messagges.html.erb (0.1ms)
+Completed 200 OK in 98ms (Views: 96.9ms | ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+MONGODB | localhost:27017 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x70320533811980 type=uuid data=0xeb408c61d116453e...>}]}
+MONGODB | localhost:27017 | admin.endSessions | SUCCEEDED | 0.000s
+Started GET "/login" for 127.0.0.1 at 2019-08-14 11:15:44 +0530
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (8.3ms)
+MONGODB | EVENT: #<TopologyOpening topology=Unknown[]>
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | EVENT: #<TopologyChanged prev=Unknown[] new=Unknown[localhost:27017]>
+MONGODB | Topology type 'Unknown' changed to type 'Unknown'.
+MONGODB | EVENT: #<ServerOpening address=localhost:27017 topology=Unknown[localhost:27017]>
+MONGODB | Server localhost:27017 initializing.
+MONGODB | EVENT: #<ServerDescriptionChanged address=localhost:27017 topology=Single[localhost:27017] prev=#<Mongo::Server:Description:0x69918135289900 config={} average_round_trip_time=> new=#<Mongo::Server:Description:0x69918115511900 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-08-14 05:45:45 UTC, "logicalSessionTimeoutMinutes"=>30, "minWireVersion"=>0, "maxWireVersion"=>6, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.002092048>>
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'standalone'.
+MONGODB | EVENT: #<TopologyChanged prev=Unknown[localhost:27017] new=Single[localhost:27017]>
+MONGODB | Topology type 'Unknown' changed to type 'Single'.
+MONGODB | localhost:27017 | rmbk_development.find | STARTED | {"find"=>"users", "filter"=>{"_id"=>BSON::ObjectId('5d4d5adad0ed5a43a97f23c9')}, "lsid"=>{"id"=><BSON::Binary:0x69917739626540 type=uuid data=0x7e8f643109164eb2...>}}
+MONGODB | localhost:27017 | rmbk_development.find | SUCCEEDED | 0.000s
+  Rendered layouts/_navigation.html.erb (45.9ms)
+  Rendered layouts/_messagges.html.erb (0.6ms)
+Completed 200 OK in 633ms (Views: 625.5ms | ActiveRecord: 1.3ms | MongoDB: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2019-08-14 11:15:58 +0530
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"EWJ8JyH1o06+CnPyAfTe2TU0bdnn1syB2Sg+hHfC63F70AeQGXHvDdmGDbOGhfi9+QpOlSiAe1T9rkULFpsRdA==", "session"=>{"username"=>"Signu", "password"=>"[FILTERED]"}, "commit"=>"Log In"}
+MONGODB | localhost:27017 | rmbk_development.find | STARTED | {"find"=>"users", "filter"=>{"username"=>"Signu"}, "lsid"=>{"id"=><BSON::Binary:0x69917739626540 type=uuid data=0x7e8f643109164eb2...>}}
+MONGODB | localhost:27017 | rmbk_development.find | SUCCEEDED | 0.000s
+Redirected to http://localhost:3000/meet/new
+Completed 302 Found in 302ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+Started GET "/meet/new" for 127.0.0.1 at 2019-08-14 11:15:58 +0530
+Processing by MeetController#new as HTML
+  Rendering meet/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.4ms)
+MONGODB | localhost:27017 | rmbk_development.find | STARTED | {"find"=>"rooms", "filter"=>{}, "lsid"=>{"id"=><BSON::Binary:0x69917739626540 type=uuid data=0x7e8f643109164eb2...>}}
+MONGODB | localhost:27017 | rmbk_development.find | SUCCEEDED | 0.001s
+MONGODB | localhost:27017 | rmbk_development.find | STARTED | {"find"=>"meets", "filter"=>{}, "lsid"=>{"id"=><BSON::Binary:0x69917739626540 type=uuid data=0x7e8f643109164eb2...>}}
+MONGODB | localhost:27017 | rmbk_development.find | SUCCEEDED | 0.001s
+MONGODB | localhost:27017 | rmbk_development.find | STARTED | {"find"=>"meets", "filter"=>{}, "lsid"=>{"id"=><BSON::Binary:0x69917739626540 type=uuid data=0x7e8f643109164eb2...>}}
+MONGODB | localhost:27017 | rmbk_development.find | SUCCEEDED | 0.001s
+MONGODB | localhost:27017 | rmbk_development.find | STARTED | {"find"=>"meets", "filter"=>{}, "lsid"=>{"id"=><BSON::Binary:0x69917739626540 type=uuid data=0x7e8f643109164eb2...>}}
+MONGODB | localhost:27017 | rmbk_development.find | SUCCEEDED | 0.001s
+MONGODB | localhost:27017 | rmbk_development.find | STARTED | {"find"=>"meets", "filter"=>{}, "lsid"=>{"id"=><BSON::Binary:0x69917739626540 type=uuid data=0x7e8f643109164eb2...>}}
+MONGODB | localhost:27017 | rmbk_development.find | SUCCEEDED | 0.001s
+  Rendered meet/_form.html.erb (28.1ms)
+  Rendered meet/new.html.erb within layouts/application (37.3ms)
+MONGODB | localhost:27017 | rmbk_development.find | STARTED | {"find"=>"users", "filter"=>{"_id"=>BSON::ObjectId('5d4d5adad0ed5a43a97f23c9')}, "lsid"=>{"id"=><BSON::Binary:0x69917739626540 type=uuid data=0x7e8f643109164eb2...>}}
+MONGODB | localhost:27017 | rmbk_development.find | SUCCEEDED | 0.000s
+  Rendered layouts/_navigation.html.erb (3.5ms)
+  Rendered layouts/_messagges.html.erb (0.2ms)
+Completed 200 OK in 128ms (Views: 109.6ms | ActiveRecord: 0.8ms | MongoDB: 0.0ms)
+
+
+Started POST "/meet" for 127.0.0.1 at 2019-08-14 11:16:52 +0530
+Processing by MeetController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1Dur5U/LAqYA4UW24mpKkhBvGJK1GQc7sEqERuwgVvm+idBSd09O5WdtO/dlG2z23FE73npPsO6UzP/JjXms/A==", "meet"=>{"subject"=>"Signu2", "description"=>"3Signu", "meet_date_time"=>"2019-08-15T09:00:00", "meet_to_datetime"=>"2019-08-15T10:00:00", "req_seats"=>"4"}, "commit"=>"New Meet Create"}
+Redirected to http://localhost:3000/meet/new
+Completed 302 Found in 6ms (ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+Started GET "/meet/new" for 127.0.0.1 at 2019-08-14 11:16:52 +0530
+Processing by MeetController#new as HTML
+  Rendering meet/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (0.1ms)
+MONGODB | localhost:27017 | rmbk_development.find | STARTED | {"find"=>"rooms", "filter"=>{}, "lsid"=>{"id"=><BSON::Binary:0x69917739626540 type=uuid data=0x7e8f643109164eb2...>}}
+MONGODB | localhost:27017 | rmbk_development.find | SUCCEEDED | 0.001s
+MONGODB | localhost:27017 | rmbk_development.find | STARTED | {"find"=>"meets", "filter"=>{}, "lsid"=>{"id"=><BSON::Binary:0x69917739626540 type=uuid data=0x7e8f643109164eb2...>}}
+MONGODB | localhost:27017 | rmbk_development.find | SUCCEEDED | 0.001s
+MONGODB | localhost:27017 | rmbk_development.find | STARTED | {"find"=>"meets", "filter"=>{}, "lsid"=>{"id"=><BSON::Binary:0x69917739626540 type=uuid data=0x7e8f643109164eb2...>}}
+MONGODB | localhost:27017 | rmbk_development.find | SUCCEEDED | 0.000s
+MONGODB | localhost:27017 | rmbk_development.find | STARTED | {"find"=>"meets", "filter"=>{}, "lsid"=>{"id"=><BSON::Binary:0x69917739626540 type=uuid data=0x7e8f643109164eb2...>}}
+MONGODB | localhost:27017 | rmbk_development.find | SUCCEEDED | 0.000s
+MONGODB | localhost:27017 | rmbk_development.find | STARTED | {"find"=>"meets", "filter"=>{}, "lsid"=>{"id"=><BSON::Binary:0x69917739626540 type=uuid data=0x7e8f643109164eb2...>}}
+MONGODB | localhost:27017 | rmbk_development.find | SUCCEEDED | 0.000s
+  Rendered meet/_form.html.erb (22.5ms)
+  Rendered meet/new.html.erb within layouts/application (27.7ms)
+MONGODB | localhost:27017 | rmbk_development.find | STARTED | {"find"=>"users", "filter"=>{"_id"=>BSON::ObjectId('5d4d5adad0ed5a43a97f23c9')}, "lsid"=>{"id"=><BSON::Binary:0x69917739626540 type=uuid data=0x7e8f643109164eb2...>}}
+MONGODB | localhost:27017 | rmbk_development.find | SUCCEEDED | 0.000s
+  Rendered layouts/_navigation.html.erb (4.5ms)
+  Rendered layouts/_messagges.html.erb (0.1ms)
+Completed 200 OK in 94ms (Views: 92.8ms | ActiveRecord: 0.0ms | MongoDB: 0.0ms)
+
+
+MONGODB | localhost:27017 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x69917739626540 type=uuid data=0x7e8f643109164eb2...>}]}
+MONGODB | localhost:27017 | admin.endSessions | SUCCEEDED | 0.000s

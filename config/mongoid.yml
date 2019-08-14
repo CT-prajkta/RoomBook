@@ -1,13 +1,15 @@
-development:
-  # Configure available database clients. (required)
-  clients:
-    # Defines the default client. (required)
+production:
+  sessions:
     default:
-      # Defines the name of the default database that Mongoid can connect to.
-      # (required).
+      uri: <%= ENV['MONGOHQ_URL'] %>
+      options:
+        consistency: :strong
+        max_retries: 1
+        retry_interval: 0
+development:
+  clients:
+    default:
       database: rmbk_development
-      # Provides the hosts the default client can connect to. Must be an array
-      # of host:port pairs. (required)
       hosts:
         - localhost:27017
       options:

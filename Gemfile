@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.5.1'
-
+gem 'rails_12factor'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.3'
 # Use sqlite3 as the database for Active Record
@@ -34,6 +34,7 @@ gem 'bcrypt', '~> 3.1.7'
 
 
 # gem 'mini_magick', '~> 4.8'
+gem 'rspec-rails', '~> 2.13'
 gem 'mongoid', '~> 7.0', '~> 7.0.2'
 gem 'bson_ext'
 # Use Capistrano for deployment
@@ -55,6 +56,10 @@ group :development do
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
+
+# group :production do
+#   gem 'pg', '~> 0.11'
+# end
 
 group :test do
   # Adds support for Capybara system testing and selenium driver

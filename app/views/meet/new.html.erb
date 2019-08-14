@@ -44,26 +44,10 @@
 					<%= f.number_field :req_seats, placeholder: "enter Required Seats" %>
 				</div>
 			</div><br><br><br>
-			<div class="form-group", disabled: !(@meet.req_seats.empty? && @meet.meet_date_time.empty? && @meet.meet_to_datetime.empty?).to_s >
-				<div class="row">    
-					<div class="col-sm-offset-2 col-sm-10">
-						<% @rooms.each do |room| %>
-							<% if room.capacity.to_i > @meet.req_seats.to_i %>
-								<% @meets.each do |mt| %>
-									<% if (mt.room_id == room._id) && (mt.meet_date_time < @meet.meet_date_time && mt.meet_to_datetime > @meet. meet_date_time) && (mt.meet_date_time < @meet.meet_to_datetime && mt.meet_to_datetime < @meet. meet_to_datetime) %>
-										<%= f.radio_button :room_id, room.id %>
-										<%= f.label :room_id, room.room_no %>
-									<% end %>
-								<% end %>
-							<% end %>
-					  	<% end %>
-					</div>            
-				</div>            
-			</div><br><br><br>
-	
+			<%= render 'form', obj: @user.meets %>
             <div class="form-group">
                 <div class="col-sm-offset-2 col-sm-10">
-                    <%= f.submit(@meet.new_record? ? "New Meet Create" : "Update account", class: 'btn btn-primary btn-lg') %>
+                    <%= f.submit  %>
                 </div>
             </div>
         <% end %>
