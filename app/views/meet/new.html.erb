@@ -44,7 +44,15 @@
 					<%= f.number_field :req_seats, placeholder: "enter Required Seats" %>
 				</div>
 			</div><br><br><br>
-			<%= render 'form', obj: @user.meets %>
+			<div class="form-group" >
+				<div class="row">    
+					<div class="col-sm-offset-2 col-sm-10">
+						<%= f.collection_radio_buttons :room_id, Room.all, :id, :room_no do |room| %>
+										<% room.label { room.radio_button + room.text} %>
+						<% end %>
+					</div>            
+				</div>            
+			</div><br><br><br>
             <div class="form-group">
                 <div class="col-sm-offset-2 col-sm-10">
                     <%= f.submit  %>

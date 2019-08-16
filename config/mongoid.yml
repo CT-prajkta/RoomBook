@@ -1,7 +1,8 @@
 production:
   sessions:
     default:
-      uri: <%= ENV['MONGOHQ_URL'] %>
+      database: Prod_MONGOHQ_URL
+      hosts: localhost:27017
       options:
         consistency: :strong
         max_retries: 1

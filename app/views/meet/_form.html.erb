@@ -7,7 +7,7 @@
                     <% @meets.each do |mt| %>
                         <% if (mt.room_id == room._id) && (mt.meet_date_time < @meet.meet_date_time && mt.meet_to_datetime > @meet. meet_date_time) && (mt.meet_date_time < @meet.meet_to_datetime && mt.meet_to_datetime < @meet. meet_to_datetime) %>
                             <%= f.radio_button :room_id, room.id %>
-                            <%= f.label :room_id, room.room_no %>
+                            <%= f.label(class: "checkbox-inline input_checkbox") :room_id, room.room_no %>
                         <% end %>
                     <% end %>
                 <% end %>
@@ -15,30 +15,3 @@
         </div>            
     </div>            
 </div><br><br><br>
-
-
-
-
-Tried and working. you are using,
-
-<textarea name='Status'> </textarea>
-<input type='button' onclick='UpdateStatus()' value='Status Update'>
-
-I am using javascript , (don't know about php), use id ="status" in textarea like
-
-<textarea name='Status' id="status"> </textarea>
-<input type='button' onclick='UpdateStatus()' value='Status Update'>
-
-then make a call to servlet sending the status to backend for updating using whatever strutucre(like MVC in java or anyother) you like, like this in your UI in script tag
-
-# <srcipt>
-# function UpdateStatus(){
-
-# //make an ajax call and get status value using the same 'id'
-# var var1= document.getElementById("status").value;
-# $.ajax({
-#         }
-#      })
-
-# }
-# </script>

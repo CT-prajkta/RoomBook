@@ -5,9 +5,7 @@ class MeetController < ApplicationController
   end
 
   def new
-    @rooms= Room.all
     @meet=Meet.new
-    @meets=Meet.all
   end
 
   def edit
@@ -41,6 +39,17 @@ class MeetController < ApplicationController
     else      
         render 'edit'      
     end 
+  end
+  def self.UpdateStatus(meet)
+    Room.all.each do |room|
+      if room.capacity.to_i > meet.req_seats.to_i
+        Meet.all.each do |mt|
+              if (mt.room_id == room._id) && (mt.meet_date_time < meet.meet_date_time && mt.meet_to_datetime > meet. meet_date_time) && (mt.meet_date_time < meet.meet_to_datetime && mt.meet_to_datetime < meet. meet_to_datetime)
+                yeild
+              end
+          end
+      end
+    end
   end
   private
   def set_meet

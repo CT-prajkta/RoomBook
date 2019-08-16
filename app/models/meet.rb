@@ -2,8 +2,9 @@
 class Meet < ActiveRecord::Base
     include Mongoid::Document
     belongs_to :user
-    belongs_to :room
+    #has_one :room
     field :req_seats, type: Integer
+    field :room_id, type: Integer
     field :meet_date_time, type: DateTime#, default: ->{ Date.today }
     field :meet_to_datetime, type: DateTime# default: ->{ Date.today }
     field :subject, type: String
