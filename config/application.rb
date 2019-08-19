@@ -13,7 +13,8 @@ module Rmbk
     config.serve_static_assets = true
     config.assets.compile = true
     config.assets.digest = true
-
+    config.autoload_paths
+    #config.middleware.insert_before ActionDispatch::ParamsParser, "DateParamsParser"
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration can go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded after loading

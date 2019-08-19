@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :events
+  resources :meetings
   root 'welcome#home'
   get 'login', to: 'sessions#new'
   post 'login', to: 'sessions#create'

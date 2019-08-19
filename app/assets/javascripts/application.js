@@ -10,12 +10,29 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //
+//= require jquery
 
 //= require bootstrap-sprockets
 //= require moment
 //= require tempusdominus-bootstrap-4.js
 //= require rails-ujs
-
+$(function () {  
+    if ($('#new_comment').length > 0) {  
+      var model = 'meeting'
+      var atrib1 = 'start_time'
+      var atrib2 = 'end_time'
+  
+      /* update the day */
+      t3 = $('#' + model + '_' + atrib + '_3i');
+      var dt = new Date(); 
+      t3.val(dt.getDate());
+  
+      /* update the month */
+      t2 = $('#' + model + '_' + atrib + '_2i');
+      t2.val(dt.getMonth() + 1);
+  
+    }  
+  });
 //= require turbolinks
 //= require jquery-ui
 //= require_tree .
