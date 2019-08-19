@@ -4,7 +4,7 @@ class User < ActiveRecord::Base
   field :username, type: String
   field :admin, type: Boolean
   field :password_digest, type: String
-  has_many:meets, dependent: :destroy
+  has_many:meetings, dependent: :destroy
   validates :username, uniqueness:true, length: {minimum: 3, maximum: 333}
   has_secure_password
   validates :password, length: { minimum: 5 }

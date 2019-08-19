@@ -8,6 +8,6 @@ class Meeting
   field :end_time, type: DateTime
   field :created_at, type: DateTime, default: ->{ Date.today } 
   field :updated_at, type: DateTime, default: ->{ Date.today } 
-  embedded_in :user
-  embedded_in :room
+  belongs_to :user
+  belongs_to :room
 end

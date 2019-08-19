@@ -25,10 +25,7 @@ class MeetingsController < ApplicationController
   # POST /meetings
   # POST /meetings.json
   def create
-    #params[:meeting][:start_time] = DateTime.civil_from_format(params["start_time(1i)"].to_i,params["start_time(2i)"].to_i,params["start_time(3i)"].to_i,params["start_time(4i)"].to_i,params["start_time(5i)"])
-    #params[:meeting][:end_time] = DateTime.civil_from_format(params["end_time(1i)"].to_i,params["end_time(2i)"].to_i,params["end_time(3i)"].to_i,params["end_time(4i)"].to_i,params["end_time(5i)"])
-    params[:meeting][:user_id] = current_user.id
-    #dob = DateTime.strptime(user.date_of_birth.to_s, "%Y-%m-%d")
+    #params[:meeting][:user_id] = current_user.id
     @meeting = Meeting.new(meeting_params)
     if @meeting.save
       flash[:notice] = "Meeting was successfully created as meeting name {@meeting.name}"
@@ -65,6 +62,6 @@ class MeetingsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def meeting_params
-      params.require(:meeting).permit(:name, :description, :req_seats, :start_time, :end_time, :room_id, :user_id)
+      params.require(:meeting).permit(:name, :description, :req_seats, :start_time, :end_time, :room_id)
     end
 end
