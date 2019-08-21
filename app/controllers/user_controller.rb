@@ -18,7 +18,7 @@ class UserController < ApplicationController
     if @user.save
       session[:user_id] = @user.id
       flash[:success] = "Hello #{@user.username} \n Welcome to the Room Booking "      
-      redirect_to new_meet_path
+      redirect_to new_meeting_path
     else      
         render 'new'      
     end

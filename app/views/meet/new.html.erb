@@ -2,7 +2,7 @@
 <%= render 'shared/errors', obj: @meet %>
 <div class='row'>
 	<div class='col-xs-12'>
-    <%= form_for(@meet, :url => {:controller => :meet, action: :create})  do |f| %>
+    <%= form_for(@meeting, :url => {:controller => :meet, action: :create})  do |f| %>
             <div class="form-group">
                 <div class="control-label col-sm-2">
                     <%= f.label :subject %>

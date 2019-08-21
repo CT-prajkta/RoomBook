@@ -18,10 +18,8 @@ gem 'bootstrap4-datetime-picker-rails'
 gem 'bootstrap-sass', '~> 3.4.1'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
-
-# See https://github.com/rails/execjs#readme for more supported runtimes
-# gem 'mini_racer', platforms: :ruby
-
+gem 'rake', '~> 12.3.3'
+gem 'rspec-rails', '~> 3.5', '>= 3.5.2'
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
@@ -32,10 +30,7 @@ gem 'jbuilder', '~> 2.5'
 # gem 'redis', '~> 4.0'
 
 gem 'bcrypt', '~> 3.1.7'
-
-
-# gem 'mini_magick', '~> 4.8'
-gem 'rspec-rails', '~> 2.13'
+#gem 'rspec-rails', '~> 2.13'
 gem 'mongoid', '~> 7.0', '~> 7.0.2'
 gem 'bson_ext'
 # Use Capistrano for deployment
