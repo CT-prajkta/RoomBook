@@ -6,7 +6,7 @@ class UserController < ApplicationController
   end
 
   def show
-    @user_meets = @user.meets.all
+    @user_meetings = @user.meetings.all
   end
 
   def new

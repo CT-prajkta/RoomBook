@@ -15,12 +15,12 @@
 	<div class='col-xs-12'>
     <%= form_for(@meeting, :url => {:controller => :meetings, action: :create})  do |f| %>
 			<div class="form-group">
-					<div class="control-label col-sm-2">
-							<%= f.label :name %>
-					</div>
-					<div class="col-sm-6">
-						<%= f.text_field :name, placeholder: "enter name" %>
-					</div>
+				<div class="control-label col-sm-2">
+					<%= f.label :name %>
+				</div>
+				<div class="col-sm-6">
+					<%= f.text_field :name, placeholder: "enter name" %>
+				</div>
 			</div><br><br><br>
 			<div class="form-group">
 				<div class="control-label col-sm-2">
@@ -29,44 +29,7 @@
 				<div class="col-sm-6">
 					<%= f.text_area :description, rows: 2, placeholder: "Body of meeting" %>
 				</div>
-			</div><br><br><br>
-			<!---params[:meeting][:user_id] = current_user.id--------->
-			<%= f.hidden_field :user_id, value: current_user.id %>
-			<div class="well">
-			<div id="datetimepicker2" class="input-append">
-				<input data-format="MM/dd/yyyy HH:mm:ss PP" type="text"></input>
-				<span class="add-on">
-					<i data-time-icon="icon-time" data-date-icon="icon-calendar">
-					</i>
-				</span>
-			</div>
-		</div>
-		<script type="text/javascript">
-			$(function() {
-				$('#f.start_time').datetimepicker({
-					language: 'en'
-				});
-			});
-		</script>
-
-
-		<div class="well">
-		<div id="datetimepicker2" class="input-append">
-			<input data-format="MM/dd/yyyy HH:mm:ss PP" type="text"></input>
-			<span class="add-on">
-				<i data-time-icon="icon-time" data-date-icon="icon-calendar">
-				</i>
-			</span>
-		</div>
-	</div>
-	<script type="text/javascript">
-		$(function() {
-			$('#f.end_time').datetimepicker({
-				language: 'en'
-			});
-		});
-	</script>
-			
+			</div><br><br><br>	
 			<div class="form-group">
 				<div class="control-label col-sm-2">
 					<%= f.label :req_seats %>
@@ -75,6 +38,23 @@
 					<%= f.number_field :req_seats, placeholder: "enter Required Seats" %>
 				</div>
 			</div><br><br><br>
+			<div class="form-group">
+				<div class="control-label col-sm-2">
+					<%= f.label :start_time %>
+				</div>
+				<div class="control-label col-sm-2">
+					<%= f.datetime_select :start_time, :as => :datetime_picker, placeholder: "08/21/2019 1:50 PM"  %>
+				</div>
+			</div><br><br><br>
+			<div class="form-group">
+				<div class="control-label col-sm-2">
+					<%= f.label :end_time %>
+				</div>
+				<div class="control-label col-sm-2">
+					<%= f.datetime_select :end_time, :as => :datetime_picker, placeholder: "08/21/2019 1:50 PM" %>
+				</div>
+			</div><br><br><br>
+			<!---%= f.hidden_field Meeting.StartEndTime(:start_time,:end_time) %--->
 			<%= f.collection_select :room_id, Meeting.UpdateStatus(:start_time,:end_time,:req_seats), :id, :room_no, :prompt => 'Select' %>
             <div class="form-group">
                 <div class="col-sm-offset-2 col-sm-10">
@@ -87,5 +67,4 @@
         </div>
     </div>
 </div>
-
 <%= link_to 'Back', meetings_path %>

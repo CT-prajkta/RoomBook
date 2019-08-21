@@ -15,14 +15,4 @@ class Meet < ActiveRecord::Base
     validates :subject, length: {minimum: 3, maximum: 50}
     validates :user_id, presence: true
     validates :room_id, presence: true
-    #scope: RoomAvailableOnDuraion ,  ->{where(Meet.) }
-    #query.created = {$gte: :meet_to_datetime, $lt: :meet_date_time};
-    #db.meets.find({$and:[{$or:[{meet_to_datetime: {$gte: this.@meet.meet_to_datetime}},{meet_date_time: {$lt: this.@meet.meet_date_time}}] }]
-    #meet_to_datetime: {$gte: this.@meet.meet_to_datetime},
-    #meet_date_time: {$lt: this.@meet.meet_date_time}
-    #room_no_id
-    #})
-    #Room.find_by( { price: { $not: { $gt: 1.99 } } } )
-    #Room.find({_id:{$nin:[ ]}})
-    #Band.where(name: "Photek").!exists?
 end

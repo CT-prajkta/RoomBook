@@ -17,12 +17,12 @@
 
 <p>
   <strong>User:</strong>
-  <%= @meeting.user %>
+  <%= @meeting.user.username %>
 </p>
 
 <p>
   <strong>Room:</strong>
-  <%= @meeting.room %>
+  <%= @meeting.room.room_no %>
 </p>
 
 <%= link_to 'Edit', edit_meeting_path(@meeting) %> |

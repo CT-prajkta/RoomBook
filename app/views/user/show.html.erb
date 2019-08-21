@@ -5,12 +5,10 @@
   </div>
 </div>
 <h4 align="center"> <%= @user.username %>'s meet</p4>
-<div class="center">
-  <!==%= will_paginate @user_articles %-->
-</div>
+
 
 <h4 align="center"><%= @user.username %>'s articles</h4>
-<%= render 'meet/meet', obj: @user.meets %>
+<%= render 'meetings/meeting', obj: @user.meetings %>
 <div>
     <%= link_to 'Edit', edit_user_path(@user)  %>
     
