@@ -10,8 +10,6 @@ class MeetingsController < ApplicationController
   def new
     if current_user
       @meeting = Meeting.new
-      @meetings = Meeting.all
-      @rooms = Room.all
     else
       flash[:notice] = "Please login"
       redirect_to login_path
@@ -24,10 +22,15 @@ class MeetingsController < ApplicationController
   # POST /meetings
   # POST /meetings.json
   def create
-    @meeting = Meeting.new(meeting_params) do |c|  #datetime_select
+    @meeting = Meeting.create!(meeting_params) do |c|  #datetime_select
        c.user_id = current_user.id
     end
-    meeting_params[:user_id] = current_user.id
+    #new_start_time=[[start_time(1i), start_time(2i), start_time(3i)].join('-'), [start_time(4i), start_time(5i)].join(':') ] .join(' ')
+    #@meeting.(:start_time) = new_start_time
+    #new_end_time=[ [end_time(1i), end_time(2i), end_time(3i)].join('-'), [end_time(4i), end_time(5i)].join(':') ] .join(' ')
+    #Meeting.StartEndTime(meeting_params[:start_time(1i)],meeting_params[:start_time(2i)],meeting_params[:start_time(3i)],meeting_params[:start_time(5i)],meeting_params[:end_time(1i)],meeting_params[:end_time(2i)],meeting_params[:end_time(3i)],meeting_params[:end_time(4i)],meeting_params[:end_time(5i)])#@meeting.(:end_time) = new_end_time
+    #meeting_params[:user_id] = current_user.id
+    #@meeting = Meeting.create!(meeting_params)
     if @meeting.save
       flash[:notice] = "Meeting was successfully created as meeting name #{@meeting.name}"
       redirect_to meeting_path(@meeting)
@@ -36,8 +39,6 @@ class MeetingsController < ApplicationController
     end
   end
 
-  # PATCH/PUT /meetings/1
-  # PATCH/PUT /meetings/1.json
   def update
     if @meeting.update(meeting_params)
       flash[:notice] = "Meeting was successfully edited as meeting name #{@meeting.name}"
@@ -63,6 +64,6 @@ class MeetingsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def meeting_params
-      params.require(:meeting).permit(:name, :description, :req_seats, :room_id, :user_id)
+      params.require(:meeting).permit(:name, :description, :req_seats, :start_time, :end_time, :room_id, :user_id)
     end
 end

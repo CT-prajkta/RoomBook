@@ -29,35 +29,59 @@
 				<div class="col-sm-6">
 					<%= f.text_area :description, rows: 2, placeholder: "Body of meeting" %>
 				</div>
-			</div><br><br><br>	
+			</div><br><br><br>
 			<div class="form-group">
 				<div class="control-label col-sm-2">
 					<%= f.label :req_seats %>
 				</div>
 				<div class="col-sm-6">
-					<%= f.number_field :req_seats, placeholder: "enter Required Seats" %>
+					<%= f.number_field :req_seats %>
 				</div>
 			</div><br><br><br>
 			<div class="form-group">
 				<div class="control-label col-sm-2">
-					<%= f.label :start_time %>
+								<%= f.label :start_time %>
 				</div>
-				<div class="control-label col-sm-2">
-					<%= f.datetime_select :start_time, :as => :datetime_picker, placeholder: "08/21/2019 1:50 PM"  %>
+				<div class="container">
+					<div class="row">
+						<div class='col-sm-6'>
+							<%= f.text_field :start_time, :id => 'datetimepicker4' %>
+						</div>
+						<script type="text/javascript">
+							$(function () {
+								$('#datetimepicker4').datetimepicker();
+							});
+						</script>
+					</div>
 				</div>
 			</div><br><br><br>
 			<div class="form-group">
 				<div class="control-label col-sm-2">
-					<%= f.label :end_time %>
+								<%= f.label :end_time %>
 				</div>
-				<div class="control-label col-sm-2">
-					<%= f.datetime_select :end_time, :as => :datetime_picker, placeholder: "08/21/2019 1:50 PM" %>
+				<div class="container">
+					<div class="row">
+						<div class='col-sm-6'>
+							<%= f.text_field :end_time, :id => 'datetimepicker5' %>
+						</div>
+						<script type="text/javascript">
+							$(function () {
+								$('#datetimepicker5').datetimepicker();
+							});
+						</script>
+					</div>
 				</div>
 			</div><br><br><br>
-			<!---%= f.hidden_field Meeting.StartEndTime(:start_time,:end_time) %--->
-			<%= f.collection_select :room_id, Meeting.UpdateStatus(:start_time,:end_time,:req_seats), :id, :room_no, :prompt => 'Select' %>
-            <div class="form-group">
-                <div class="col-sm-offset-2 col-sm-10">
+			<div class="form-group">
+				<div class="col-sm-8">
+					<%= f.collection_select :room_id, Meeting.UpdateStatus(:start_time,:end_time,:req_seats), :id, :room_no, :prompt => 'Select' %>
+				</div>
+			</div><br><br><br>
+			<% until !@meeting.end_time.nil? %>
+			[ <%= link_to "Cancel request and return to home", root_path %> ]
+			<% end %>
+			<div class="form-group">
+                <div class=	"col-sm-offset-2 col-sm-10">
                     <%= f.submit  %>
                 </div>
             </div>
@@ -68,3 +92,4 @@
     </div>
 </div>
 <%= link_to 'Back', meetings_path %>
+
